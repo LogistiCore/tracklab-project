@@ -181,15 +181,15 @@ __TB1__
 
 ### 1.1.1. Descripción de la Startup
 
-La startup, presentada bajo el nombre de AlumWare, tiene como objetivo transformar digitalmente la gestión logística entre empresas en el Perú. A través de una plataforma web intuitiva y especializada, AlumWare permite a empresas clientes registrar y hacer seguimiento a sus órdenes de compra, mientras que las empresas logísticas pueden gestionar la recepción, agrupación, trazabilidad y entrega de la carga mediante tecnología de escaneo con códigos QR.  
+La startup, presentada bajo el nombre de LogistiCore, tiene como objetivo transformar digitalmente la gestión logística entre empresas en el Perú. A través de una aplicación móvil intuitiva y especializada, LogistiCore permite a empresas clientes registrar y hacer seguimiento a sus órdenes de compra desde cualquier lugar, mientras que las empresas logísticas pueden gestionar la recepción, agrupación, trazabilidad y entrega de la carga mediante tecnología de escaneo con códigos QR directamente desde dispositivos móviles.  
 
 La solución se centra en resolver la fragmentación y falta de visibilidad en el flujo de carga entre múltiples actores (proveedores, operadores logísticos, empresas en campo), permitiendo un control preciso desde el origen hasta el destino final, incluyendo almacenes intermedios, rutas de transporte y procesos de consolidación de carga.  
 
-La trazabilidad completa de cada unidad de carga, incluso cuando esta se agrupa en contenedores mayores, representa una de las principales ventajas competitivas del sistema. Además, AlumWare contempla dashboards interactivos para el análisis de datos operativos, facilitando la toma de decisiones estratégicas tanto para empresas logísticas como para sus clientes.
+El uso de una aplicación móvil facilita la trazabilidad en tiempo real de cada unidad de carga, incluso cuando esta se agrupa en contenedores mayores, representando una de las principales ventajas competitivas del sistema. Además, LogistiCore integra dashboards adaptados a móviles para el análisis de datos operativos, facilitando la toma de decisiones estratégicas tanto para empresas logísticas como para sus clientes.  
 
-Misión: Digitalizar y optimizar la trazabilidad logística B2B mediante una plataforma web intuitiva, segura y eficiente para empresas peruanas.  
+Misión: Digitalizar y optimizar la trazabilidad logística B2B mediante una aplicación móvil intuitiva, segura y eficiente para empresas peruanas.  
 
-Visión: AlumWare aspira a consolidarse como la solución tecnológica líder en gestión logística empresarial en Latinoamérica, facilitando la transformación digital del sector logístico con un enfoque en trazabilidad, transparencia y control de operaciones.  
+Visión: LogistiCore aspira a consolidarse como la solución tecnológica líder en gestión logística empresarial en Latinoamérica, facilitando la transformación digital del sector logístico con un enfoque en trazabilidad, transparencia y control de operaciones.  
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
@@ -245,126 +245,126 @@ Para explicar el origen e impacto del problema identificado en la actualidad, em
 
 __¿Cuál es el problema__
 
-El problema radica en que tanto quienes se encargan del envío como de la recepción de paquetes de manera industrial tienen dificultades para mantenerse al tanto de la condición del envío, considerando desde su ubicación hasta si este se encuentra en un estado óptimo. Esto supone cierta desconfianza al realizar envíos, así como incertidumbre en cuanto al momento y calidad de la entrega. Aquí, se puede notar que existe una necesidad por ambos lados de mantenerse al tanto del paquete y su seguridad.
+El problema radica en que tanto quienes se encargan del envío como de la recepción de paquetes de manera industrial tienen dificultades para mantenerse al tanto de la condición del envío, considerando desde su ubicación hasta si este se encuentra en un estado óptimo. Esto genera desconfianza al realizar envíos, así como incertidumbre en cuanto al momento y calidad de la entrega. Aquí, se puede notar que existe una necesidad por ambos lados de mantenerse al tanto del paquete y su seguridad.
 
-Al lograr que todos los interesados en el envío puedan acceder a los datos completos sobre el mismo en cualquier momento, se lograrán evitar situaciones como la pérdida de paquetería, retrasos inadvertidos o envío a una ubicación incorrecta.
+Al no existir un canal accesible y en tiempo real, las empresas no pueden verificar el estado de los envíos hasta su recepción final. Esto ocasiona pérdidas de paquetería, retrasos inadvertidos o entregas en ubicaciones incorrectas.
 
 #### 1.2.1.2. Who
 
 __¿Quiénes están involucrados en el problema?__
 
-Dentro de este problema, podemos destacar dos partes: la empresa que provee la paquetería y aquella que la solicita. La empresa encargada del envío almacena materiales o artefactos en gran cantidad para venderlos y que estos sean distribuídos hacia las empresas que los necesitan, mismas que realizan su pedido y esperan que este llegue en condiciones óptimas y en el tiempo indicado. Ambas empresas, en este caso, buscan saber la mayor cantidad de información del paquete posible y pueden surgir adversidades si alguna no posee los datos necesarios sobre el envío, dado que la empresa receptora puede presentar dudas y realizar reclamos frente a la preocupación, mientras que la emisora no sabría responder claramente.
+Dentro de este problema, podemos destacar dos partes: la empresa que provee la paquetería y aquella que la solicita. La empresa encargada del envío almacena materiales o artefactos en gran cantidad para venderlos y distribuirlos hacia las empresas que los necesitan, mismas que realizan su pedido y esperan que este llegue en condiciones óptimas y en el tiempo indicado. Ambas buscan acceder a la mayor cantidad de información posible sobre el envío, lo cual genera conflictos si una de las partes carece de datos. La empresa receptora puede presentar dudas y reclamos, mientras que la emisora no sabría responder con certeza.
 
 #### 1.2.1.3. Where
 
 __¿En dónde se presenta el problema?__
 
-Al considerar únicamente operaciones a nivel nacional, se puede mencionar que este problema ocurre en Perú, más específicamente en los almacenes o centros de envío y recepción de pedidos de las empresas que solicitan estos servicios. Esto, dado que existe una falta de transmisión de información desde que este es colocado en su medio de transporte hasta que finalmente es entregado, momento en el que al fin se puede verificar su estado. Asimismo, el problema continúa en las oficinas de los dos tipos de empresas antes mencionados, dado que una reclama al desear más información y la otra no puede dársela ya que tampoco la posee.
+Este problema ocurre en el Perú, más específicamente en los almacenes o centros de envío y recepción de pedidos de las empresas que solicitan estos servicios, así como en las rutas de transporte. La falta de transmisión de información desde la salida hasta la entrega final impide que las partes tengan visibilidad sobre la carga. Además, el problema se refleja también en las oficinas de ambas empresas: una exige información y la otra no puede brindarla porque tampoco la posee.
 
 #### 1.2.1.4. When
 
 __¿Cuándo se presenta el problema?__
 
-Este problema se presenta cuando la empresa proveedora inicia un envío hacia el lugar indicado por la empresa solicitante, dado que no guarda la información necesaria durante el trayecto del mismo. El problema continúa cuando el o los elementos solicitados son empaquetados y trasladados, dado que la empresa que espera recibirlos no sabe su ubicación ni si estos fueron correctamente asegurados. Por último, pueden presentarse problemas adicionales cuando el pedido es entregado, como que este haya llegado fuera de tiempo, situación que mantuviera a la empresa receptora en incertidumbre; que el paquete no haya llegado en condiciones óptimas dado un mal empaquetado o pobre seguimiento de las indicaciones de traslado; o que el paquete haya sido dejado en un lugar incorrecto, lo que retrasaría aún más su llegada y subiría sus gastos de traslado.
+El problema aparece desde que la empresa proveedora inicia un envío hacia el lugar indicado por la empresa solicitante, ya que no guarda ni comparte la información necesaria durante el trayecto. La incertidumbre se mantiene durante el empaquetado, el traslado y hasta la entrega. Entre las principales dificultades se encuentran: retrasos no comunicados, paquetes en condiciones deficientes por mal empaquetado, y entregas en ubicaciones equivocadas que aumentan costos de traslado.
 
 #### 1.2.1.5. Why
 
 __¿Por qué surge el problema?__
 
-Cómo se ha mencionado antes y se puede concluir a partir de las respuestas escritas anteriormente, la principal causa del problema es la falta de seguimiento del proceso de traslado de los paquetes enviados. Ahora bien, esto puede ocurrir por falta de organización de la empresa proveedora como por falta de herramientas tecnologías, mismas que facilitarían el monitoreo requerido.
+La principal causa del problema es la falta de seguimiento del proceso de traslado de los paquetes enviados. Esto puede ocurrir por una deficiente organización de la empresa proveedora, pero sobre todo por la ausencia de herramientas tecnológicas que faciliten el monitoreo requerido.
 
-Los problemas derivados surgen a causa, precisamente, de la falta de información en cuanto a la paqueteria. Por ejemplo, al no tener la información detallada del tipo de empaquetado que ciertos productos necesitan, los trabajadores pueden cometer errores. Lo mismo ocurre en cuanto a la ubicación a la que deben llegar, al no tener forma de verificarlo o alguna alerta, el escenario se presta a que cualquier paquete termine en la ciudad incorrecta.
-
-Por último, la intranquilidad y desconfianza de la empresa solicitante también son causadas por la falta de información que se le provee. Esto, por ejemplo, cuando ocurre un retraso y le es imposible a la empresa saber en donde se encuentra su pedido.
+La falta de información detallada genera errores en el empaquetado, ubicación y transporte de los envíos. Además, la empresa solicitante experimenta intranquilidad y desconfianza al no poder acceder a datos en tiempo real, especialmente cuando ocurren retrasos o pérdidas.
 
 #### 1.2.1.6. How
 
 __¿Cómo ocurre el problema?__
 
-El problema ocurre frente a la falta de organización y de transferencia de información, lo que repercute en que se produzca una mayor cantidad de errores en el proceso de traslado del paquete en cuestión, lo que afecta a ambas empresas involucradas.
+El problema ocurre por la falta de organización y de transferencia de información confiable, lo que incrementa la probabilidad de errores en el proceso logístico y afecta a ambas empresas involucradas.
 
 __¿En qué condiciones los usuarios usarán nuestro producto?__
 
-Los usuarios utilizarán nuestro producto cuando se necesite trasladar algún envío y estar pendiente de los movimientos y condiciones del mismo. La empresa encargada del envío usará nuestro producto para verificar la salida del pedido, tomando en cuenta que se estén cumpliendo las medidas de seguridad especificadas y que este se encuentre en camino al destino correcto. Por otro lado, la empresa receptora podrá seguir el traslado paso a paso, verificar la ubicación y mantenerse tranquila frente a la espera de su llegada contando con la seguridad de que viaja en las condiciones ideales.
+Los usuarios usarán LogistiCore a través de una aplicación móvil que les permita acceder en tiempo real al estado de cada envío.  
+- La empresa emisora podrá verificar la salida del pedido, registrar el escaneo de códigos QR y confirmar que se cumplen las medidas de seguridad antes y durante el transporte.  
+- La empresa receptora podrá seguir el traslado paso a paso, visualizar la ubicación actual y recibir alertas sobre el estado de la carga, generando confianza y reduciendo la incertidumbre.  
 
 #### 1.2.1.7. How much
 
 __¿Cuánto impacto genera el problema?__
 
-En la última edición del PADE Internacional en Operaciones y Logística de la Universidad ESAN, el docente Freddy Alvarado Vargas señala como algunas de las causas más comunes de las fallas en los procesos de traslado y entrega de productos a la deficiente organización física de los productos, el poco soporte tecnológico para la compañía, ubicación y selección de los productos a entregar, y el uso de equipos de manipulación inadecuados. Se menciona que esto afecta tanto la confianza y operaciones de la empresa solicitante como la imagen de la empresa que envía los productos.
+En la última edición del PADE Internacional en Operaciones y Logística de la Universidad ESAN, el docente Freddy Alvarado Vargas señala como algunas de las causas más comunes de las fallas en los procesos de traslado y entrega de productos a la deficiente organización física de los productos, el poco soporte tecnológico, la ubicación y selección inadecuada de los productos a entregar, y el uso de equipos de manipulación incorrectos. Todo esto impacta negativamente en la confianza de las empresas receptoras y en la imagen de las empresas emisoras.
 
-A partir de lo mencionado, se señala que el implementar un seguimiento utilizando herramientas tecnológicas mostraría una ventaja competitiva para la empresa que opte por esta idea. Asimismo, cabe mencionar que actualmente el Gobierno del Perú desea impulsar el mercado de transporte y logística nacionalmente para que este cierre el presente año con ganancias de más de 15 mil millones de dólares, logrando una tasa de crecimiento anual compuesta de 5,92% en los próximos cinco años. Sin embargo, esta meta se ve lejana considerando las constantes fallas de las empresas de transporte de mercancía a nivel industrial, lo que, según los datos expuestos, no solo la daña a sí misma, sino también frena el crecimiento económico nacional.
+Implementar un sistema de seguimiento mediante una aplicación móvil como LogistiCore representaría una ventaja competitiva, ya que permitiría a las empresas mantener visibilidad completa de sus envíos en cualquier momento. Asimismo, cabe mencionar que actualmente el Gobierno del Perú busca impulsar el mercado de transporte y logística nacional con el objetivo de cerrar el presente año con ganancias de más de 15 mil millones de dólares y alcanzar una tasa de crecimiento anual compuesta de 5,92% en los próximos cinco años. Sin embargo, estas metas se ven limitadas por las deficiencias de las empresas de transporte de mercancías, que afectan tanto a nivel empresarial como al crecimiento económico nacional.
 
 
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-Nuestra solución busca proveer un espacio digital a través del cuál puedan registrarse los pasos que deben ser realizados para asegurar el correcto traslado de un paquete desde su embarque hasta su llegada al lugar indicado.
+Nuestra solución busca proveer un espacio digital a través de una aplicación móvil mediante el cual puedan registrarse los pasos que deben ser realizados para asegurar el correcto traslado de un paquete desde su embarque hasta su llegada al lugar indicado.
 
 Hemos observado que, al no contar con un registro adecuado de los paquetes a enviar y sus requerimientos de traslado, suelen ocurrir errores al momento del empaquetado y colocación de los mismos en su transporte correspondiente, lo que repercute en la calidad de la entrega final.
 
-__¿Cómo puede nuestro producto registrar el cumplimiento de cada fase de traslado del paquete?__
+__¿Cómo puede nuestra aplicación registrar el cumplimiento de cada fase de traslado del paquete?__
 
-Nuestra solución busca que ambas empresas involucradas puedan observar la posición geográfica del paquete trasladado, su estado y su fecha prevista de llegada de forma sencilla y en cualquier momento.
+Nuestra solución busca que ambas empresas involucradas puedan observar la posición geográfica del paquete trasladado, su estado y su fecha prevista de llegada de forma sencilla y en cualquier momento a través de la app móvil.
 
 Hemos observado que las empresas receptoras se ven afectadas en sus operaciones al no saber con certeza cuándo llegará el paquete solicitado, así como la empresa proveedora ve su imagen perjudicada a falta de información en base a la cual tomar decisiones. 
 
-__¿Cómo podemos permitir que ambas empresas tengan acceso a la ubicación e información general de un paquete en tiempo real?__
+__¿Cómo podemos permitir que ambas empresas tengan acceso a la ubicación e información general de un paquete en tiempo real mediante un dispositivo móvil?__
 
-Nuestra solución busca proveer un sistema de verificación mediante QR para asegurar que los paquetes son ingresados al vehículo correcto y que, por ende, son trasladados al destino solicitado.
+Nuestra solución busca proveer un sistema de verificación mediante QR en la app para asegurar que los paquetes son ingresados al vehículo correcto y que, por ende, son trasladados al destino solicitado.
 
-Hemos observado que el no contar con un sistema de verificación al embarcar el vehículo es probable que se presenten errores dada la cantidad de envíos siendo colocados simultáneamente. Esto puede llegar a repercutir en que se envíen paquetes a destinos incorrectos, ocasionando problemas entre las empresas y pérdidas de tiempo y dinero.
+Hemos observado que el no contar con un sistema de verificación al embarcar el vehículo hace probable que se presenten errores dada la cantidad de envíos siendo colocados simultáneamente. Esto puede llegar a repercutir en que se envíen paquetes a destinos incorrectos, ocasionando problemas entre las empresas y pérdidas de tiempo y dinero.
 
-__¿Cómo podemos implementar un sistema de verificación mediante QRs que asegure que cada paquete está siendo embarcado hacia el destino correcto?__
+__¿Cómo podemos implementar un sistema de verificación mediante QRs en una aplicación móvil que asegure que cada paquete está siendo embarcado hacia el destino correcto?__
 
 #### 1.2.2.2. Lean UX Assumptions
 
 __Business Assumptions:__
 
-- __Creemos que nuestros usuarios necesitan__ tener visibilidad y control en tiempo real sobre los envíos, sin importar su tipo o tamaño.
-- __Estas necesidades se pueden satisfacer__ con una solución digital que registre, actualice y comparta el estado, ubicación y condiciones del envío durante todo su trayecto.
+- __Creemos que nuestros usuarios necesitan__ tener visibilidad y control en tiempo real sobre los envíos, sin importar su tipo o tamaño, desde sus dispositivos móviles.
+- __Estas necesidades se pueden satisfacer__ con una aplicación móvil que registre, actualice y comparta el estado, ubicación y condiciones del envío durante todo su trayecto.
 - __Nuestros clientes iniciales serán__ empresas proveedoras o compañías que trasladan productos o insumos entre sedes, y las empresas clientes que solicitan estos envíos.
-- __El valor más importante que un cliente quiere de nuestros servicios es__ la trazabilidad integral de cada envío, desde el origen hasta su destino.
+- __El valor más importante que un cliente quiere de nuestros servicios es__ la trazabilidad integral de cada envío, desde el origen hasta su destino, accesible desde cualquier lugar.
 - __El cliente también va a obtener__ reducción de errores, mejora en la comunicación interempresa y soporte en la toma de decisiones logísticas.
 - __Vamos a obtener la mayoría de los clientes mediante__ alianzas estratégicas con empresas logísticas, presentaciones en eventos del sector y marketing digital B2B.
 - __Vamos a obtener ingresos mediante__ suscripciones mensuales escalables según número de envíos o integración con ERP/logística.
 - __Nuestra competencia en el mercado serán__ soluciones de rastreo parcial, herramientas internas no estandarizadas o software caro y poco flexible.
-- __Vamos a tener ventaja frente a nuestra competencia debido a__ la flexibilidad para adaptarse a distintos tipos de envío, verificación digital (QR, fotos), y visualización colaborativa.
+- __Vamos a tener ventaja frente a nuestra competencia debido a__ la flexibilidad para adaptarse a distintos tipos de envío, verificación digital (QR, fotos), y visualización colaborativa en dispositivos móviles.
 - __El mayor riesgo del servicio es__ que el personal de campo (almacén, transporte) no registre correctamente las etapas del envío.
-- __Lo resolveremos realizando__ pruebas piloto con usuarios reales, interfaz simple y adaptable, y sesiones de entrenamiento orientadas al flujo operativo real.
+- __Lo resolveremos realizando__ pruebas piloto con usuarios reales, interfaz móvil simple y adaptable, y sesiones de entrenamiento orientadas al flujo operativo real.
 
 __User Assumptions:__
 
 __¿Quién es el usuario?__
 
-Los usuarios principales son el personal administrativo y/o gerencial de empresas que gestionan envíos industriales por vía terrestre en Perú, así como el personal de estos mismos puestos de las empresas que realizan los pedidos. Si la plataforma tiene éxito en este sector, se plantea su extensión a todo el ecosistema logístico nacional e internacional, incluyendo sectores como manufactura, minería, agroindustria, energía y distribución masiva.
+Los usuarios principales son el personal administrativo y/o gerencial de empresas que gestionan envíos industriales por vía terrestre en Perú, así como el personal de estos mismos puestos de las empresas que realizan los pedidos. Si la aplicación tiene éxito en este sector, se plantea su extensión a todo el ecosistema logístico nacional e internacional, incluyendo sectores como manufactura, minería, agroindustria, energía y distribución masiva.
 
 __¿Qué problemas tiene nuestro producto que resolver?__
 
-Actualmente, muchas empresas enfrentan problemas relacionados con la falta de visibilidad en tiempo real, el desconocimiento del estado o condición de un envío, y la dificultad para verificar si los envíos fueron realizados correctamente o llegaron a destino. En muchos casos, los registros son manuales, aislados o poco confiables. El producto busca resolver estos problemas mediante la automatización de la trazabilidad, integrando el monitoreo de ubicación, estado físico del envío, y validaciones digitales durante todo el trayecto.
+Actualmente, muchas empresas enfrentan problemas relacionados con la falta de visibilidad en tiempo real, el desconocimiento del estado o condición de un envío, y la dificultad para verificar si los envíos fueron realizados correctamente o llegaron a destino. En muchos casos, los registros son manuales, aislados o poco confiables. La aplicación busca resolver estos problemas mediante la automatización de la trazabilidad, integrando el monitoreo de ubicación, estado físico del envío, y validaciones digitales durante todo el trayecto.
 
 __¿Qué características son importantes?__
 
-Las funcionalidades clave del producto incluyen el registro y seguimiento digital de cada fase del traslado, permitiendo un control detallado desde el origen hasta el destino. Ofrece visualización en tiempo real de la ubicación y condiciones del envío, y verificación de carga y descarga mediante tecnologías como códigos QR, lo que reduce errores y garantiza trazabilidad. El sistema emite alertas automáticas ante desvíos, demoras o incidencias, y almacena un historial completo del envío, registrando quién lo manipuló, cuándo, dónde y cómo. Además, se integra con sistemas internos como ERP, WMS o CRM, consolidando procesos logísticos. Estas funcionalidades no solo previenen pérdidas económicas, sino que también permiten generar reportes analíticos, tomar decisiones informadas y establecer mejores prácticas logísticas a futuro.
+Las funcionalidades clave de la aplicación incluyen el registro y seguimiento digital de cada fase del traslado, permitiendo un control detallado desde el origen hasta el destino. Ofrece visualización en tiempo real de la ubicación y condiciones del envío, y verificación de carga y descarga mediante tecnologías como códigos QR y registro fotográfico, lo que reduce errores y garantiza trazabilidad. El sistema emite alertas automáticas ante desvíos, demoras o incidencias, y almacena un historial completo del envío. Además, se integra con sistemas internos como ERP, WMS o CRM, consolidando procesos logísticos. Estas funcionalidades no solo previenen pérdidas económicas, sino que también permiten generar reportes analíticos, tomar decisiones informadas y establecer mejores prácticas logísticas a futuro.
 
 __¿Dónde encaja nuestro producto en su trabajo o vida?__
 
-El producto se integra directamente en los procesos diarios de logística operativa, tanto en planta como en transporte y recepción de envíos. Facilita el control operativo, mejora la comunicación entre áreas o empresas involucradas y permite evaluar el rendimiento logístico en tiempo real, impulsando la eficiencia, la calidad del servicio y la rentabilidad.
+La aplicación móvil se integra directamente en los procesos diarios de logística operativa, tanto en planta como en transporte y recepción de envíos. Facilita el control operativo, mejora la comunicación entre áreas o empresas involucradas y permite evaluar el rendimiento logístico en tiempo real, impulsando la eficiencia, la calidad del servicio y la rentabilidad.
 
 __¿Cuándo y cómo es nuestro producto usado?__
 
-El sistema es utilizado desde el momento en que se prepara un envío, se realiza el traslado físico, y finaliza con la confirmación de entrega en destino. También se usa en etapas de auditoría interna, evaluación de indicadores logísticos, análisis de errores y mejoras de procesos. Puede ser accedido en cualquier momento desde móviles, tablets o estaciones de trabajo, según el rol del usuario (operativo o administrativo).
+La aplicación es utilizada desde el momento en que se prepara un envío, se realiza el traslado físico, y finaliza con la confirmación de entrega en destino. También se usa en etapas de auditoría interna, evaluación de indicadores logísticos, análisis de errores y mejoras de procesos. Puede ser accedida en cualquier momento desde dispositivos móviles o tablets, según el rol del usuario (operativo o administrativo).
 
 __¿Cómo debe verse nuestro producto y cómo debe comportarse?__
 
-Nuestro producto debe contar con una interfaz intuitiva, visual y de fácil uso, diseñada especialmente para el personal operativo, de modo que no requiera capacitaciones complejas. Debe ser modular y flexible, capaz de adaptarse a distintos tipos de envío, sectores logísticos y modelos operativos. La visualización debe incluir mapas en tiempo real, alertas automáticas e indicadores por eventos, facilitando el seguimiento y control del traslado. A nivel funcional, el sistema debe ser estable, rápido y seguro, con acceso controlado para proteger los datos sensibles tanto de la empresa como de los usuarios.
+Nuestra aplicación debe contar con una interfaz intuitiva, visual y de fácil uso, diseñada especialmente para el personal operativo, de modo que no requiera capacitaciones complejas. Debe ser modular y flexible, capaz de adaptarse a distintos tipos de envío, sectores logísticos y modelos operativos. La visualización debe incluir mapas en tiempo real, alertas automáticas e indicadores por eventos, facilitando el seguimiento y control del traslado. A nivel funcional, la aplicación debe ser estable, rápida y segura, con acceso controlado para proteger los datos sensibles tanto de la empresa como de los usuarios.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
 Hypothesis Statement 01
 
-**Creemos** que los supervisores y operadores logísticos estarán dispuestos a adoptar nuestra plataforma para registrar digitalmente cada fase del envío.  
+**Creemos** que los supervisores y operadores logísticos estarán dispuestos a adoptar nuestra aplicación móvil para registrar digitalmente cada fase del envío.  
 **Sabremos** que hemos tenido éxito  
 **cuando** al menos el 80% de los usuarios activos registren el seguimiento completo de los envíos en la primera etapa de implementación.
 
@@ -396,7 +396,7 @@ Hypothesis Statement 06
 
 **Creemos** que ofrecer un historial detallado del envío mejorará los procesos de auditoría y análisis de errores logísticos.  
 **Sabremos** que hemos tenido éxito  
-**cuando** al menos el 70% de las auditorías internas utilicen la información de la plataforma como fuente principal.
+**cuando** al menos el 70% de las auditorías internas utilicen la información de la aplicación como fuente principal.
 
 Hypothesis Statement 07
 
@@ -404,11 +404,11 @@ Hypothesis Statement 07
 **Sabremos** que hemos tenido éxito  
 **cuando** el tiempo promedio de registro y consulta de datos se reduzca en un 50% gracias a la integración.
 
-Hypothesis Statement 8
+Hypothesis Statement 08
 
 **Creemos** que incluir la posibilidad de registrar incidencias durante el traslado (como demoras, desvíos o manipulaciones indebidas) ayudará a mejorar la trazabilidad y a prevenir futuros errores logísticos.  
 **Sabremos** que hemos tenido éxito  
-**cuando** al menos el 60% de los envíos con incidencias registradas logren ser resueltos o corregidos antes de la entrega final gracias a la información aportada por la plataforma.
+**cuando** al menos el 60% de los envíos con incidencias registradas logren ser resueltos o corregidos antes de la entrega final gracias a la información aportada por la aplicación.
 
 Hypothesis Statement 09
 
@@ -418,16 +418,16 @@ Hypothesis Statement 09
 
 Hypothesis Statement 10
 
-**Creemos** que brindar reportes analíticos en tiempo real facilitará la toma de decisiones estratégicas por parte de los gestores logísticos.
+**Creemos** que brindar reportes analíticos en tiempo real facilitará la toma de decisiones estratégicas por parte de los gestores logísticos.  
 **Sabremos** que hemos tenido éxito  
 **cuando** al menos el 75% de los usuarios administrativos utilicen la herramienta de reportes cada semana.
 
 #### 1.2.2.4. Lean UX Canvas
 
-Lean UX Canvas es una de las herramientas que hemos utilizado para conmprender a nuestros posibles usuarios y sus necesidades. Esta es usada en el campo del diseño centrado en el usuario y la metodología Lean con la intención de desarrollar productos de forma eficientes y práctica para los usuarios. A su vez, esta puede ser utilizada por equipos multidisciplinarios para que colaboración de forma ordenada dentro un marco estructurado.
+Lean UX Canvas es una de las herramientas que hemos utilizado para comprender a nuestros posibles usuarios y sus necesidades. Esta es usada en el campo del diseño centrado en el usuario y la metodología Lean con la intención de desarrollar productos de forma eficiente y práctica para los usuarios. A su vez, esta puede ser utilizada por equipos multidisciplinarios para que colaboren de forma ordenada dentro de un marco estructurado.
 
 <div>
-  <p align="center"><img src="assets/md-images/canvas-web.png" alt="Canvas" width="700px" /></p>
+  <p align="center"><img src="assets/md-images/canvas-mobile.png" alt="Canvas" width="700px" /></p>
 </div>
 
 Enlace para acceder al [Canvas](https://www.canva.com/design/DAGjqMusdhM/D6-Qc0v9JioQbOugM7qnXQ/edit?utm_content=DAGjqMusdhM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
@@ -435,13 +435,13 @@ Enlace para acceder al [Canvas](https://www.canva.com/design/DAGjqMusdhM/D6-Qc0v
 
 ## 1.3 Segmentos Objetivos
 
-La solución propuesta se centra en dos segmentos claves dentro del ámbito logístico, respaldados por datos que evidencian la urgencia de digitalizar los procesos de trazabilidad y registro de operaciones:
+La solución propuesta se centra en dos segmentos claves dentro del ámbito logístico, respaldados por datos que evidencian la urgencia de digitalizar los procesos de trazabilidad y registro de operaciones mediante aplicaciones móviles accesibles desde cualquier lugar:
 
 ### Segmento 1: Empresas logísticas
 
-#### Desccripción general
+#### Descripción general
 
-Organizaciones dedicadas a la gestión, transporte, consolidación y distribución de carga. Este segmento enfrenta diariamente desafíos en el seguimiento y registro de operaciones, donde los sistemas tradicionales generan errores y cuellos de botella en los procesos.
+Organizaciones dedicadas a la gestión, transporte, consolidación y distribución de carga. Este segmento enfrenta diariamente desafíos en el seguimiento y registro de operaciones, donde los sistemas tradicionales generan errores y cuellos de botella en los procesos. Una aplicación móvil facilita el registro y control en campo en tiempo real, reduciendo fallas y aumentando la eficiencia.
 
 #### Perfil operativo
 
@@ -449,17 +449,17 @@ Sus directivos y gerentes suelen tener entre 30 y 55 años, con presencia fuerte
 
 #### Datos del sector
 
-Según SERGroup, aproximadamente el 63% de las empresas logísticas reconoce la digitalización como una herramienta clave para mejorar la eficiencia operativa, y cerca del 73% está en proceso de adoptar tecnologías de rastreo y control para optimizar su cadena de suministro.
+Según SERGroup, aproximadamente el 63% de las empresas logísticas reconoce la digitalización como una herramienta clave para mejorar la eficiencia operativa, y cerca del 73% está en proceso de adoptar tecnologías móviles de rastreo y control para optimizar su cadena de suministro.
 
 #### Necesidad
 
-La integración de soluciones digitales, como el seguimiento en tiempo real mediante códigos QR y dashboards interactivos, es vista como esencial para reducir errores y mejorar la visibilidad de cada operación.
+La integración de soluciones móviles, como el seguimiento en tiempo real mediante códigos QR y dashboards accesibles desde celulares o tablets, es vista como esencial para reducir errores y mejorar la visibilidad de cada operación.
 
 ### Segmento 2: Empresas cliente (B2B)
 
-#### Desccripción general
+#### Descripción general
 
-Compañías de sectores como minería, construcción, agroindustria y comercio, que dependen críticamente de servicios logísticos para asegurar la entrega oportuna de sus productos.
+Compañías de sectores como minería, construcción, agroindustria y comercio, que dependen críticamente de servicios logísticos para asegurar la entrega oportuna de sus productos. Una aplicación móvil les permite acceder al estado de sus pedidos en cualquier momento y lugar.
 
 #### Perfil gerencial
 
@@ -467,11 +467,11 @@ Los responsables de cadena de suministro y logística en estas empresas suelen t
 
 #### Datos del sector
 
-De acuerdo con SERGroup, alrededor del 70% de las empresas en sectores vinculados a la logística demandan información en tiempo real para tomar decisiones estratégicas, mientras que casi el 78% manifiesta la necesidad de soluciones digitales integradas que permitan un seguimiento continuo y preciso de sus envíos.
+De acuerdo con SERGroup, alrededor del 70% de las empresas en sectores vinculados a la logística demandan información en tiempo real para tomar decisiones estratégicas, mientras que casi el 78% manifiesta la necesidad de soluciones digitales integradas que permitan un seguimiento continuo y preciso de sus envíos, especialmente desde dispositivos móviles.
 
 #### Necesidad
 
-Contar con herramientas que ofrezcan informes claros y en tiempo real, optimizando la toma de decisiones y reduciendo retrasos y costos generados por sistemas manuales o poco integrados.
+Contar con herramientas móviles que ofrezcan informes claros y en tiempo real, optimizando la toma de decisiones y reduciendo retrasos y costos generados por sistemas manuales o poco integrados.
 
 # 2. Capítulo II: Requirements Elicitation & Analysis
 
@@ -490,83 +490,83 @@ A continuación, realizamos un análisis competitivo para identificar oportunida
   <tbody>
     <tr>
       <td colspan="2" align="center">¿Por qué llevar a cabo este análisis?</td>
-      <td colspan="3" align="center">Con el análisis competitivo podemos entender el mercado, identificar las oportunidades y diferenciarnos de la competencia. Ayudándonos a tomar decisiones correctas, minimizar riesgos y fortalecer nuestra posición en el mercado, asegurándonos una ventaja estratégica y un crecimiento constante y sostenible.</td>
+      <td colspan="3" align="center">Con el análisis competitivo podemos entender el mercado, identificar oportunidades y diferenciarnos de la competencia. Ayudándonos a tomar decisiones correctas, minimizar riesgos y fortalecer nuestra posición en el mercado, asegurándonos una ventaja estratégica y un crecimiento constante y sostenible.</td>
     </tr>
     <tr>
       <td colspan="2">PERFIL</td>
-      <td><picture><p align="center"><img src="assets/md-images/copera.png" alt="Copera" height="50" width="200"></p> </picture></td>
-      <td><picture><p align="center"><img src="assets/md-images/servadmi.png" alt="Servadmi" height="50" width="200"></p></picture></td>
-      <td><picture><p align="center"><img src="assets/md-images/uniflex.png" alt="Uniflexe" width="50" width="200"></p></picture></td>
+      <td><picture><p align="center"><img src="assets/md-images/vitz.png" alt="Dinet Vitz" height="50" width="200"></p></picture></td>
+      <td><picture><p align="center"><img src="assets/md-images/tso.png" alt="TSO Mobile" height="50" width="200"></p></picture></td>
+      <td><picture><p align="center"><img src="assets/md-images/gpstracking.png" alt="GPSTracking" height="50" width="200"></p></picture></td>
     </tr>
     <tr>
       <td rowspan="2">Perfil</td>
       <td>Overview</td>
-      <td>COPERA es un software de trazabilidad dirigido a cadenas de suministro de productos agrícolas como café, cacao y frutas. Abarcando la gestión productiva, de almacén y administrativa, proporcionando herramientas para el seguimiento detallado de productos desde su origen hasta el consumidor final.</td>
-      <td>Servadmi Packing es una solución de software desarrollada por SinfoPerú, orientada a empresas empacadoras de frutas. Este servicio cubre todo el proceso de empaque, desde la recepción de materia prima hasta el despacho del contenedor, ofreciendo informes en tiempo real para la toma de decisiones.</td>
-      <td>Uniflex ofrece soluciones de software ERP dirigidas a empresas de consumo y distribución masivas. Integra módulos para la gestión de logística, administración, distribución y más, con el objetivo de optimizar y automatizar procesos empresariales.</td>
+      <td>Aplicación móvil desarrollada por Dinet (Perú), disponible en Android/iOS. Permite a clientes conocer inventarios, salida y llegada de mercancía, recorrido de productos en tiempo real.</td>
+      <td>Plataforma peruana de rastreo satelital y gestión de flotas con app móvil. Permite despachos, geocercas, alertas y reportes de vehículos en tiempo real.</td>
+      <td>Proveedor peruano de gestión de flotas y rastreo GPS en tiempo real. Su app móvil permite monitoreo, reportes, históricos de ubicaciones y gestión de conductores.</td>
     </tr>
     <tr>
       <td>Ventaja Competitiva ¿Qué valor ofrece a los clientes?</td>
-      <td>- Ofrece un servicio especializado en trazabilidad agrícola, asegurando cumplimiento de normativas de exportación.<br>- Integración con sistemas de certificación y estándares de calidad, facilitando la exportación de productos agrícolas.</td>
-      <td>- Ofrece un proceso de empaque optimizado, reduciendo errores y tiempos de operación.<br>- Ofrece controles de calidad y trazabilidad automatizados, evitando problemas en exportaciones.</td>
-      <td>- Ofrece acceso en tiempo real a la información, facilitando la toma de decisiones operativas y estratégicas.<br>- Ofrece una integración total con ERP y logística, permitiendo una gestión eficiente de toda la cadena de suministro.</td>
+      <td>- Visibilidad constante de mercancía en tiempo real.<br>- Integración web y móvil.<br>- Reducción de costos logísticos.</td>
+      <td>- Especialización en flotas vehiculares.<br>- Alertas en tiempo real y monitoreo preventivo.<br>- Funcionalidad móvil extendida.</td>
+      <td>- Soluciones locales probadas.<br>- Integración de reportes y alertas.<br>- Interfaz sencilla y adaptada a usuarios en campo.</td>
     </tr>
     <tr>
       <td rowspan="2">Perfil de Marketing</td>
       <td>Mercado objetivo</td>
-      <td>Dirigido a empresas agrícolas, especialmente productoras y exportadoras de café, cacao y frutas.</td>
-      <td>Dirigido a plantas empacadoras de frutas y empresas de agroexportación.</td>
-      <td>Dirigido a empresas de consumo y distribución masivas.</td>
+      <td>Empresas de logística y distribución que requieren visibilidad en tiempo real de mercancía.</td>
+      <td>Empresas con flotas vehiculares, transporte y logística de última milla.</td>
+      <td>Empresas con operaciones de transporte y distribución que requieren control de conductores y activos móviles.</td>
     </tr>
     <tr>
       <td>Estrategias de Marketing</td>
-      <td>Uso de marketing B2B (Business to Business), ferias agrícolas, alianzas con cooperativas y asociaciones de exportadores.</td>
-      <td>Enfoque en eficiencia operativa, marketing digital y referencias dentro del sector agroindustrial.</td>
-      <td>Presencia en ferias empresariales, marketing B2B (Business to Business) y demostraciones en vivo del sistema.</td>
+      <td>Marketing B2B, casos de éxito y ferias logísticas.</td>
+      <td>Marketing digital, demostraciones B2B y convenios empresariales.</td>
+      <td>Marketing directo, presencia en ferias y alianzas con empresas de transporte locales.</td>
     </tr>
     <tr>
       <td rowspan="3">Perfil del Producto</td>
       <td>Productos & Servicios</td>
-      <td>Software de trazabilidad para la cadena de suministro agrícola.</td>
-      <td>Software para optimización de empaques y trazabilidad en plantas empacadoras.</td>
-      <td>Software ERP con módulos de logística y distribución.</td>
+      <td>App móvil y web para trazabilidad de inventarios y carga en tiempo real.</td>
+      <td>App móvil y plataforma web para gestión de flotas y rastreo satelital.</td>
+      <td>App móvil/web para rastreo GPS, gestión de conductores y alertas preventivas.</td>
     </tr>
     <tr>
       <td>Precios & Costos</td>
-      <td>Modelo de suscripción con tarifas ajustadas según la cantidad de productores o el volumen de exportación.<br><br>Plan básico: $500-800/mes<br>Plan Emprendedor: $1,000-1,500/mes<br>Plan Empresarial: $2,000-3,000/mes</td>
-      <td>Planes ajustados al tamaño de la planta y el volumen de procesamiento de productos.<br><br>Plantas pequeñas/medianas: $800-1,200/mes o $8,000-12,000 anual<br>Plantas grandes: $1,500-2,500/mes o $18,000-30,000 anual</td>
-      <td>Modelo de licenciamiento y suscripción mensual según la cantidad de usuarios.<br><br>Pymes: $1,200-1,800/mes<br>Distribuidoras medianas/grandes: $2,000-3,500/mes<br>Empresas grandes o transnacionales: $5,000-8,000/mes</td>
+      <td>Planes de suscripción ajustados al número de usuarios/operaciones. Desde $500/mes.</td>
+      <td>Planes de suscripción por flota desde $700/mes, escalables según número de vehículos.</td>
+      <td>Planes desde $600/mes según número de vehículos y servicios adicionales.</td>
     </tr>
     <tr>
       <td>Canales de Distribución (web / móvil)</td>
-      <td>Plataforma web y móvil con acceso en tiempo real.</td>
-      <td>Plataforma web e integración a dispositivos móviles.</td>
-      <td>Plataforma web y aplicaciones móviles para gestión en campo.</td>
+      <td>App Android/iOS y plataforma web.</td>
+      <td>App Android/iOS y portal web empresarial.</td>
+      <td>App Android/iOS y plataforma web con soporte local.</td>
     </tr>
     <tr>
       <td rowspan="4">Análisis SWOT</td>
       <td>Fortalezas</td>
-      <td>Especialización en la trazabilidad agrícola y cumplimiento de normativas de exportación</td>
-      <td>Solución especializada en procesos de empaque y optimización de costos y tiempos.</td>
-      <td>Amplia integración con procesos empresariales y soluciones móviles para operaciones.</td>
+      <td>Visibilidad en tiempo real; fuerte respaldo de Dinet.</td>
+      <td>Especialización en rastreo satelital y gestión de flotas.</td>
+      <td>Adaptación local y soporte técnico en Perú.</td>
     </tr>
     <tr>
       <td>Debilidades</td>
-      <td>- Alcance limitado a sectores específicos.<br>- Posible dificultad en adopción tecnológica por parte de productores pequeños.</td>
-      <td>- Dependencia de la infraestructura tecnológica de la planta y una curva de aprendizaje inicial.</td>
-      <td>- Costos iniciales elevados.<br>- Resistencia al cambio por parte de las empresas tradicionales.</td>
+      <td>- Poca personalización para sectores nicho (minería, agroindustria).<br>- No ofrece QR para verificación.</td>
+      <td>- Limitado a gestión vehicular; no cubre trazabilidad de producto.</td>
+      <td>- Interfaz básica; carencia de diferenciación frente a grandes ERPs.</td>
     </tr>
     <tr>
       <td>Oportunidades</td>
-      <td>Expansión a otros sectores agroindustriales e integración con plataformas de comercio internacional.</td>
-      <td>Expansión a otros mercados de empaque como lácteos o carnes.</td>
-      <td>Expansión a mercados internacionales y sectores como retail o manufactura.</td>
+      <td>Expansión hacia sectores agroindustriales y minería con trazabilidad más granular.</td>
+      <td>Incorporar trazabilidad de productos además de flotas.</td>
+      <td>Ampliar a retail, e-commerce y agroexportaciones.</td>
     </tr>
     <tr>
       <td>Amenazas</td>
-      <td>Competencia con soluciones más amplias como ERPs agrícolas.</td>
-      <td>Competencia con sistemas que incluyen módulos de trazabilidad</td>
-      <td>Competencia con ERPs globales como S.A.P. (empresa alemana) o Microsoft Dynamics</td>
+      <td>Competencia con apps globales de logística.</td>
+      <td>Competidores con servicios integrados de logística y ERP.</td>
+      <td>Competencia de soluciones internacionales como SAP o Oracle Logistics.</td>
     </tr>
   </tbody>
 </table>
@@ -576,99 +576,104 @@ A continuación, realizamos un análisis competitivo para identificar oportunida
 
 Afrontando las fortalezas de nuestros competidores:
 
-- Tienen experiencia previa en sectores específicos como agroindustria, manufactura o comercio.  
-- Algunos ya cuentan con clientes fidelizados y soluciones implementadas.  
-- Su trayectoria les otorga cierta credibilidad en el mercado local.
+- Tienen visibilidad en tiempo real bien establecida y reconocimiento en el mercado local.  
+- Cuentan con experiencia en gestión de flotas y respaldo técnico para operaciones en campo.  
+- Ofrecen integraciones web-móvil y modelos comerciales ya aceptados por clientes B2B.
 
 Comprendemos que nuestras fortalezas son:
 
-- Somos una solución más especializada en trazabilidad logística operativa, desde el origen hasta la entrega.  
-- Ofrecemos verificación en tiempo real con tecnologías como QR y alertas automáticas.  
--  Nos enfocamos en visualización colaborativa, permitiendo que tanto proveedores como receptores vean el estado del envío en todo momento.
+- Somos una solución móvil especializada en **trazabilidad por unidad de carga** (no solo por vehículo), con verificación en campo mediante **QR** y evidencia fotográfica.  
+- Interfaz móvil diseñada para operarios: uso offline básico, notificaciones push y flujos rápidos para escaneos y validaciones.  
+- Integraciones abiertas (APIs) pensadas para conectarnos fácilmente con ERPs/WMS existentes y dashboards móviles por rol (operativo / administrativo / cliente).  
+- Enfoque B2B centrado en reducción de errores operativos y en evidencia verificable para resolver reclamos.
 
-Entonces podemos aplicar las siguientes estratégicas y tácticas:
+Entonces podemos aplicar las siguientes estrategias y tácticas:
 
-Estrategias:  
+**Estrategias:**  
+- Posicionarnos como **complemento** (no reemplazo) de las soluciones de flotas y ERPs: “añade trazabilidad granular a tu sistema actual”.  
+- Enfocar comercialmente sectores donde los competidores locales están menos especializados (minería, agroindustria exportadora, manufactura y energía).  
+- Priorizar experiencia de usuario y soporte local como ventaja competitiva frente a soluciones genéricas.
 
-- En lugar de competir directamente con ERP o CRM, nos posicionamos como un complemento útil, más ágil y accesible.  
-- Participar en sectores donde nuestros competidores no tienen presencia sólida (como la minería, energía, distribución y manufactura).
+**Tácticas:**  
+- Lanzar **pilotos** de 4–8 semanas con clientes estratégicos en minería/agro para demostrar reducción de errores y tiempos de respuesta.  
+- Crear paquetes comerciales escalonados: piloto gratuito/cliente inicial con descuento, plan básico para PYMES y plan enterprise con integraciones y soporte.  
+- Materiales de venta y entrenamiento orientados a usuarios operativos: videos cortos (30–90s), guías de campo y checklists imprimibles.  
+- Demos en sitio y remotas mostrando casos reales (escaneo QR → registro → foto → entrega) para validar la propuesta en campo.
 
-Tácticas:  
+---
 
-- Realizar campañas B2B (Business to Business) enfocadas en personal técnico y operativo, no solo en directivos o áreas comerciales.  
-- Participar en ferias, eventos logísticos y publicaciones del sector con ejemplos claros de eficiencia, integración y resultados.  
+Afrontando las debilidades de nuestros competidores:
 
-Afrontando las debilidades de nuestros competidores: 
+- Muchos se centran en vehículo/telemetría y no en la validación física de la carga (QR/foto).  
+- Sus integraciones suelen ser cerradas y sus interfaces no están diseñadas para operarios en campo.  
+- Poca atención al modo offline y a flujos de uso rápido en almacenes.
 
-- Nuestros competidores se enfocan en procesos previos al transporte (como el empaquetado o registro comercial), pero no hacen seguimiento durante el traslado.  
-- No contemplan tecnologías como QR o fotos para verificar carga y entrega.  
-- Tienen integraciones limitadas o cerradas, dificultando su conexión con otros sistemas existentes.  
-- Tienen interfaces complejas o poco intuitivas, pensadas para usuarios administrativos más que operativos.
+Comprendemos que nuestras debilidades son:
 
-Comprendemos que nuestras debilidades son:  
+- Dependemos de la correcta actuación del personal de campo para registrar eventos.  
+- Puede existir resistencia inicial al cambio en empresas con procesos manuales muy arraigados.  
+- Necesitamos asegurar calidad de datos (fotos/escaneos válidos) y mantener baja fricción en campo.
 
-- Dependemos del registro correcto por parte del personal de campo, lo que puede representar un riesgo si no se hace bien.  
-- Podemos enfrentar una resistencia al cambio por parte de empresas acostumbradas a métodos manuales o sistemas internos.
+Entonces podemos aplicar las siguientes estrategias y tácticas:
 
-Entonces podemos aplicar las siguientes estratégicas y tácticas:  
+**Estrategias:**  
+- Minimizar la fricción de uso: flujos de 1–2 pasos para registrar eventos críticos y validaciones automáticas simples.  
+- Invertir en acompañamiento inicial (onboarding) y en soporte cercano para los primeros 2–3 meses del piloto.  
 
-Estrategias:  
+**Tácticas:**  
+- Ofrecer incentivos para el personal de campo durante la fase piloto (por ejemplo, reportes de productividad que demuestren beneficio).  
+- Capacitación práctica presencial/virtual de 1 hora y videos “cómo hacerlo” en la app.  
+- Funcionalidades de control de calidad de datos (p. ej. validación mínima de foto/QR antes de aceptar registro).
 
-- Demostrar valor con pruebas piloto reales, reduciendo las dudas sobre el uso en campo.  
-- Construir confianza mediante resultados concretos, reportes claros y facilidad de implementación.  
+---
 
-Tácticas:  
+Afrontando las oportunidades (contexto del mercado local):
 
-- Participar en ferias, eventos sectoriales y espacios digitales (como LinkedIn, YouTube, etc.) para ganar visibilidad y posicionamiento.  
-- Lanzar demos gratuitas con empresas logísticas o clientes iniciales estratégicos.  
+- Mayor demanda de digitalización logística en Perú y LatAm; normas y requisitos de trazabilidad en exportaciones.  
+- Brechas claras entre registro en origen y verificación en destino que generan pérdidas y reclamos.  
+- Clientes valoran evidencias (fotos/QR) que reduzcan disputas y costos.
 
-Afrontando las oportunidades de nuestros competidores:
+Comprendemos que nuestras oportunidades son:
 
-- Digitalización acelerada de procesos logísticos, especialmente tras la pandemia.  
-- Demanda de trazabilidad por normativas de calidad y exportación, sobre todo en sectores como agroindustria y manufactura.  
-- Creciente interés por soluciones integradas (ERP, CRM, WMS) para unificar la operación.  
+- Liderar con una oferta móvil que combine trazabilidad granular + verificación física, orientada a reducir errores operativos.  
+- Convertir pruebas piloto en casos de éxito medibles (reducción de reclamos, tiempos y costos) para acelerar adopción.  
+- Asociaciones con cámaras sectoriales y proveedores de hardware (impresoras/etiquetas QR) para simplificar implementaciones.
 
-Comprendemos que nuestras oportunidades son:  
+Entonces podemos aplicar las siguientes estrategias y tácticas:
 
-- Existe una necesidad no cubierta de trazabilidad completa y validación operativa en sectores con alta rotación de envíos.  
-- Hay brechas en la trazabilidad entre el punto de embarque y la recepción final, donde ocurren muchos errores y retrasos.  
-- Hay una oportunidad de liderar en facilidad de uso y visualización en tiempo real, con tecnologías como QR, mapas, y alertas automáticas.  
+**Estrategias:**  
+- Ofrecer una solución modular: función básica (QR + rastreo) para PYMES y módulos avanzados (integración ERP, reportes analíticos) para empresas grandes.  
+- Priorizar integraciones rápidas con los ERPs/WMS más comunes del mercado para facilitar adopción.
 
-Entonces podemos aplicar las siguientes estratégicas y tácticas:
+**Tácticas:**  
+- Publicar **casos de estudio** y métricas claras (ej. % reducción de entregas erróneas, % menos reclamos) tras cada piloto.  
+- Webinars y contenidos técnicos dirigidos a jefes de logística y operaciones en sectores objetivo.  
+- Programas de co-marketing con asociaciones sectoriales y distribuidores de insumos logísticos.
 
-Estrategias:  
+---
 
-- Anticiparnos a las tendencias ofreciendo desde ya una solución digital ágil, móvil y modular, que funcione en múltiples sectores.  
-- Ofrecer integración rápida con sistemas internos para facilitar la transición digital de las empresas.  
+Afrontando las amenazas (competidores locales e internacionales):
 
-Tácticas:  
-
-- Promocionar casos de uso en sectores poco cubiertos por los competidores tradicionales (como minería y energía).  
-- Activar una estrategia de visibilidad digital en ferias, webinars y contenidos en LinkedIn, posicionando nuestra solución como el nuevo estándar en trazabilidad operativa.  
-
-Afrontando las amenazas de nuestros competidores:  
-
-- Clientes que buscan personalización y agilidad, lo que puede ser difícil para soluciones robustas pero rígidas.  
-- Incremento de la competencia extranjera con soluciones más modernas, livianas o con mejor UX.  
-- Desconfianza hacia sistemas poco transparentes, que dificultan la integración o migración de datos.  
+- Los competidores locales pueden añadir funcionalidades similares si detectan demanda.  
+- Soluciones internacionales o grandes ERPs podrían entrar con recursos y presencia comercial.  
+- Clientes pueden preferir “lo que ya conocen” y demorar la migración.
 
 Comprendemos que nuestras amenazas son:
 
-- Que los clientes prefieran quedarse con sistemas “que ya conocen”, aunque sean menos eficientes.  
-- El riesgo de baja adopción por parte del personal de campo, por desconocimiento o resistencia al cambio.  
-- La entrada de grandes soluciones internacionales con presupuestos de marketing y presencia consolidada.  
+- Presión de precio y marketing de actores más grandes.  
+- Ritmo de adopción lento entre operarios menos digitales.  
+- Riesgo de ser percibidos como complemento innecesario si la integración no es impecable.
 
-Entonces podemos aplicar las siguientes estratégicas y tácticas:  
+Entonces podemos aplicar las siguientes estrategias y tácticas:
 
-Estrategias:  
+**Estrategias:**  
+- Diferenciar con **UX + servicio**: experiencia móvil extremadamente simple para operarios + soporte local y SLAs visibles.  
+- Consolidar alianzas con proveedores tecnológicos y consultoras locales para fortalecer go-to-market y reducir barreras de entrada.
 
-- Enfocarnos en la experiencia de usuario y facilidad de uso como diferenciador clave frente a soluciones más complejas.  
-- Construir confianza desde el primer día con pilotos, resultados medibles y soporte cercano.  
-
-Tácticas:
-
-- Crear material de soporte proactivo (como videos, ayuda interactiva o chat de soporte) para acompañar el uso desde el primer día.  
-- Desarrollar una interfaz móvil optimizada, clara y sin curva de aprendizaje, para que el personal de campo la adopte sin fricción.
+**Tácticas:**  
+- Equipo de Customer Success asignado a clientes piloto con KPIs mensurables y revisiones periódicas.  
+- Roadmap público con prioridades (QR, offline, integraciones) para mostrar compromiso y evitar incertidumbre del cliente.  
+- Promociones de fidelización (descuentos por contrato anual, soporte premium) y contratos piloto que faciliten la transición sin riesgo.
 
 
 ## 2.2. Entrevistas
