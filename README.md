@@ -1034,7 +1034,7 @@ Este análisis considera tanto características **objetivas** (tiempos dedicados
 
 ### 2.3.2. User Task Matrix
 
-A continuamos, se presenta el User Task Matrix que hemos elaborado, a través del cual se pueden ver las actividades que realizarán nuestros segmentos objetivos, tanto en común como por separado según sus deseos y necesidades.
+A continuación, se presenta el **User Task Matrix** adaptado a la aplicación móvil **LogistiCore**, donde se pueden ver las actividades que realizarán nuestros segmentos objetivos. Estas tareas han sido diseñadas considerando la naturaleza móvil del sistema, priorizando rapidez, usabilidad y validación en campo.
 
 <table>
   <tbody>
@@ -1050,14 +1050,14 @@ A continuamos, se presenta el User Task Matrix que hemos elaborado, a través de
       <td>Importance</td>
     </tr>
     <tr>
-      <td>Realizar pedido</td>
+      <td>Realizar pedido desde app</td>
       <td>Never</td>
       <td>High</td>
       <td>Always</td>
       <td>High</td>
     </tr>
     <tr>
-      <td>Especificar requisitos de pedido</td>
+      <td>Especificar requisitos de pedido (notas, fotos, QR)</td>
       <td>Rarely</td>
       <td>High</td>
       <td>Often</td>
@@ -1071,67 +1071,53 @@ A continuamos, se presenta el User Task Matrix que hemos elaborado, a través de
       <td>Low</td>
     </tr>
     <tr>
-      <td>Registrar cumplimiento de requisitos</td>
+      <td>Registrar cumplimiento de requisitos con foto/QR</td>
       <td>Often</td>
       <td>High</td>
       <td>Never</td>
       <td>Medium</td>
     </tr>
     <tr>
-      <td>Enviar pedido a almacenes</td>
+      <td>Enviar pedido a almacenes vía app</td>
       <td>Always</td>
       <td>High</td>
       <td>Never</td>
       <td>Low</td>
     </tr>
     <tr>
-      <td>Registrar salida de pedido</td>
+      <td>Registrar salida de pedido (validación QR)</td>
       <td>Always</td>
       <td>High</td>
       <td>Never</td>
       <td>Low</td>
     </tr>
     <tr>
-      <td>Registrar ubicación del pedido</td>
+      <td>Actualizar ubicación del pedido (GPS en tiempo real)</td>
       <td>Always</td>
       <td>High</td>
       <td>Never</td>
       <td>Medium</td>
     </tr>
     <tr>
-      <td>Registrar estado del pedido</td>
+      <td>Actualizar estado del pedido (push notification)</td>
       <td>Always</td>
       <td>High</td>
-      <td>Never</td>
+      <td>Sometimes</td>
       <td>Medium</td>
     </tr>
     <tr>
-      <td>Verificar contenido de la carga</td>
+      <td>Verificar contenido de la carga (escaneo QR/foto)</td>
       <td>Always</td>
       <td>High</td>
       <td>Never</td>
       <td>High</td>
     </tr>
     <tr>
-      <td>Actualizar dashboard</td>
-      <td>Always</td>
-      <td>Medium</td>
-      <td>Never</td>
-      <td>Medium</td>
-    </tr>
-    <tr>
-      <td>Visualizar dashboard</td>
-      <td>Rarely</td>
+      <td>Visualizar estado general (mobile dashboard)</td>
+      <td>Often</td>
       <td>Medium</td>
       <td>Always</td>
       <td>High</td>
-    </tr>
-    <tr>
-      <td>Desplegar dashboard</td>
-      <td>Always</td>
-      <td>High</td>
-      <td>Never</td>
-      <td>Low</td>
     </tr>
     <tr>
       <td>Realizar validación QR</td>
@@ -1141,21 +1127,21 @@ A continuamos, se presenta el User Task Matrix que hemos elaborado, a través de
       <td>Low</td>
     </tr>
     <tr>
-      <td>Enviar consulta</td>
+      <td>Enviar consulta vía chat integrado</td>
       <td>Never</td>
       <td>Low</td>
       <td>Often</td>
       <td>High</td>
     </tr>
     <tr>
-      <td>Responder consultas</td>
+      <td>Responder consultas vía chat</td>
       <td>Often</td>
       <td>Medium</td>
       <td>Never</td>
       <td>Medium</td>
     </tr>
     <tr>
-      <td>Registrar llegada del pedido</td>
+      <td>Registrar llegada del pedido (QR + foto de carga)</td>
       <td>Always</td>
       <td>High</td>
       <td>Never</td>
@@ -1169,14 +1155,14 @@ A continuamos, se presenta el User Task Matrix que hemos elaborado, a través de
       <td>High</td>
     </tr>
     <tr>
-      <td>Filtrar pedidos</td>
+      <td>Filtrar pedidos en la app</td>
       <td>Sometimes</td>
       <td>Medium</td>
-      <td>Never</td>
+      <td>Rarely</td>
       <td>Low</td>
     </tr>
     <tr>
-      <td>Cerrar pedidos</td>
+      <td>Cerrar pedidos desde app</td>
       <td>Always</td>
       <td>High</td>
       <td>Never</td>
@@ -1185,7 +1171,8 @@ A continuamos, se presenta el User Task Matrix que hemos elaborado, a través de
   </tbody>
 </table>
 
-Se puede observar que las tareas que se realizan con mayor frecuencia y que poseen mayor importancia son aquellas realizadas por los administradores de las empresas proveedroas dado que ellos están encargados de armar y trasladar el envío mientras mantienen al cliente informado. Asimismo, necesitan comunicarse con otros administradores para realizar sus tareas exitosamente. También puede observarse que las tareas de validación son aquellas más resaltantes, dado que el sistema propuesta busca precisamente, validar que se cumplan las indicaciones del envío para reducir los errores.
+Se observa que las tareas más frecuentes y de mayor importancia siguen siendo aquellas realizadas por los administradores de empresas proveedoras, quienes deben registrar y validar cada etapa del envío directamente desde el dispositivo móvil. Para los administradores de empresas clientes, la prioridad recae en **realizar pedidos, visualizar estados en tiempo real y recibir notificaciones**, lo que refuerza la naturaleza colaborativa de la aplicación.  
+Además, las **funciones de validación móvil (QR, GPS, fotos)** destacan como las más relevantes, ya que garantizan trazabilidad y reducen errores en la operación logística.
 
 ### 2.3.3. User Journey Mapping
 
