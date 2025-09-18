@@ -111,11 +111,9 @@ __TB1__
         <strong>Baldeón Vivar, Santiago Armando</strong><br><br>
         <strong>TB1</strong><br>
         Me encargué del Canvas, el diseño de entrevistas, los lineamientos de estilo, wireframes, mockup, diccionario de clases, guía de estilo para el código fuente, el Sprint Backlog 1 y la edición del video. Estas tareas me ayudaron a colaborar desde distintas áreas, facilitando la documentación del avance del equipo y asegurando la calidad visual y técnica de nuestras entregas.<br><br>
-
         <strong>Vargas Javier, Jose Enrique</strong><br><br>
         <strong>TB1</strong><br>
         Contribuí parcialmente en la sección de Domain-Driven Software Architecture, participando en el bounded contexts, diccionario de clases y la organización de las capas del sistema. <br><br>
-
       </td>
       <td>
         Al haber concluido con la primera entrega, logramos coordinar tiempos y responsabilidades como equipo para apoyarnos entre todos y cumplir con todos los requisitos. Establecimos una coordinación óptima que nos permitió profundizar conocimientos y practicar nuevas habilidades con apoyo mutuo.<br><br>
@@ -127,13 +125,10 @@ __TB1__
         <strong>Baldeón Vivar, Santiago Armando</strong><br><br>
         <strong>TB1</strong><br>
         Para el TB1 organicé mis tareas a partir del backlog del equipo y coordiné con mis compañeros para poder entregar a tiempo. Siempre estuve abierto a comentarios y ofrecí ayuda cuando alguien del grupo necesitaba apoyo. Estas acciones me ayudaron a reforzar un ambiente de confianza y trabajo colaborativo, que facilitó el cumplimiento de nuestros objetivos.<br><br>
-
         <strong>Vargas Javier, Jose Enrique</strong><br><br>
         <strong>TB1</strong><br>
         Durante el TB1 participé parcialmente en el desarrollo del Capítulo IV, realizando ajustes en las secciones elaboradas para mejorar la claridad y consistencia del informe. Además, me mantuve en comunicación con mis compañeros para alinear los cambios y asegurar que la documentación reflejara adecuadamente el trabajo del equipo.<br><br>
-
       </td>
-   
       <td>
         Al término de la TB1, podemos concluir que conseguimos formar un entorno de colaboración, a través del cual podíamos realizar consultas entre compañeros mientras nos asegurábamos de cumplir con nuestros aportes a tiempo y de llegar a alcanzar nuestros objetivos de aprendizaje iniciales. Por otro lado, consideramos que la planificación, aunque siempre puede mejorarse, nos ayudó a tener suficiente tiempo como para volver a revisar ciertos detalles y mejorar la calidad de la entrega.<br><br>
       </td>
