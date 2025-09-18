@@ -25,7 +25,7 @@
 | Baldeón Vivar, Santiago Armando  | U202319881 |
 
 <div>
-  <p align="center"><b>Ciclo 2025 - 20</b></p>
+  <p align="center"><b>Ciclo 2025 - 02</b></p>
 </div>
 
 ---
@@ -112,6 +112,11 @@ __TB1__
         <strong>TB1</strong><br>
         Me encargué del Canvas, el diseño de entrevistas, los lineamientos de estilo, wireframes, mockup, diccionario de clases, guía de estilo para el código fuente, el Sprint Backlog 1 y la edición del video. Estas tareas me ayudaron a colaborar desde distintas áreas, facilitando la documentación del avance del equipo y asegurando la calidad visual y técnica de nuestras entregas.<br><br>
       </td>
+            <td>
+        <strong>Vargas Javier, Jose Enrique</strong><br><br>
+        <strong>TB1</strong><br>
+        Contribuí parcialmente en la sección de Domain-Driven Software Architecture, participando en el bounded contexts, diccionario de clases y la organización de las capas del sistema. <br><br>
+      </td>
       <td>
         Al haber concluido con la primera entrega, logramos coordinar tiempos y responsabilidades como equipo para apoyarnos entre todos y cumplir con todos los requisitos. Establecimos una coordinación óptima que nos permitió profundizar conocimientos y practicar nuevas habilidades con apoyo mutuo.<br><br>
       </td>
@@ -122,6 +127,11 @@ __TB1__
         <strong>Baldeón Vivar, Santiago Armando</strong><br><br>
         <strong>TB1</strong><br>
         Para el TB1 organicé mis tareas a partir del backlog del equipo y coordiné con mis compañeros para poder entregar a tiempo. Siempre estuve abierto a comentarios y ofrecí ayuda cuando alguien del grupo necesitaba apoyo. Estas acciones me ayudaron a reforzar un ambiente de confianza y trabajo colaborativo, que facilitó el cumplimiento de nuestros objetivos.<br><br>
+      </td>
+      <td>
+        <strong>Vargas Javier, Jose Enrique</strong><br><br>
+        <strong>TB1</strong><br>
+        Durante el TB1 participé parcialmente en el desarrollo del Capítulo IV, realizando ajustes en las secciones elaboradas para mejorar la claridad y consistencia del informe. Además, me mantuve en comunicación con mis compañeros para alinear los cambios y asegurar que la documentación reflejara adecuadamente el trabajo del equipo.<br><br>
       </td>
       <td>
         Al término de la TB1, podemos concluir que conseguimos formar un entorno de colaboración, a través del cual podíamos realizar consultas entre compañeros mientras nos asegurábamos de cumplir con nuestros aportes a tiempo y de llegar a alcanzar nuestros objetivos de aprendizaje iniciales. Por otro lado, consideramos que la planificación, aunque siempre puede mejorarse, nos ayudó a tener suficiente tiempo como para volver a revisar ciertos detalles y mejorar la calidad de la entrega.<br><br>
@@ -1305,4 +1315,52 @@ Enlace para acceder a [Miro](https://miro.com/app/board/uXjVICzj2Tg=/?share_link
 
 
 
-# 4. Capítulo IV: Product Design
+# 4. Capítulo IV: Solution Software Design
+
+## 4.1. Strategic-Level Domain-Driven Design
+
+### 4.1.1. EventStorming
+
+#### 4.1.1.1. Candidate Context Discovery
+
+#### 4.1.1.2. Domain Message Flows Modeling
+
+#### 4.1.1.3. Bounded Context Canvases
+
+## 4.1.2. Context Mapping
+
+El enfoque Domain-Driven Design (DDD) persigue que el software refleje fielmente el dominio de
+negocio, facilitando la colaboración entre desarrolladores y expertos en la materia. Para ello, DDD
+propone:
+**Lenguaje ubicuo:** un vocabulario compartido en código y comunicación que evite
+ambigüedades.
+**Bounded Contexts:** particionar el dominio en áreas autónomas, con sus propios modelos y
+límites bien definidos.
+**Patrones estratégicos** (Context Map, Anticorruption Layer) y tácticos (Entidades, Value
+Objects, Repositorios, Servicios de Dominio) que guían tanto la estructura del código como el
+diseño arquitectónico.
+
+En TrackLab, aplicar DDD nos permite aislar responsabilidades (tracking, manejo de pedidos,
+notificaciones, facturación, recursos y seguridad) y evolucionar cada parte de forma independiente sin
+perder la coherencia global.
+
+### 4.1.3. Software Architecture
+
+#### 4.1.3.1. Software Architecture Context Level Diagrams
+
+Este diagrama muestra en una única vista al sistema Tracklab, sus actores principales y los sistemas
+externos con los que interactúa:
+<div>
+  <p align="center"><img src="assets/md-images/ContextDiagram.JPG" alt="CD" width="700px" /></p>
+</div>
+
+
+#### 4.1.3.2. Software Architecture Container Level Diagrams
+
+#### 4.1.3.3. Software Architecture Deployment Diagrams
+
+### 4.2. Tactical-Level Domain-Driven Design
+
+
+
+
