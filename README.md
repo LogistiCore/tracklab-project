@@ -65,7 +65,7 @@ Github también presenta un timeline de las ramas principales y los procesos de 
 
 Se puede identificar a los integrantes como:
 - Vargas Javier Jose, Enrique: 
-- Trillo Hernandez, Anghel Melanie: 
+- Trillo Hernandez, Anghel Melanie: am27th
 - De La Cruz Moreno, Roy Hernan: 
 - Baldeón Vivar, Santiago Armando: Santibal11
 
@@ -217,8 +217,10 @@ Código: u201912401
 
 Carrera: Ingeniería de Software
 
+Estudiante de la carrera de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas (UPC), lo que me gusta de la carrera es desarrollar soluciones innovadoras que contribuyen a la sociedad. Me considero una persona responsable y orientada a resultados. Asimismo, me comprometo a colaborar en el equipo de forma continua y puntual.
+
 <div>
-  <p><img src="assets/md-images/angelo-foto.png" alt="Angelo" width="150px" /></p>
+  <p><img src="assets/md-images/anghel-foto.png" alt="Anghel Melanie Trillo Hernandez" width="150px" /></p>
 </div>
 
 #### 1.1.2.3. De La Cruz Moreno Roy Hernan
