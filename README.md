@@ -50,7 +50,7 @@ Para el desarrollo del informe pertinente a la TB1, se dividió la implementaci�
 
 | **Integrantes**                  | **Tareas asignadas** |
 | ---------------------------------|----------------------|
-| Vargas Javier Jose Enrique       |  |
+| Vargas Javier Jose Enrique       | Bounded Contexts, Diccionario de clases, Organizacion de las capas del sistema |
 | Trillo Hernandez, Anghel Melanie |  |
 | De La Cruz Moreno Roy Hernan     |  |
 | Baldeón Vivar, Santiago Armando  | Canvas, Diseño de entrevistas, style guidelines, wireframes, mockup, class dictionary, Source Code Style Guide & Conventions, Sprint Backlog 1, edición del video |
@@ -111,11 +111,11 @@ __TB1__
         <strong>Baldeón Vivar, Santiago Armando</strong><br><br>
         <strong>TB1</strong><br>
         Me encargué del Canvas, el diseño de entrevistas, los lineamientos de estilo, wireframes, mockup, diccionario de clases, guía de estilo para el código fuente, el Sprint Backlog 1 y la edición del video. Estas tareas me ayudaron a colaborar desde distintas áreas, facilitando la documentación del avance del equipo y asegurando la calidad visual y técnica de nuestras entregas.<br><br>
-      </td>
-            <td>
+       <td>
         <strong>Vargas Javier, Jose Enrique</strong><br><br>
         <strong>TB1</strong><br>
         Contribuí parcialmente en la sección de Domain-Driven Software Architecture, participando en el bounded contexts, diccionario de clases y la organización de las capas del sistema. <br><br>
+      </td>
       </td>
       <td>
         Al haber concluido con la primera entrega, logramos coordinar tiempos y responsabilidades como equipo para apoyarnos entre todos y cumplir con todos los requisitos. Establecimos una coordinación óptima que nos permitió profundizar conocimientos y practicar nuevas habilidades con apoyo mutuo.<br><br>
@@ -208,6 +208,8 @@ Visión: LogistiCore aspira a consolidarse como la solución tecnológica líder
 Código: U20221F693
 
 Carrera: Ingeniería de Software
+
+Mi nombre es Jose Enrique Vargas y estudio la carrera de Ingeniería de Software. Me motiva la posibilidad de aprender constantemente y aplicar la tecnología para resolver problemas reales en la sociedad. Mi objetivo es seguir desarrollando mis habilidades y experiencia para en un futuro aportar soluciones innovadoras.
 
 <div>
   <p><img src="assets/md-images/jose-foto.png" alt="Jose" width="150px" /></p>
