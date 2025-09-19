@@ -208,7 +208,7 @@ Carrera: Ingeniería de Software
 Mi nombre es Jose Enrique Vargas y estudio la carrera de Ingeniería de Software. Me motiva la posibilidad de aprender constantemente y aplicar la tecnología para resolver problemas reales en la sociedad. Mi objetivo es seguir desarrollando mis habilidades y experiencia para en un futuro aportar soluciones innovadoras.
 
 <div>
-  <p><img src="assets/md-images/jose-foto.png" alt="Jose" width="150px" /></p>
+  <p><img src="assets/md-images/Enrique.jpg" alt="Enrique Vargas" width="150px" /></p>
 </div>
 
 #### 1.1.2.2. Trillo Hernandez, Anghel Melanie
@@ -1482,6 +1482,34 @@ En el C2, se hace "zoom" dentro de el sistema, y se identifican los contenedores
 </div>
 
 #### 4.1.3.3. Software Architecture Deployment Diagrams
+El despliegue de la arquitectura de la solución se organiza en cuatro capas principales: usuarios, aplicaciones en la nube, datos y IoT/edge.
+
+#### Capa de Usuario
+* El Administrador accede desde un navegador web en PC o laptop. 
+
+* El Conductor utiliza la aplicación móvil para registrar entregas e incidencias.
+
+#### Capa de Aplicación
+
+* El Backend API RESTful, desplegado en un servidor en la nube, centraliza la lógica de negocio.
+
+* Un servicio de autenticación y autorización (IAM) gestiona los accesos y roles.
+
+* Un servicio de notificaciones permite la comunicación en tiempo real entre el sistema y los usuarios.
+
+#### Capa de Datos
+
+* Una base de datos relacional (PostgreSQL/MySQL) almacena información estructurada de usuarios, envíos y vehículos.
+
+* Un almacenamiento IoT guarda datos de telemetría como GPS, temperatura y humedad.
+
+#### Capa IoT/Edge
+
+* Los sensores IoT instalados en los vehículos recopilan datos de ubicación y condiciones ambientales.
+
+* Un Gateway IoT transmite la información hacia el backend utilizando protocolos seguros (HTTP/MQTT).
+
+* En conjunto, esta arquitectura asegura la comunicación fluida entre usuarios, aplicaciones y dispositivos IoT, manteniendo la integridad de los datos y habilitando el monitoreo en tiempo real.
 
 ### 4.2. Tactical-Level Domain-Driven Design
 
