@@ -1440,6 +1440,9 @@ Enlace para acceder a [Miro](https://miro.com/app/board/uXjVICzj2Tg=/?share_link
 
 ### 4.1.1. EventStorming
 
+![est](assets/md-images/f1.JPG)
+![est2](assets/md-images/f2.JPG)
+
 #### 4.1.1.1. Candidate Context Discovery
 ![db](assets/md-images/db.jpeg)
 #### 4.1.1.2. Domain Message Flows Modeling
