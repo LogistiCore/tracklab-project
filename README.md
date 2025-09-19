@@ -1324,7 +1324,7 @@ Enlace para acceder a [Miro](https://miro.com/app/board/uXjVICzj2Tg=/?share_link
 #### 4.1.1.1. Candidate Context Discovery
 
 #### 4.1.1.2. Domain Message Flows Modeling
-
+![pedidos](assets/md-images/transibilidaddepedidos.jpeg)
 #### 4.1.1.3. Bounded Context Canvases
 ![cuadro](assets/md-images/cuadro.jpeg)
 
