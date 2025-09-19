@@ -1735,3 +1735,64 @@ Expone operaciones móviles/web para la gestión de pedidos.
 <div>
   <p align="center"><img src="assets/md-images/Bounded_Context_Database_Design_Diagram.png" alt="Bounded context database" width="700px" /></p>
 </div>
+
+# 5. Conclusiones
+
+## 5.1. Conclusiones
+
+### Enfoque centrado en el usuario
+Las historias de usuario retratan de manera clara y realista las necesidades de nuestros segmentos. Consideramos tanto a quienes organizan y envían pedidos, como a quienes los reciben, logrando un enfoque integral.
+
+### Diseño orientado a la experiencia del usuario
+Nuestra landing page y aplicación web fueron diseñadas buscando máxima utilidad.  
+- **Landing page**: incluye información suficiente para que los usuarios comprendan la función y beneficios del producto sin generar dudas.  
+- **Aplicación**: incorpora secciones y funcionalidades específicas para cubrir las necesidades detectadas en los segmentos objetivo.
+
+### Impacto estratégico
+El uso del *impact map* nos permitió identificar las funcionalidades con mayor impacto en las necesidades de los usuarios. Esto guió la priorización, asignación de recursos y gestión del tiempo.
+
+### Priorización en el product backlog
+Al estructurar el backlog, logramos asignar un valor a cada tarea en función de su impacto en el cliente. Esto mejoró nuestra organización interna y la toma de decisiones sobre qué tareas abordar primero.
+
+### Diseño visual agradable y organizado
+En los wireframes y mockups se usaron patrones de diseño que muestran la información de forma clara y ordenada, evitando la sobrecarga visual. Esto facilita la navegación y acceso a secciones de interés.
+
+### Funcionalidades precisas
+Las funcionalidades implementadas en el backend permiten al usuario acceder sin dificultad a la información que necesita mediante las *queries* propuestas. La aplicación responde con rapidez y claridad.
+
+### Registro acorde con el negocio
+Se aplicaron correctamente las reglas de negocio de Tracklab:  
+- IDs no nulos.  
+- Evitar registros con datos incoherentes o incompletos.  
+
+Esto eleva el valor del producto y reduce errores de gestión en las empresas usuarias.
+
+### Aplicación de DDD
+Se aplicaron con éxito los conceptos de *Domain Driven Design*. Esto permitió:  
+- Identificar detalles importantes del negocio.  
+- Fraccionar el dominio en *bounded contexts*.  
+- Trabajar colaborativamente y de manera progresiva hasta alcanzar un resultado óptimo.
+
+---
+
+## 5.2. Recomendaciones
+
+- **Versión de prueba gratis**: habilitar una versión limitada con información precargada, accesible desde la landing page. Esto permitiría a los usuarios experimentar con la aplicación y aumentaría la conversión en suscripciones.
+
+- **Reuniones mensuales con clientes**: mantener contacto directo con representantes de empresas para recibir sugerencias de mejora y detectar problemas de uso, garantizando una evolución cercana y ajustada a sus necesidades.
+
+- **Alertas inteligentes para empresas clientes**: notificar cuando un producto buscado esté disponible o en oferta. Con IA, generar pedidos mensuales sugeridos, facilitando transacciones y atrayendo más empresas proveedoras.
+
+- **Optimización de la base de datos**: incluir herramientas adicionales que aseguren rendimiento incluso con grandes volúmenes de datos, evitando ralentizaciones que afecten la experiencia de uso.
+
+- **Sistema de cámaras en transportes de carga**: implementar monitoreo inteligente para detectar movimientos irregulares o riesgos. Esto permitiría prevenir accidentes y localizar paquetes desviados en tiempo real.
+
+# 6. Bibliografía 
+
+Esan. (s.f.). Los problemas más comunes en la distribución física de productos. https://www.esan.edu.pe/conexion-esan/los-problemas-mas-comunes-en-la-distribucion-fisica-de-productos
+
+Superintendencia Nacional de Aduanas y de Administración Tributaria (SUNAT). (2023). Estudio de tiempos de despacho - Perú 2023: Informe. https://cdn.www.gob.pe/uploads/document/file/5402455/4763608-estudio-de-tiempos-de-despacho-peru-2023-informe.pdf
+
+# 7. Anexos 
+
+Para acceder a los diferentes recursos del proyecto, puedes visitar los siguientes enlaces:
