@@ -1483,6 +1483,9 @@ En el C2, se hace "zoom" dentro de el sistema, y se identifican los contenedores
 
 #### 4.1.3.3. Software Architecture Deployment Diagrams
 El despliegue de la arquitectura de la solución se organiza en cuatro capas principales: usuarios, aplicaciones en la nube, datos y IoT/edge.
+<div>
+  <p align="center"><img src="assets/md-images/DeploymentD.png" alt="CD" width="700px" /></p>
+</div>
 
 #### Capa de Usuario
 * El Administrador accede desde un navegador web en PC o laptop. 
