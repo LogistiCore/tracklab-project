@@ -232,7 +232,7 @@ Carrera: Ingeniería de Software
 Soy Roy De La Cruz Moreno. Estudió la carrera de Ingeniería de Software. Considero que soy una persona tranquila y atenta al escuchar las propuestas de los demás integrantes del equipo, ademas tengo conocimientos en SQL, NoSQL y C++.
 
 <div>
-  <p><img src="assets/md-images/foto.jpg" alt="Sergio" width="150px" /></p>
+  <p><img src="assets/md-images/foto.jpeg" alt="Roy" width="150px" /></p>
 </div>
 
 #### 1.1.2.4. Santiago Armando Baldeón Vivar
