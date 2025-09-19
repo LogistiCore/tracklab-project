@@ -1485,6 +1485,222 @@ En el C2, se hace "zoom" dentro de el sistema, y se identifican los contenedores
 
 ### 4.2. Tactical-Level Domain-Driven Design
 
+#### 4.2.1. Bounded context: Operaciones Logisticas
 
+#### 4.2.1.1. Domain Layer
 
+### Aggregates
 
+#### Pedido
+Representa la orden de compra solicitada por una empresa cliente para iniciar un envío.
+- **Atributos**
+  - id: UUID
+  - clientId: UUID
+  - detalles: String
+  - fechaSolicitud: LocalDateTime
+  - estado: EstadoPedido
+- **Funciones**
+  - Pedido(CreatePedidoCommand command)
+  - getDetalles(): String
+  - getEstado(): EstadoPedido
+  - confirmar()
+  - cancelar()
+
+#### Carga
+Representa la carga física a transportar, incluyendo datos de verificación.
+- **Atributos**
+  - id: UUID
+  - pedidoId: UUID
+  - descripcion: String
+  - fotos: List<Foto>
+  - codigoQR: QRCode
+  - estado: EstadoCarga
+- **Funciones**
+  - Carga(RegisterCargaCommand command)
+  - verificarConQR(QRCode code): Boolean
+  - agregarFoto(Foto foto)
+  - actualizarEstado(EstadoCarga estado)
+
+#### Envío
+Representa el traslado de la carga desde origen hasta destino, registrando ubicación y estado.
+- **Atributos**
+  - id: UUID
+  - cargaId: UUID
+  - ubicacionActual: GPSLocation
+  - historialEstados: List<EstadoEnvio>
+  - fechaInicio: LocalDateTime
+  - fechaEntrega: LocalDateTime?
+- **Funciones**
+  - Envio(CreateEnvioCommand command)
+  - actualizarUbicacion(GPSLocation location)
+  - registrarIncidencia(Incidencia incidencia)
+  - marcarEntregado()
+
+#### Cliente
+Representa a la empresa cliente que solicita y recibe envíos.
+- **Atributos**
+  - id: UUID
+  - nombreEmpresa: String
+  - contacto: ContactInfo
+- **Funciones**
+  - Cliente(CreateClienteCommand command)
+  - getNombreEmpresa(): String
+
+#### Empresa Logística
+Representa a la compañía responsable de ejecutar y monitorear los envíos.
+- **Atributos**
+  - id: UUID
+  - nombre: String
+  - usuarios: List<User>
+- **Funciones**
+  - EmpresaLogistica(CreateEmpresaLogisticaCommand command)
+  - asignarUsuario(User user)
+
+#### Incidencia
+Representa un evento inesperado durante el traslado de un envío.
+- **Atributos**
+  - id: UUID
+  - envioId: UUID
+  - descripcion: String
+  - fecha: LocalDateTime
+  - fotos: List<Foto>
+- **Funciones**
+  - Incidencia(CreateIncidenciaCommand command)
+  - agregarFoto(Foto foto)
+
+### Value Objects
+
+#### EstadoPedido
+Encapsula los posibles estados de un pedido: Pendiente, Confirmado, Cancelado.
+- **Atributos**
+  - value: String
+- **Funciones**
+  - EstadoPedido(value: String)
+  - getValue(): String
+
+#### EstadoCarga
+Encapsula las fases de la carga: Registrada, Verificada, En tránsito, Entregada.
+- **Atributos**
+  - value: String
+- **Funciones**
+  - EstadoCarga(value: String)
+  - getValue(): String
+
+#### GPSLocation
+Representa la ubicación geográfica de un envío.
+- **Atributos**
+  - lat: Double
+  - lng: Double
+- **Funciones**
+  - GPSLocation(lat: Double, lng: Double)
+
+#### QRCode
+Representa el código QR usado para verificar carga y entrega.
+- **Atributos**
+  - value: String
+- **Funciones**
+  - QRCode(value: String)
+
+## 4.2.1.2. Interface Layer
+
+### PedidosController
+Expone operaciones móviles/web para la gestión de pedidos.
+- **Funciones**
+  - createPedido(CreatePedidoCommand)
+  - getPedidoById(UUID)
+  - confirmarPedido(UUID)
+  - cancelarPedido(UUID)
+
+### CargasController
+- **Funciones**
+  - registerCarga(RegisterCargaCommand)
+  - verificarCarga(UUID, QRCode)
+  - agregarFoto(UUID, Foto)
+
+### EnviosController
+- **Funciones**
+  - createEnvio(CreateEnvioCommand)
+  - actualizarUbicacion(UUID, GPSLocation)
+  - registrarIncidencia(CreateIncidenciaCommand)
+  - marcarEntregado(UUID)
+
+### ClientesController
+- **Funciones**
+  - createCliente(CreateClienteCommand)
+  - getClienteById(UUID)
+
+### EmpresasLogisticasController
+- **Funciones**
+  - createEmpresaLogistica(CreateEmpresaLogisticaCommand)
+  - asignarUsuario(UUID, User)
+
+## 4.2.1.3. Application Layer
+
+### Commands
+- **CreatePedidoCommand**
+  - Atributos: clientId: UUID, detalles: String
+- **RegisterCargaCommand**
+  - Atributos: pedidoId: UUID, descripcion: String, fotos: List<Foto>, codigoQR: QRCode
+- **CreateEnvioCommand**
+  - Atributos: cargaId: UUID, fechaInicio: LocalDateTime
+- **CreateClienteCommand**
+  - Atributos: nombreEmpresa: String, contacto: ContactInfo
+- **CreateEmpresaLogisticaCommand**
+  - Atributos: nombre: String
+- **CreateIncidenciaCommand**
+  - Atributos: envioId: UUID, descripcion: String, fotos: List<Foto>
+
+## 4.2.1.4. Infrastructure Layer
+
+### Repositories
+
+#### PedidoRepository
+- **Funciones**
+  - findById(UUID): Optional<Pedido>
+  - save(Pedido): Pedido
+  - delete(Pedido): void
+
+#### CargaRepository
+- **Funciones**
+  - findById(UUID): Optional<Carga>
+  - save(Carga): Carga
+
+#### EnvioRepository
+- **Funciones**
+  - findById(UUID): Optional<Envio>
+  - save(Envio): Envio
+
+#### ClienteRepository
+- **Funciones**
+  - findById(UUID): Optional<Cliente>
+  - save(Cliente): Cliente
+
+#### EmpresaLogisticaRepository
+- **Funciones**
+  - findById(UUID): Optional<EmpresaLogistica>
+  - save(EmpresaLogistica): EmpresaLogistica
+
+#### IncidenciaRepository
+- **Funciones**
+  - findById(UUID): Optional<Incidencia>
+  - save(Incidencia): Incidencia
+
+#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+<div>
+  <p align="center"><img src="assets/md-images/Bounded_Context_Software_Architecture_Component_Level_Diagrams.png" alt="Bounded context software component" width="700px" /></p>
+</div>
+
+#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+<div>
+  <p align="center"><img src="assets/md-images/Bounded_Context_Domain_Layer_Class_Diagrams.png" alt="Bounded context domain class" width="700px" /></p>
+</div>
+
+#### 4.2.1.6.2. Bounded Context Database Design Diagram
+
+<div>
+  <p align="center"><img src="assets/md-images/Bounded_Context_Database_Design_Diagram.png" alt="Bounded context database" width="700px" /></p>
+</div>
