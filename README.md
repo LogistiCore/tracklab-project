@@ -1441,7 +1441,7 @@ Enlace para acceder a [Miro](https://miro.com/app/board/uXjVICzj2Tg=/?share_link
 ### 4.1.1. EventStorming
 
 #### 4.1.1.1. Candidate Context Discovery
-
+![db](assets/md-images/db.jpeg)
 #### 4.1.1.2. Domain Message Flows Modeling
 ![pedidos](assets/md-images/transibilidad.jpeg)
 #### 4.1.1.3. Bounded Context Canvases
