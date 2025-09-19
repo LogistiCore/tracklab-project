@@ -1482,7 +1482,20 @@ En el C2, se hace "zoom" dentro de el sistema, y se identifican los contenedores
 </div>
 
 #### 4.1.3.3. Software Architecture Deployment Diagrams
-
+![pedidos](assets/md-images/aws.jpeg)
+- **Dispositivos**
+  - Los usuarios acceden al sistema a través de navegadores web (desde dispositivos PC/Mac) que se conectan a la Landing Page.
+  - También se utiliza una aplicación móvil nativa (para dispositivos Android/iOS) que se comunica directamente con el Web Service (API REST App).
+  - Adicionalmente, los navegadores móviles también pueden acceder a la Landing Page.
+- **AWS Cloud Service (Backend)**
+  - Landing Page: Esta página web es el punto de entrada para los usuarios que acceden desde navegadores. Sirve como la interfaz inicial del usuario para la información del producto y el inicio de sesión.
+  - Web Service (API REST App): Este es el servicio backend principal que maneja la lógica de negocio central de TrackLab. Recibe peticiones de la aplicación móvil nativa y también puede ser consumido internamente por la Landing Page para ciertas funcionalidades.
+  - SQL Database Server: Una base de datos gestionada que se encarga del almacenamiento persistente de todos los datos del sistema TrackLab. Este servidor de base de datos se comunica con el Web Service (API REST App).
+- **Comunicacion**
+  - La aplicación móvil nativa se comunica directamente con el Web Service (API REST App) mediante peticiones HTTP para todas las interacciones de la lógica de negocio.
+  - Los navegadores web (tanto en PC/Mac como en dispositivos móviles) acceden a la Landing Page utilizando HTTP.
+  - La Landing Page, a su vez, puede consumir servicios del Web Service (API REST App) internamente para obtener datos o enviar información, también a través de HTTP.
+  - El Web Service (API REST App) interactúa con el SQL Database Server para leer y escribir datos, utilizando una comunicación interna y segura dentro de AWS.
 ### 4.2. Tactical-Level Domain-Driven Design
 
 #### 4.2.1. Bounded context: Operaciones Logisticas
