@@ -314,21 +314,20 @@ Implementar un sistema de seguimiento mediante una aplicación móvil como Logis
 
 Nuestra solución busca proveer un espacio digital a través de una aplicación móvil mediante el cual puedan registrarse los pasos que deben ser realizados para asegurar el correcto traslado de un paquete desde su embarque hasta su llegada al lugar indicado.
 
-Hemos observado que, al no contar con un registro adecuado de los paquetes a enviar y sus requerimientos de traslado, suelen ocurrir errores al momento del empaquetado y colocación de los mismos en su transporte correspondiente, lo que repercute en la calidad de la entrega final.
+Hemos observado que los operadores logísticos no registran adecuadamente los paquetes y requisitos de traslado, lo que causa errores en empaquetado y colocación en transportes incorrectos, repercutiendo en la calidad de la entrega final y generando pérdidas económicas.
 
-__¿Cómo puede nuestra aplicación registrar el cumplimiento de cada fase de traslado del paquete?__
-
+__¿Cómo podríamos mejorar el registro de fases para que los operadores reduzcan errores en un 50% según métricas de entregas exitosas?__
 Nuestra solución busca que ambas empresas involucradas puedan observar la posición geográfica del paquete trasladado, su estado y su fecha prevista de llegada de forma sencilla y en cualquier momento a través de la app móvil.
 
-Hemos observado que las empresas receptoras se ven afectadas en sus operaciones al no saber con certeza cuándo llegará el paquete solicitado, así como la empresa proveedora ve su imagen perjudicada a falta de información en base a la cual tomar decisiones. 
+Hemos observado que las empresas emisoras y receptoras carecen de acceso en tiempo real a la ubicación y estado de los paquetes, lo que afecta operaciones, decisiones y la imagen corporativa debido a incertidumbre y demoras.
 
-__¿Cómo podemos permitir que ambas empresas tengan acceso a la ubicación e información general de un paquete en tiempo real mediante un dispositivo móvil?__
+__¿Cómo podríamos proporcionar visibilidad compartida para reducir reclamos por incertidumbre en un 40% basado en encuestas de satisfacción?__
 
 Nuestra solución busca proveer un sistema de verificación mediante QR en la app para asegurar que los paquetes son ingresados al vehículo correcto y que, por ende, son trasladados al destino solicitado.
 
-Hemos observado que el no contar con un sistema de verificación al embarcar el vehículo hace probable que se presenten errores dada la cantidad de envíos siendo colocados simultáneamente. Esto puede llegar a repercutir en que se envíen paquetes a destinos incorrectos, ocasionando problemas entre las empresas y pérdidas de tiempo y dinero.
+Hemos observado que sin verificación al embarcar vehículos, ocurren errores por carga simultánea de múltiples envíos, resultando en entregas a destinos incorrectos y costos adicionales.
 
-__¿Cómo podemos implementar un sistema de verificación mediante QRs en una aplicación móvil que asegure que cada paquete está siendo embarcado hacia el destino correcto?__
+__¿Cómo podríamos implementar verificación digital para disminuir envíos erróneos en un 70% medido por reportes de incidencias?__
 
 #### 1.2.2.2. Lean UX Assumptions
 
@@ -376,33 +375,33 @@ Nuestra aplicación debe contar con una interfaz intuitiva, visual y de fácil u
 
 Hypothesis Statement 01
 
-**Creemos** que los supervisores y operadores logísticos estarán dispuestos a adoptar nuestra aplicación móvil para registrar digitalmente cada fase del envío.  
+**Creemos** que permitir el registro digital de fases del envío resultará en mayor adopción por supervisores y operadores.  
 **Sabremos** que hemos tenido éxito  
-**cuando** al menos el 80% de los usuarios activos registren el seguimiento completo de los envíos en la primera etapa de implementación.
+**cuando** al menos el 80% de usuarios activos registren envíos completos en la primera etapa de implementación.
 
 Hypothesis Statement 02
 
-**Creemos** que permitir el acceso compartido a la información del envío entre empresas emisoras y receptoras mejorará la coordinación y reducirá malentendidos.  
+**Creemos** que el acceso compartido a información de envíos resultará en mejor coordinación y menos malentendidos entre empresas.
 **Sabremos** que hemos tenido éxito  
-**cuando** se observe una reducción del 40% en reclamos o llamadas de seguimiento por parte de empresas receptoras.
+**cuando** se reduzca en un 40% los reclamos o llamadas de seguimiento, medido por logs de soporte.
 
 Hypothesis Statement 03
 
-**Creemos** que el uso de códigos QR en puntos críticos de carga y descarga disminuirá errores en la asignación de destinos.  
+**Creemos** que la verificación con códigos QR en carga/descarga resultará en menos errores de asignación.
 **Sabremos** que hemos tenido éxito  
-**cuando** se logre una reducción del 70% en entregas erróneas o envíos extraviados durante los primeros tres meses.
+**cuando** se reduzca en un 70% las entregas erróneas en los primeros tres meses, basado en reportes de incidencias.
 
 Hypothesis Statement 04
 
-**Creemos** que mostrar la ubicación y estado del envío en tiempo real aumentará la confianza del cliente y reducirá la incertidumbre operativa.  
+**Creemos** que mostrar ubicación y estado en tiempo real resultará en mayor confianza y menos incertidumbre operativa. 
 **Sabremos** que hemos tenido éxito  
-**cuando** se registre una mejora del 35% en la satisfacción del cliente en encuestas posteriores a la entrega.
+**cuando** la satisfacción del cliente mejore en un 35%, según encuestas post-entrega.
 
 Hypothesis Statement 05
 
-**Creemos** que generar alertas automáticas ante retrasos, desvíos o fallas permitirá acciones preventivas más rápidas por parte del equipo logístico.  
+**Creemos** que alertas automáticas ante incidencias resultarán en respuestas más rápidas.  
 **Sabremos** que hemos tenido éxito  
-**cuando** el tiempo promedio de respuesta ante incidentes logísticos se reduzca en un 40%.
+**cuando** el tiempo promedio de respuesta se reduzca en un 40%, tracked por notificaciones en la app.
 
 Hypothesis Statement 06
 
@@ -1024,7 +1023,25 @@ El análisis de las entrevistas revela una serie de características comunes que
 
 5. **Apertura a la transformación digital**: Ambos segmentos demuestran una fuerte disposición para incorporar **soluciones tecnológicas** que centralicen la gestión logística, agilicen el registro de solicitudes, permitan monitorear el progreso de las operaciones y generen reportes automáticos. Se destaca la importancia de contar con una herramienta **intuitiva**, **adaptable a contextos con baja conectividad** y con **funcionalidad offline** para garantizar la continuidad operativa en zonas remotas.
 
-Este análisis considera tanto características **objetivas** (tiempos dedicados, herramientas utilizadas, métricas) como características **subjetivas** (dificultades operativas, nivel de satisfacción y expectativas), proporcionando una base robusta para el diseño de soluciones digitales y la construcción de **arquetipos de usuario** que respondan a las necesidades reales de ambos.
+    Este análisis considera tanto características **objetivas** (tiempos dedicados, herramientas utilizadas, métricas) como características **subjetivas** (dificultades operativas, nivel de satisfacción y expectativas), proporcionando una base robusta para el diseño de soluciones digitales y la construcción de **arquetipos de usuario** que respondan a las necesidades reales de ambos.
+
+
+### Insights Identificados
+
+1. **Dependencia manual genera ineficiencia**: 
+    El 100% de entrevistados usa Excel/correo/manuales, causando duplicidad y errores (insight: priorizar automatización offline para reducir tiempo de planificación en 50%).
+
+2. **Imprevistos afectan 30-40% de operaciones**:  
+    Clima/cambios prioritarios obligan replanificación; insight: integrar alertas GPS y notificaciones para respuestas proactivas, reduciendo impacto en 30%.
+
+3. **Falta de visibilidad causa frustración**:  
+    Clientes no rastrean en real-time, generando reclamos; insight: dashboard compartido podría aumentar satisfacción en 35%, validado por disposición alta a tech.
+
+4. **Comunicación ineficiente es bottleneck**:  
+    Canales verbales/correo retrasan validaciones; insight: chat integrado o status updates automáticos para cortar cuellos de botella.
+
+5. **Alta disposición a adopción si simple**:  
+    Todos valoran exactitud/visibilidad, pero necesitan robustez offline; insight: enfocar UX intuitiva para adopción rápida en zonas remotas.
 
 - video de entrevistas :[https://drive.google.com/file/d/1EmhqOBzWtVKcfsdwAvuag5Rv_YjDLzFW/view](https://drive.google.com/file/d/1EmhqOBzWtVKcfsdwAvuag5Rv_YjDLzFW/view?usp=sharing)
 
@@ -1306,8 +1323,8 @@ Las epics y user stories nos sirven para traducir aquellas ideas y necesidades q
 
 | Epic/User Story ID | Título                               | Descripción                                                                                                                                           | Criterios de aceptación D | Criterios de aceptación |
 |--------------------|---------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|-------------------------|
-| EP01               | Contacto                             | Como visitante de la landing page Quiero ponerme en contacto con los desarrolladores de la aplicación TrackLab Para hacerles llegar mis sugerencias y consultas en cuanto a su producto. | No corresponde            | No corresponde          |
-| EP02               | Información sobre la aplicación      | Como visitante de la landing page quiero tener acceso a una sección de preguntas frecuentes en dónde se expliquen las funcionalidades y beneficios de la aplicación Para comprender el propósito del producto y usarlo de forma óptima. | No corresponde            | No corresponde          |
+| EP01               | Contactar a la startup               | Como visitante de la landing page Quiero ponerme en contacto con los desarrolladores de la aplicación TrackLab Para hacerles llegar mis sugerencias y consultas en cuanto a su producto. | No corresponde            | No corresponde          |
+| EP02               | Obtener información sobre la app     | Como visitante de la landing page quiero tener acceso a una sección de preguntas frecuentes en dónde se expliquen las funcionalidades y beneficios de la aplicación Para comprender el propósito del producto y usarlo de forma óptima. | No corresponde            | No corresponde          |
 | EP03               | Conectar la landing page con la aplicación | Como visitante de la landing page Quiero ingresar a diferentes secciones de la aplicación a través de componentes Para utilizar las funciones y beneficios ofrecidas por TrackLab. | No corresponde            | No corresponde          |
 | EP04               | Registrar solicitud de envío         | Como administrador de la empresa cliente Quiero registrar solicitudes de envío de carga desde la aplicación móvil TrackLab Para que la empresa proveedora las reciba y procese. | - Formulario accesible desde la app.<br>- Validación de datos obligatorios.<br>- Confirmación visual al enviar. | La solicitud queda registrada en el sistema y se notifica al usuario. |
 | EP05               | Procesar solicitud de envío          | Como administrador de la empresa proveedora Quiero procesar las solicitudes de envío recibidas en la aplicación móvil Para preparar los pedidos según los requisitos del cliente. | - Notificación en la app al recibir nueva solicitud.<br>- Opción de aceptar/rechazar.<br>- Actualización automática de estado. | El estado de la solicitud se refleja en tiempo real en la app. |
@@ -1316,13 +1333,13 @@ Las epics y user stories nos sirven para traducir aquellas ideas y necesidades q
 | EP08               | Registro de usuarios                 | Como administrador de la empresa proveedora o cliente Quiero registrarme en la aplicación móvil TrackLab Para acceder a todas sus funcionalidades. | - Registro con correo, teléfono o cuenta corporativa.<br>- Validación de identidad.<br>- Acceso tras confirmación por SMS o correo. | El usuario logra registrarse y acceder a la aplicación. |
 | EP09               | Visualización de panel de gestión    | Como administrador de la empresa cliente Quiero acceder al panel de gestión en la aplicación móvil Para revisar información del estado y localización de mis envíos. | - Lista de envíos activos.<br>- Filtros de búsqueda.<br>- Actualización automática de estados. | El usuario puede consultar el estado de cualquier envío en el panel. |
 | EP10               | Confirmación de entrega              | Como administrador de la empresa proveedora o cliente Quiero confirmar en la app móvil si la entrega fue realizada exitosamente Para cerrar el envío. | - Transportista marca entrega como completada.<br>- Cliente puede confirmar o rechazar.<br>- Evidencia con firma digital o foto. | El sistema guarda evidencia y marca el envío como cerrado. |
-| US01 | Contactar a la startup | Como visitante de la landing page Quiero contar con un medio desde mi celular para escribirle a los desarrolladores Para hacerles llegar mis comentarios y sugerencias en cuanto a la aplicación | **Escenario 1:** Ingresar a opción de mensajes. Dado que el visitante ha ingresado desde su móvil al landing page, Cuando seleccione “Enviar sugerencia”, Entonces el sistema abrirá un formulario móvil optimizado.<br>**Escenario 2:** Enviar mensaje. Dado que el visitante está en el formulario, Cuando escriba el mensaje y presione “Enviar”, Entonces el sistema enviará el mensaje al correo de los desarrolladores y mostrará una confirmación en pantalla. | EP01 |
-| US02 | Obtener información sobre el uso de la aplicación | Como visitante de la landing page Quiero acceder desde mi dispositivo móvil a una sección que explique funcionalidades y beneficios Para comprender el propósito del producto y usarlo de forma óptima | **Escenario 1:** Visualizar sección informativa. Dado que el visitante accedió a la landing page en su móvil, Cuando seleccione el ícono de ayuda (?), Entonces el sistema mostrará una pantalla optimizada con la información de funcionalidades y beneficios. | EP02 |
+| US01 | Enviar sugerencia desde en mobile | Como visitante de la landing page Quiero contar con un medio desde mi celular para escribirle a los desarrolladores Para hacerles llegar mis comentarios y sugerencias en cuanto a la aplicación | **Escenario 1:** Ingresar a opción de mensajes. Dado que el visitante ha ingresado desde su móvil al landing page, Cuando seleccione “Enviar sugerencia”, Entonces el sistema abrirá un formulario móvil optimizado.<br>**Escenario 2:** Enviar mensaje. Dado que el visitante está en el formulario, Cuando escriba el mensaje y presione “Enviar”, Entonces el sistema enviará el mensaje al correo de los desarrolladores y mostrará una confirmación en pantalla. | EP01 |
+| US02 | Visualizar info de uso en mobile | Como visitante de la landing page Quiero acceder desde mi dispositivo móvil a una sección que explique funcionalidades y beneficios Para comprender el propósito del producto y usarlo de forma óptima | **Escenario 1:** Visualizar sección informativa. Dado que el visitante accedió a la landing page en su móvil, Cuando seleccione el ícono de ayuda (?), Entonces el sistema mostrará una pantalla optimizada con la información de funcionalidades y beneficios. | EP02 |
 | US03 | Acceder a la aplicación desde el landing page | Como visitante de la landing page Quiero ingresar a la aplicación desde mi celular Para acceder fácilmente a las funcionalidades | **Escenario 1:** Ingreso exitoso. Dado que el visitante ha ingresado al landing page desde su móvil, Cuando seleccione “Iniciar sesión” e ingrese usuario y contraseña correctos, Entonces el sistema abrirá la app y lo llevará a su cuenta.<br>**Escenario 2:** Error en el ingreso. Dado que el visitante ingresa datos erróneos, Entonces la app mostrará el mensaje “Datos incorrectos, reintente” en pantalla móvil. | EP03 |
-| US04 | Ingreso como cliente | Como administrador de la empresa cliente Quiero ingresar a la aplicación móvil con mi cuenta Para revisar pedidos anteriores y realizar nuevos | **Escenario 1:** Ingreso exitoso. Dado que el administrador abre la app en su móvil, Cuando ingrese usuario y contraseña correctos, Entonces el sistema permitirá su acceso mostrando las opciones de cliente.<br>**Escenario 2:** Error en ingreso. Dado que el administrador ingresa credenciales inválidas, Entonces la app mostrará un mensaje de advertencia.<br>**Escenario 3:** Múltiples intentos fallidos. Dado que el administrador falla 5 veces, Entonces la app mostrará “Cuenta bloqueada por exceso de intentos” y bloqueará el acceso. | EP04 |
-| US05 | Visualización de productos disponibles | Como administrador de la empresa cliente Quiero visualizar los productos disponibles en la app móvil Para decidir cuáles comprar | **Escenario 1:** Acceder a productos. Dado que el cliente ingresó a la app, Cuando seleccione “Productos” en el menú, Entonces la app mostrará un listado en formato tarjeta.<br>**Escenario 2:** Ver detalles. Dado que el cliente está en productos, Cuando seleccione uno, Entonces la app mostrará su perfil con fotos y descripción.<br>**Escenario 3:** Agregar producto a pedido. Dado que el cliente está en el perfil de producto, Cuando ingrese cantidad y seleccione “Agregar a pedido”, Entonces el producto quedará guardado como parte del pedido. | EP04 |
-| US06 | Filtrado de productos por nombre o categoría | Como administrador de la empresa cliente Quiero filtrar productos en la app móvil por nombre o categoría Para encontrarlos más rápido | **Escenario 1:** Acceder a productos. Dado que el cliente ingresó a la app, Cuando seleccione “Productos”, Entonces la app mostrará la lista.<br>**Escenario 2:** Búsqueda por nombre. Dado que el cliente escribe texto en la barra superior y presiona la lupa, Entonces la app mostrará coincidencias.<br>**Escenario 3:** Filtrar por categoría. Dado que el cliente selecciona una categoría en el menú desplegable, Entonces la app mostrará solo esos productos.<br>**Escenario 4:** Sin coincidencias. Dado que la búsqueda no encuentra resultados, Entonces la app mostrará “No se han encontrado coincidencias”. | EP04 |
-| US07 | Registro de datos de envío | Como administrador de la empresa cliente Quiero registrar los datos de mi envío en la app móvil Para que llegue exactamente como lo deseo | **Escenario 1:** Realizar pedido. Dado que el cliente abre “Realizar pedido” en la app, Entonces la app mostrará la lista de productos seleccionados.<br>**Escenario 2:** Eliminar productos. Dado que el cliente presiona el ícono de basurero junto a un producto, Entonces la app lo quitará del pedido.<br>**Escenario 3:** Registrar datos. Dado que el cliente selecciona “Datos de envío” y completa dirección, contacto y correo en formularios móviles, Entonces la app registrará su pedido tras aceptar términos y precio.<br>**Escenario 4:** Registro incorrecto. Dado que los datos son inválidos, Entonces la app mostrará “Datos inválidos ingresados, intente nuevamente”. | EP04 |
+| US04 | Ingresar como cliente | Como administrador de la empresa cliente Quiero ingresar a la aplicación móvil con mi cuenta Para revisar pedidos anteriores y realizar nuevos | **Escenario 1:** Ingreso exitoso. Dado que el administrador abre la app en su móvil, Cuando ingrese usuario y contraseña correctos, Entonces el sistema permitirá su acceso mostrando las opciones de cliente.<br>**Escenario 2:** Error en ingreso. Dado que el administrador ingresa credenciales inválidas, Entonces la app mostrará un mensaje de advertencia.<br>**Escenario 3:** Múltiples intentos fallidos. Dado que el administrador falla 5 veces, Entonces la app mostrará “Cuenta bloqueada por exceso de intentos” y bloqueará el acceso. | EP04 |
+| US05 | Visualizar productos disponibles | Como administrador de la empresa cliente Quiero visualizar los productos disponibles en la app móvil Para decidir cuáles comprar | **Escenario 1:** Acceder a productos. Dado que el cliente ingresó a la app, Cuando seleccione “Productos” en el menú, Entonces la app mostrará un listado en formato tarjeta.<br>**Escenario 2:** Ver detalles. Dado que el cliente está en productos, Cuando seleccione uno, Entonces la app mostrará su perfil con fotos y descripción.<br>**Escenario 3:** Agregar producto a pedido. Dado que el cliente está en el perfil de producto, Cuando ingrese cantidad y seleccione “Agregar a pedido”, Entonces el producto quedará guardado como parte del pedido. | EP04 |
+| US06 | Filtrar productos por nombre/categoría | Como administrador de la empresa cliente Quiero filtrar productos en la app móvil por nombre o categoría Para encontrarlos más rápido | **Escenario 1:** Acceder a productos. Dado que el cliente ingresó a la app, Cuando seleccione “Productos”, Entonces la app mostrará la lista.<br>**Escenario 2:** Búsqueda por nombre. Dado que el cliente escribe texto en la barra superior y presiona la lupa, Entonces la app mostrará coincidencias.<br>**Escenario 3:** Filtrar por categoría. Dado que el cliente selecciona una categoría en el menú desplegable, Entonces la app mostrará solo esos productos.<br>**Escenario 4:** Sin coincidencias. Dado que la búsqueda no encuentra resultados, Entonces la app mostrará “No se han encontrado coincidencias”. | EP04 |
+| US07 | Registrar datos de envío | Como administrador de la empresa cliente Quiero registrar los datos de mi envío en la app móvil Para que llegue exactamente como lo deseo | **Escenario 1:** Realizar pedido. Dado que el cliente abre “Realizar pedido” en la app, Entonces la app mostrará la lista de productos seleccionados.<br>**Escenario 2:** Eliminar productos. Dado que el cliente presiona el ícono de basurero junto a un producto, Entonces la app lo quitará del pedido.<br>**Escenario 3:** Registrar datos. Dado que el cliente selecciona “Datos de envío” y completa dirección, contacto y correo en formularios móviles, Entonces la app registrará su pedido tras aceptar términos y precio.<br>**Escenario 4:** Registro incorrecto. Dado que los datos son inválidos, Entonces la app mostrará “Datos inválidos ingresados, intente nuevamente”. | EP04 |
 | US08 | Confirmación de pedido realizado | Como administrador de la empresa cliente Quiero recibir confirmación en mi móvil de que el pedido fue registrado Para estar seguro de que llegará como lo especifiqué | **Escenario 1:** Pedido correcto. Dado que el cliente realizó un pedido, Cuando el sistema lo registre, Entonces la app mostrará “Pedido realizado y envío en proceso” y enviará una notificación push.<br>**Escenario 2:** Pedido fallido. Dado que el sistema no logró registrar, Entonces la app mostrará “No se pudo registrar su pedido, inténtelo de nuevo más tarde”. | EP04 |
 | US09 | Recepción de solicitud | Como administrador de la empresa proveedora Quiero recibir en la app una notificación push al llegar una nueva solicitud de envío Para procesarla rápidamente | **Escenario 1:** Notificación de solicitud. Dado que el proveedor está registrado en la app, Cuando un cliente registre un envío, Entonces la app enviará una notificación push.<br>**Escenario 2:** Ingreso a solicitud. Dado que el proveedor selecciona la notificación o entra a “Notificaciones” en la app, Entonces podrá ver los datos del cliente y detalles del envío. | EP05 |
 | US10 | Solicitud en almacén | Como administrador de la empresa proveedora Quiero enviar la solicitud al almacén desde la app móvil Para que se prepare la entrega | **Escenario 1:** Crear solicitud. Dado que el proveedor está en la app, Cuando seleccione “Agregar solicitud a almacén”, Entonces la app mostrará un formulario.<br>**Escenario 2:** Completar correctamente. Dado que el proveedor llena código, productos, cantidad y dirección válidos, Cuando presione “Guardar solicitud”, Entonces la app mostrará “Solicitud guardada”.<br>**Escenario 3:** Completar incorrectamente. Dado que el proveedor ingresa datos inválidos, Entonces la app mostrará “Los datos ingresados no son válidos”.<br>**Escenario 4:** Envío de solicitudes. Dado que el proveedor completó varias solicitudes válidas, Cuando presione “Enviar solicitudes”, Entonces la app las enviará al almacén y se notificará al responsable. | EP05 |
