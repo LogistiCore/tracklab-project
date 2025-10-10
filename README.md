@@ -364,63 +364,65 @@ Nuestra aplicación debe contar con una interfaz intuitiva, visual y de fácil u
 
 Hypothesis Statement 01
 
-**Creemos** que permitir el registro digital de fases del envío resultará en mayor adopción por supervisores y operadores.  
-**Sabremos** que hemos tenido éxito  
-**cuando** al menos el 80% de usuarios activos registren envíos completos en la primera etapa de implementación.
+**Creemos** que permitir el seguimiento en tiempo real de los envíos a través de la aplicación móvil resultará en una mayor transparencia y confianza entre las empresas emisoras y receptoras.  
+**Sabremos** que hemos tenido éxito
+**cuando** al menos el 80% de los envíos activos sean monitoreados durante todo su trayecto en los primeros tres meses.
 
 Hypothesis Statement 02
 
-**Creemos** que el acceso compartido a información de envíos resultará en mejor coordinación y menos malentendidos entre empresas.
-**Sabremos** que hemos tenido éxito  
-**cuando** se reduzca en un 40% los reclamos o llamadas de seguimiento, medido por logs de soporte.
+**Creemos** que permitir el registro digital de cada fase del envío (empaque, salida, tránsito y entrega) resultará en una reducción significativa de errores y pérdidas de paquetes.  
+**Sabremos** que hemos tenido éxito
+**cuando** los errores logísticos disminuyan en un 40% en el primer trimestre.
 
 Hypothesis Statement 03
 
-**Creemos** que la verificación con códigos QR en carga/descarga resultará en menos errores de asignación.
-**Sabremos** que hemos tenido éxito  
-**cuando** se reduzca en un 70% las entregas erróneas en los primeros tres meses, basado en reportes de incidencias.
+**Creemos** que enviar notificaciones automáticas ante retrasos o anomalías resultará en una mejor capacidad de respuesta por parte de las empresas.  
+**Sabremos** que se ha logrado
+**cuando** el 70% de los retrasos sean comunicados antes de afectar la entrega.
+
 
 Hypothesis Statement 04
 
-**Creemos** que mostrar ubicación y estado en tiempo real resultará en mayor confianza y menos incertidumbre operativa. 
-**Sabremos** que hemos tenido éxito  
-**cuando** la satisfacción del cliente mejore en un 35%, según encuestas post-entrega.
+**Creemos** que incorporar escaneo de códigos QR en los puntos clave del proceso resultará en una identificación más precisa y rápida de cada paquete.  
+**Sabremos** que hemos tenido éxito 
+**cuando** el 90% de los registros sean validados correctamente mediante el escaneo.
+
 
 Hypothesis Statement 05
 
-**Creemos** que alertas automáticas ante incidencias resultarán en respuestas más rápidas.  
-**Sabremos** que hemos tenido éxito  
-**cuando** el tiempo promedio de respuesta se reduzca en un 40%, tracked por notificaciones en la app.
+**Creemos** que ofrecer un panel de control visual para supervisores y operadores resultará en una gestión más eficiente de múltiples envíos simultáneos.  
+**Sabremos** que se ha logrado
+**cuando** los supervisores gestionen 20 envíos simultáneos con una tasa de error menor al 5%.
 
 Hypothesis Statement 06
 
-**Creemos** que ofrecer un historial detallado del envío mejorará los procesos de auditoría y análisis de errores logísticos.  
-**Sabremos** que hemos tenido éxito  
-**cuando** al menos el 70% de las auditorías internas utilicen la información de la aplicación como fuente principal.
+**Creemos** que almacenar y mostrar el historial completo de los envíos anteriores resultará en una mejor trazabilidad y análisis del desempeño logístico.  
+**Sabremos** que hemos tenido éxito
+**cuando** el 85% de los usuarios consulte el historial para resolver incidencias.
 
 Hypothesis Statement 07
 
-**Creemos** que la integración con sistemas ERP o WMS existentes aumentará la eficiencia y reducirá la duplicidad de tareas.  
-**Sabremos** que hemos tenido éxito  
-**cuando** el tiempo promedio de registro y consulta de datos se reduzca en un 50% gracias a la integración.
+**Creemos** que permitir a los operadores registrar el estado físico del paquete con fotos y comentarios resultará en una mayor transparencia y evidencia en casos de reclamos.  
+**Sabremos** que se ha logrado 
+**cuando** los reclamos por daños sin evidencia se reduzcan en un 50%.
 
 Hypothesis Statement 08
 
-**Creemos** que incluir la posibilidad de registrar incidencias durante el traslado (como demoras, desvíos o manipulaciones indebidas) ayudará a mejorar la trazabilidad y a prevenir futuros errores logísticos.  
+**Creemos** que dar acceso a ambas partes (emisora y receptora) a la misma información del envío resultará en una comunicación más fluida y menos disputas.
 **Sabremos** que hemos tenido éxito  
-**cuando** al menos el 60% de los envíos con incidencias registradas logren ser resueltos o corregidos antes de la entrega final gracias a la información aportada por la aplicación.
+**cuando** los reclamos por falta de información disminuyan en un 60%.
 
 Hypothesis Statement 09
 
-**Creemos** que permitir registrar condiciones del envío con fotos y observaciones reducirá conflictos y mejorará la transparencia del proceso.  
-**Sabremos** que hemos tenido éxito  
-**cuando** el número de reclamos por daños sin evidencia se reduzca en un 50%.
+**Creemos** que permitir el monitoreo continuo y las alertas tempranas resultará en una disminución de los tiempos promedio de entrega.
+**Sabremos** que se ha logrado
+**cuando** los tiempos de entrega se reduzcan en un 20% respecto al promedio anterior.
 
 Hypothesis Statement 10
 
-**Creemos** que brindar reportes analíticos en tiempo real facilitará la toma de decisiones estratégicas por parte de los gestores logísticos.  
-**Sabremos** que hemos tenido éxito  
-**cuando** al menos el 75% de los usuarios administrativos utilicen la herramienta de reportes cada semana.
+**Creemos** que brindar tutoriales interactivos dentro de la aplicación resultará en una adopción más rápida y efectiva por parte del personal operativo.
+**Sabremos** que se ha logrado
+**cuando** el 90% de los usuarios nuevos complete el tutorial y registre su primer envío sin asistencia externa.
 
 #### 1.2.2.4. Lean UX Canvas
 
