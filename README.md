@@ -1402,34 +1402,34 @@ Enlace para acceder a [Miro](https://miro.com/app/board/uXjVICzj2Tg=/?share_link
 
 ## 3.4 Product Backlog
 
-| # Orden | User Story ID | Título | Descripción | Story Points |
-|-------|---------------|--------|-------------|--------------|
-| 1 | US04 | Registrar solicitud de envío | Como administrador de empresa cliente quiero registrar solicitudes de envío desde la app móvil para que la empresa proveedora me atienda. | 8 |
-| 2 | US05 | Procesar solicitud de envío | Como administrador de empresa proveedora quiero procesar las solicitudes recibidas en la app para preparar los envíos con los requisitos del cliente. | 8 |
-| 3 | US07 | Monitorear estado del envío | Como administrador de empresa proveedora quiero monitorear la carga en su trayecto para asegurarme que llegue en condiciones óptimas. | 8 |
-| 4 | US09 | Visualizar panel de gestión | Como administrador de empresa cliente quiero acceder a un panel en la app para revisar estado y localización de mis envíos. | 8 |
-| 5 | US18 | Activación de ubicación en tiempo real | Como administrador de empresa proveedora quiero activar la ubicación en tiempo real del envío para contar con acceso en todo momento y revisar su progreso. | 8 |
-| 6 | US19 | Visualización de datos en tiempo real | Como administrador de empresa proveedora quiero visualizar la información del envío en tiempo real para tomar acciones inmediatas si se necesita. | 8 |
-| 7 | US10 | Confirmación de entrega | Como administrador de empresa (cliente o proveedora) quiero confirmar en la app que la entrega fue exitosa para cerrar el envío. | 5 |
-| 8 | US17 | Confirmación por QR | Como administrador de empresa proveedora quiero registrar la carga cargada mediante QR para asegurarme de que llegue al destino correcto. | 8 |
-| 9 | US16 | Registro de datos iniciales de envío | Como administrador de empresa proveedora quiero registrar la información del pedido antes de que inicie su traslado para poseer y mostrar el estado inicial. | 5 |
-| 10 | US06 | Confirmar carga lista | Como administrador de empresa proveedora quiero confirmar que la carga cumple las especificaciones antes de transportarla. | 5 |
-| 11 | US26 | Registro de datos de llegada | Como administrador de empresa proveedora quiero registrar los datos de llegada del pedido para asegurarme de que no sufrió desperfectos. | 5 |
-| 12 | US27 | Confirmación de recepción del cliente | Como administrador de empresa cliente quiero confirmar que recibí mi pedido conforme para culminar con el proceso. | 3 |
-| 13 | US28 | Cierre del envío | Como administrador de empresa proveedora quiero cerrar el envío una vez entregado para registrar la entrega exitosa y mantener limpio el sistema. | 3 |
-| 14 | US22 | Registro de empresa cliente | Como administrador de empresa cliente quiero registrar a mi empresa en la app para realizar pedidos con facilidad. | 5 |
-| 15 | US21 | Registro de empresa proveedora | Como administrador de empresa proveedora quiero registrarme en la app para organizar los envíos que mi empresa realiza. | 5 |
-| 16 | US08 | Registro de usuarios | Como administrador de empresa (cliente o proveedora) quiero registrarme en la app para acceder a todas sus funcionalidades. | 5 |
-| 17 | US11 | Registro de datos del comprador | Como administrador de empresa proveedora quiero guardar los datos del comprador para asegurarme de que su pedido sea entregado correctamente. | 5 |
-| 18 | US12 | Registro de requisitos de envío | Como administrador de empresa proveedora quiero registrar los requisitos del envío ingresados por el cliente para asegurar que se cumplan. | 5 |
-| 19 | US14 | Empaquetar y etiquetar carga | Como administrador de empresa proveedora quiero supervisar empaquetado y etiquetado de la carga a través de la app para asegurar calidad. | 8 |
-| 20 | US20 | Responder consultas de clientes | Como administrador de empresa proveedora quiero contestar consultas de los compradores para mantenerlos informados y confiados. | 3 |
-| 21 | US25 | Registro de consultas | Como administrador de empresa cliente quiero escribir consultas hacia la empresa proveedora desde el panel para resolver dudas. | 5 |
-| 22 | US13 | Habilitar dashboard para el cliente | Como administrador de empresa proveedora quiero habilitar un dashboard para el cliente que solicitó un envío para permitirle el seguimiento. | 3 |
-| 23 | US24 | Visualización de panel en tiempo real | Como administrador de empresa cliente quiero visualizar los datos de mi pedido en tiempo real para monitorear su entrega. | 8 |
-| 24 | US01 | Contacto desde landing | Como visitante de la landing page quiero ponerme en contacto con los desarrolladores para enviar sugerencias y consultas. | 2 |
-| 25 | US02 | Acceso a información de la app | Como visitante de la landing page quiero tener acceso a una sección de preguntas frecuentes para comprender la app. | 2 |
-| 26 | US03 | Ingreso desde landing | Como visitante de la landing page quiero ingresar a la app móvil a través de botones o enlaces para usar sus funciones. | 2 |
+| # Orden | User Story ID | Título  | Story Points |
+|-------|---------------|--------|--------------|
+| 1 | US04 | Registrar solicitud de envío | 8 |
+| 2 | US05 | Procesar solicitud de envío | 8 |
+| 3 | US07 | Monitorear estado del envío | 8 |
+| 4 | US09 | Visualizar panel de gestión | 8 |
+| 5 | US18 | Activación de ubicación en tiempo real | 8 |
+| 6 | US19 | Visualización de datos en tiempo real | 8 |
+| 7 | US10 | Confirmación de entrega | 5 |
+| 8 | US17 | Confirmación por QR | 8 |
+| 9 | US16 | Registro de datos iniciales de envío | 5 |
+| 10 | US06 | Confirmar carga lista | 5 |
+| 11 | US26 | Registro de datos de llegada | 5 |
+| 12 | US27 | Confirmación de recepción del cliente | 3 |
+| 13 | US28 | Cierre del envío | 3 |
+| 14 | US22 | Registro de empresa cliente | 5 |
+| 15 | US21 | Registro de empresa proveedora | 5 |
+| 16 | US08 | Registro de usuarios | 5 |
+| 17 | US11 | Registro de datos del comprador | 5 |
+| 18 | US12 | Registro de requisitos de envío | 5 |
+| 19 | US14 | Empaquetar y etiquetar carga | 8 |
+| 20 | US20 | Responder consultas de clientes | 3 |
+| 21 | US25 | Registro de consultas | 5 |
+| 22 | US13 | Habilitar dashboard para el cliente  | 3 |
+| 23 | US24 | Visualización de panel en tiempo real| 8 |
+| 24 | US01 | Contacto desde landing | 2 |
+| 25 | US02 | Acceso a información de la app | 2 |
+| 26 | US03 | Ingreso desde landing  | 2 |
 
 # 4. Capítulo IV: Solution Software Design
 
