@@ -312,11 +312,22 @@ Implementar un sistema de seguimiento mediante una aplicación móvil como Logis
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-Nuestra solución busca proveer un espacio digital a través de una aplicación móvil para gestionar el seguimiento de paquetes. Esto es diseñado para que tanto los operadores de envío como las empresas receptoras puedan monitorear en tiempo real la ubicación y el estado óptimo de los envíos industriales. Este sistema digital busca generar confianza y transparencia en el proceso, reduciendo incertidumbres sobre la entrega y mejorando la precisión en la recepción.
+Nuestra solución busca proveer un espacio digital a través de una aplicación móvil mediante el cual puedan registrarse los pasos que deben ser realizados para asegurar el correcto traslado de un paquete desde su embarque hasta su llegada al lugar indicado.
 
-Sin embargo, actualmente no existe un canal accesible y en tiempo real que permita verificar la condición de los paquetes antes de su entrega final, lo que provoca pérdidas, retrasos no detectados y entregas en ubicaciones incorrectas, afectando la operación y la satisfacción del cliente.
+Hemos observado que los operadores logísticos no registran adecuadamente los paquetes y requisitos de traslado, lo que causa errores en empaquetado y colocación en transportes incorrectos, repercutiendo en la calidad de la entrega final y generando pérdidas económicas.
 
-__¿Cómo podríamos diseñar un sistema de seguimiento y verificación en tiempo real que garantice la seguridad y el estado de los paquetes para reducir las pérdidas, errores en la entrega y aumentar la confianza de todas las partes involucradas?__
+__¿Cómo podríamos mejorar el registro de fases para que los operadores reduzcan errores en un 50% según métricas de entregas exitosas?__
+Nuestra solución busca que ambas empresas involucradas puedan observar la posición geográfica del paquete trasladado, su estado y su fecha prevista de llegada de forma sencilla y en cualquier momento a través de la app móvil.
+
+Hemos observado que las empresas emisoras y receptoras carecen de acceso en tiempo real a la ubicación y estado de los paquetes, lo que afecta operaciones, decisiones y la imagen corporativa debido a incertidumbre y demoras.
+
+__¿Cómo podríamos proporcionar visibilidad compartida para reducir reclamos por incertidumbre en un 40% basado en encuestas de satisfacción?__
+
+Nuestra solución busca proveer un sistema de verificación mediante QR en la app para asegurar que los paquetes son ingresados al vehículo correcto y que, por ende, son trasladados al destino solicitado.
+
+Hemos observado que sin verificación al embarcar vehículos, ocurren errores por carga simultánea de múltiples envíos, resultando en entregas a destinos incorrectos y costos adicionales.
+
+__¿Cómo podríamos implementar verificación digital para disminuir envíos erróneos en un 70% medido por reportes de incidencias?__
 
 #### 1.2.2.2. Lean UX Assumptions
 
@@ -364,65 +375,63 @@ Nuestra aplicación debe contar con una interfaz intuitiva, visual y de fácil u
 
 Hypothesis Statement 01
 
-**Creemos** que permitir el seguimiento en tiempo real de los envíos a través de la aplicación móvil resultará en una mayor transparencia y confianza entre las empresas emisoras y receptoras.  
-**Sabremos** que hemos tenido éxito
-**cuando** al menos el 80% de los envíos activos sean monitoreados durante todo su trayecto en los primeros tres meses.
+**Creemos** que permitir el registro digital de fases del envío resultará en mayor adopción por supervisores y operadores.  
+**Sabremos** que hemos tenido éxito  
+**cuando** al menos el 80% de usuarios activos registren envíos completos en la primera etapa de implementación.
 
 Hypothesis Statement 02
 
-**Creemos** que permitir el registro digital de cada fase del envío (empaque, salida, tránsito y entrega) resultará en una reducción significativa de errores y pérdidas de paquetes.  
-**Sabremos** que hemos tenido éxito
-**cuando** los errores logísticos disminuyan en un 40% en el primer trimestre.
+**Creemos** que el acceso compartido a información de envíos resultará en mejor coordinación y menos malentendidos entre empresas.
+**Sabremos** que hemos tenido éxito  
+**cuando** se reduzca en un 40% los reclamos o llamadas de seguimiento, medido por logs de soporte.
 
 Hypothesis Statement 03
 
-**Creemos** que enviar notificaciones automáticas ante retrasos o anomalías resultará en una mejor capacidad de respuesta por parte de las empresas.  
-**Sabremos** que se ha logrado
-**cuando** el 70% de los retrasos sean comunicados antes de afectar la entrega.
-
+**Creemos** que la verificación con códigos QR en carga/descarga resultará en menos errores de asignación.
+**Sabremos** que hemos tenido éxito  
+**cuando** se reduzca en un 70% las entregas erróneas en los primeros tres meses, basado en reportes de incidencias.
 
 Hypothesis Statement 04
 
-**Creemos** que incorporar escaneo de códigos QR en los puntos clave del proceso resultará en una identificación más precisa y rápida de cada paquete.  
-**Sabremos** que hemos tenido éxito 
-**cuando** el 90% de los registros sean validados correctamente mediante el escaneo.
-
+**Creemos** que mostrar ubicación y estado en tiempo real resultará en mayor confianza y menos incertidumbre operativa. 
+**Sabremos** que hemos tenido éxito  
+**cuando** la satisfacción del cliente mejore en un 35%, según encuestas post-entrega.
 
 Hypothesis Statement 05
 
-**Creemos** que ofrecer un panel de control visual para supervisores y operadores resultará en una gestión más eficiente de múltiples envíos simultáneos.  
-**Sabremos** que se ha logrado
-**cuando** los supervisores gestionen 20 envíos simultáneos con una tasa de error menor al 5%.
+**Creemos** que alertas automáticas ante incidencias resultarán en respuestas más rápidas.  
+**Sabremos** que hemos tenido éxito  
+**cuando** el tiempo promedio de respuesta se reduzca en un 40%, tracked por notificaciones en la app.
 
 Hypothesis Statement 06
 
-**Creemos** que almacenar y mostrar el historial completo de los envíos anteriores resultará en una mejor trazabilidad y análisis del desempeño logístico.  
-**Sabremos** que hemos tenido éxito
-**cuando** el 85% de los usuarios consulte el historial para resolver incidencias.
+**Creemos** que ofrecer un historial detallado del envío mejorará los procesos de auditoría y análisis de errores logísticos.  
+**Sabremos** que hemos tenido éxito  
+**cuando** al menos el 70% de las auditorías internas utilicen la información de la aplicación como fuente principal.
 
 Hypothesis Statement 07
 
-**Creemos** que permitir a los operadores registrar el estado físico del paquete con fotos y comentarios resultará en una mayor transparencia y evidencia en casos de reclamos.  
-**Sabremos** que se ha logrado 
-**cuando** los reclamos por daños sin evidencia se reduzcan en un 50%.
+**Creemos** que la integración con sistemas ERP o WMS existentes aumentará la eficiencia y reducirá la duplicidad de tareas.  
+**Sabremos** que hemos tenido éxito  
+**cuando** el tiempo promedio de registro y consulta de datos se reduzca en un 50% gracias a la integración.
 
 Hypothesis Statement 08
 
-**Creemos** que dar acceso a ambas partes (emisora y receptora) a la misma información del envío resultará en una comunicación más fluida y menos disputas.
+**Creemos** que incluir la posibilidad de registrar incidencias durante el traslado (como demoras, desvíos o manipulaciones indebidas) ayudará a mejorar la trazabilidad y a prevenir futuros errores logísticos.  
 **Sabremos** que hemos tenido éxito  
-**cuando** los reclamos por falta de información disminuyan en un 60%.
+**cuando** al menos el 60% de los envíos con incidencias registradas logren ser resueltos o corregidos antes de la entrega final gracias a la información aportada por la aplicación.
 
 Hypothesis Statement 09
 
-**Creemos** que permitir el monitoreo continuo y las alertas tempranas resultará en una disminución de los tiempos promedio de entrega.
-**Sabremos** que se ha logrado
-**cuando** los tiempos de entrega se reduzcan en un 20% respecto al promedio anterior.
+**Creemos** que permitir registrar condiciones del envío con fotos y observaciones reducirá conflictos y mejorará la transparencia del proceso.  
+**Sabremos** que hemos tenido éxito  
+**cuando** el número de reclamos por daños sin evidencia se reduzca en un 50%.
 
 Hypothesis Statement 10
 
-**Creemos** que brindar tutoriales interactivos dentro de la aplicación resultará en una adopción más rápida y efectiva por parte del personal operativo.
-**Sabremos** que se ha logrado
-**cuando** el 90% de los usuarios nuevos complete el tutorial y registre su primer envío sin asistencia externa.
+**Creemos** que brindar reportes analíticos en tiempo real facilitará la toma de decisiones estratégicas por parte de los gestores logísticos.  
+**Sabremos** que hemos tenido éxito  
+**cuando** al menos el 75% de los usuarios administrativos utilicen la herramienta de reportes cada semana.
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -1747,9 +1756,269 @@ Expone operaciones móviles/web para la gestión de pedidos.
   <p align="center"><img src="assets/md-images/Bounded_Context_Database_Design_Diagram.png" alt="Bounded context database" width="700px" /></p>
 </div>
 
-# 5. Conclusiones
+# 5. Capítulo V: Solution UI/UX Design
 
-## 5.1. Conclusiones
+## 5.1. Product Design
+
+### 5.1.1. Style Guidelines
+
+Un _“style guideline”_ o guía de estilo es un conjunto de reglas y pautas que establecen la forma en que se deben escribir, diseñar o presentar documentos, contenido web, software o cualquier otro tipo de trabajo creativo. A continuación, se detallan los parámetros implementados en la estructura visual y conceptual del proyecto **AlumWare** y **TrackLab**.
+
+
+### **Branding**
+
+#### **Brand Overview – AlumWare**
+
+La startup, presentada bajo el nombre de **AlumWare**, tiene como objetivo transformar digitalmente la gestión logística entre empresas en el Perú. A través de una plataforma web intuitiva y especializada, AlumWare permite a empresas clientes registrar y hacer seguimiento a sus órdenes de compra, mientras que las empresas logísticas pueden gestionar la recepción, agrupación, trazabilidad y entrega de la carga mediante tecnología de escaneo con códigos QR.
+
+La solución se centra en resolver la fragmentación y falta de visibilidad en el flujo de carga entre múltiples actores (proveedores, operadores logísticos, empresas en campo), permitiendo un control preciso desde el origen hasta el destino final, incluyendo almacenes intermedios, rutas de transporte y procesos de consolidación de carga.
+
+La trazabilidad completa de cada unidad de carga, incluso cuando esta se agrupa en contenedores mayores, representa una de las principales ventajas competitivas del sistema. Además, AlumWare contempla dashboards interactivos para el análisis de datos operativos, facilitando la toma de decisiones estratégicas tanto para empresas logísticas como para sus clientes.
+
+#### **Misión**
+
+Digitalizar y optimizar la trazabilidad logística B2B mediante una plataforma web intuitiva, segura y eficiente para empresas peruanas.
+
+#### **Visión**
+
+AlumWare aspira a consolidarse como la solución tecnológica líder en gestión logística empresarial en Latinoamérica, facilitando la transformación digital del sector logístico con un enfoque en trazabilidad, transparencia y control de operaciones.
+
+<p align="center">
+  <img src="assets/md-images/logo%20AlumWare.png" alt="Logo de AlumWare" width="250px" />
+</p>
+
+
+#### **Brand Name – TrackLab**
+
+El nombre de la solución propuesta es **TrackLab**, una fusión entre las palabras _“Track”_ (rastrear, seguir) y _“Lab”_ (laboratorio), lo cual transmite la idea de una solución innovadora, técnica y precisa orientada al análisis y mejora continua en los procesos logísticos. Este nombre representa el enfoque tecnológico de la plataforma para lograr una trazabilidad completa de los envíos logísticos en tiempo real.
+
+TrackLab busca ser identificado como una herramienta moderna, confiable y de fácil uso para empresas logísticas y proveedoras que requieren un control riguroso sobre sus operaciones de transporte, almacenamiento y entrega.
+
+<p align="center">
+  <img src="assets/md-images/Logo%20TrackLab.png" alt="Logo de TrackLab" width="380px" />
+</p>
+
+
+### **Colores**
+
+Los colores representan un componente fundamental en la primera impresión visual que recibe el usuario al interactuar con **TrackLab**. Por ello, siguiendo los principios de la **psicología del color**, se ha elegido el **azul** como tonalidad principal en la implementación de la plataforma.
+
+El azul simboliza **confianza, tecnología, transparencia y eficiencia**, cualidades que reflejan los valores de la startup y su enfoque hacia la trazabilidad logística en tiempo real. Además, este color está estrechamente vinculado con los entornos digitales y de servicios empresariales, lo cual refuerza la percepción de fiabilidad e innovación ante los usuarios.
+
+Como tonalidades **secundarias**, se ha integrado una gama complementaria compuesta por variantes de **amarillo**, **verde**, **blanco** y **gris**, los cuales permiten destacar estados operativos, jerarquías visuales y elementos de navegación. Estas combinaciones buscan proporcionar una experiencia visual clara, intuitiva y coherente en todos los módulos de la aplicación.
+
+<p align="center">
+  <img src="assets/md-images/Colors.png" alt="Paleta de colores TrackLab" width="600px" />
+</p>
+
+### Tipografía
+
+La tipografía cumple una función fundamental en la interfaz de usuario de **TrackLab**, no solo por su valor estético, sino porque facilita la jerarquía visual y mejora la experiencia de navegación. Ayuda a dirigir la atención del usuario, mejorar la comprensión del contenido y reforzar la identidad del producto.
+
+Para el desarrollo de la plataforma se ha seleccionado la tipografía **“Inter”**, una fuente moderna, versátil y altamente legible en dispositivos digitales. Se utilizan principalmente los estilos **Regular** y **Medium** para cubrir distintos niveles jerárquicos del contenido.
+
+<div align="center">
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center;">Nivel</th>
+      <th style="text-align: center;">Uso principal</th>
+      <th style="text-align: center;">Estilo</th>
+      <th style="text-align: center;">Tamaño</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Heading 01</strong></td>
+      <td>Títulos principales, secciones clave</td>
+      <td>Inter</td>
+      <td>70 px</td>
+    </tr>
+    <tr>
+      <td><strong>Heading 02</strong></td>
+      <td>Subtítulos, bloques destacados</td>
+      <td>Inter</td>
+      <td>40 px</td>
+    </tr>
+    <tr>
+      <td><strong>Heading 03</strong></td>
+      <td>Encabezados internos, tarjetas o módulos</td>
+      <td>Inter</td>
+      <td>25 px</td>
+    </tr>
+    <tr>
+      <td><strong>Body Text</strong></td>
+      <td>Texto general, descripciones, formularios</td>
+      <td>Inter</td>
+      <td>16 px</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+
+<p align="center">
+  <img src="assets/md-images/TYPOGRAPHY.png" alt="TYPOGRAPHY" width="600px" />
+</p>
+
+#### 5.1.2. Web Style Guidelines
+
+### Enfoque general
+
+El enfoque de **TrackLab** para la aplicación web se basa en la eficiencia operativa, claridad visual y experiencia de usuario optimizada para entornos logísticos empresariales. Las distintas secciones del sistema están organizadas para guiar al usuario en sus tareas mediante pantallas amplias, bloques funcionales bien distribuidos, navegación lateral fija y elementos visuales claramente jerarquizados. El diseño responde a una estética limpia y profesional, acorde con el segmento B2B al que se dirige la plataforma, evitando distracciones visuales y priorizando la información clave.
+
+### Tarjetas
+
+Las tarjetas son uno de los componentes visuales más utilizados en la interfaz. Se emplean para representar productos, pedidos, tareas y consultas en diferentes vistas del sistema. Estas tarjetas contienen títulos en jerarquía destacada, subtítulos, descripciones breves y botones de acción que permiten iniciar, confirmar o revisar procesos. En muchos casos incluyen imágenes representativas de los productos o pedidos, lo que facilita la identificación visual, especialmente útil cuando el usuario gestiona múltiples operaciones. Su diseño contempla fondos blancos o celestes, bordes redondeados y disposición vertical u horizontal según el contexto. Se utilizan en vistas como "Inicio del Receptor", "Nuevo Pedido" y "Historial de Pedidos".
+
+### Imágenes
+
+El uso de imágenes dentro de la plataforma tiene fines estrictamente funcionales. En la pantalla de inicio de sesión, por ejemplo, se presenta el logotipo de TrackLab en una composición limpia que transmite identidad desde el primer momento. En otras vistas como los formularios de pedido o el historial, se muestran imágenes asociadas a cada producto para reforzar el reconocimiento visual. Las imágenes se encuentran siempre alineadas a componentes relevantes, ya sea como miniatura en tarjetas o como contenido destacado en pantallas de detalle. No se utilizan fondos decorativos en las vistas internas de la aplicación, salvo en la de inicio de sesión, que incluye un fondo institucional alineado con la identidad de la marca.
+
+### Botones
+
+Los botones son elementos clave dentro del flujo interactivo de TrackLab. Permiten al usuario ejecutar acciones como confirmar pedidos, iniciar procesos, cancelar tareas o visualizar detalles. Están diseñados con esquinas redondeadas, colores contrastantes (principalmente azul para acciones positivas y rojo para funciones destructivas) y tipografía blanca centrada en estilo Inter. Se ubican en posiciones estratégicas dentro de cada vista, como al pie de formularios, en las esquinas inferiores de tarjetas o al final de filas dentro de tablas.
+
+### Tablas
+
+Las tablas son componentes esenciales para la visualización de datos en TrackLab. Se utilizan en secciones como consultas, historial de pedidos y seguimiento de entregas. Cada fila representa una instancia de registro y está compuesta por columnas que contienen datos como ID, nombre del producto, cantidad, empresa, fecha, destino y estado actual. Las tablas alternan colores claros para mejorar la legibilidad y mantienen una estructura compacta que permite al usuario revisar múltiples registros sin perder claridad. En algunos casos, se incluyen botones en la última columna para ejecutar acciones rápidas.
+
+### Pantallas emergentes
+
+Las pantallas emergentes o pop-ups están diseñadas para validar acciones críticas que requieren confirmación del usuario. Estas ventanas se presentan al centro de la pantalla, sobre un fondo atenuado que oscurece el resto del contenido. Se utilizan en situaciones como el envío de pedidos, la aceptación de condiciones o la confirmación de tareas logísticas. Cada pop-up incluye texto explicativo claro, botones diferenciados por color y, en algunos casos, elementos visuales complementarios como íconos o imágenes pequeñas.
+
+### Dashboard y seguimiento
+
+El diseño del dashboard y del seguimiento de pedidos permite visualizar el avance del proceso logístico en tiempo real. Las etapas están organizadas por pasos visuales, cada uno con un color representativo que indica su estado (verde para completado, amarillo para pendiente, gris para no iniciado). Además, se integran códigos QR, ubicación actual y botones de validación o confirmación, según el tipo de operación en curso.
+
+### Estilo general de web 
+
+En general, el estilo visual de la plataforma web de TrackLab responde a los principios de simplicidad, jerarquía y eficiencia. Se prioriza el uso de tipografía Inter, colores contrastantes bien definidos, tarjetas reutilizables y tablas claras para la gestión de datos. La navegación es fluida, los formularios están optimizados para la acción y cada componente fue diseñado pensando en usuarios que requieren rapidez, precisión y claridad en sus tareas logísticas.
+
+
+#### 5.1.1.3. Mobile Style Guidelines
+
+### Enfoque general
+
+El enfoque elegido para la vista móvil web de la aplicación **TrackLab** mantiene los principios de simplicidad, claridad operativa y elegancia visual. La interfaz ha sido optimizada para adaptarse a pantallas reducidas sin sacrificar funcionalidad. Cada pantalla conserva la jerarquía de información, botones de acción accesibles y navegación intuitiva.
+
+### Pantalla de inicio
+
+La pantalla de inicio de sesión presenta el logotipo institucional acompañado de campos simples para ingresar el correo y la contraseña. El botón "Sign In" se ubica de manera centrada, con suficiente separación para evitar errores táctiles.
+
+### Navegación
+
+Una vez dentro, el usuario accede a un menú lateral desplegable que contiene accesos a las funciones principales: nuevo pedido, historial, consultas y seguimiento. Este menú se oculta automáticamente al desplazarse por las vistas. Los botones son grandes y espaciados, optimizados para uso táctil.
+
+### Vista del receptor
+
+La pantalla de inicio del rol **Receptor** presenta dos bloques: “Últimos Pedidos” y “Pedidos Activos”, organizados en tarjetas verticales. Se muestra información como empresa, fecha y destino, con contraste visual y separación entre bloques.
+
+### Pedidos
+
+En "Nuevo Pedido", los productos se presentan como tarjetas horizontales con imagen, descripción y botón de acción. Luego, un formulario permite ingresar los datos de envío. Todos los campos están alineados y optimizados para pantallas táctiles. El botón "Pedir" se encuentra al final.
+
+### Consultas
+
+La sección de consultas presenta en la parte superior un historial en tarjetas con estados de color (verde y amarillo). Debajo, un formulario para enviar nuevas consultas.
+
+### Seguimiento de pedidos
+
+La vista de seguimiento muestra los detalles del envío en tarjetas. Se utiliza una línea de progreso con pasos de colores. Al final, un mapa muestra la ubicación actual del pedido.
+
+### Vista del proveedor
+
+El rol **Proveedor** ve una tabla vertical con pedidos asociados. Cada fila contiene empresa, fecha y destino. Se incluye un botón para ver todos los pedidos.
+
+### Estilo general de web movil
+
+Toda la interfaz está diseñada para el uso con el pulgar. Botones, formularios y tarjetas están escalados y distribuidos adecuadamente. Se mantiene coherencia de colores, íconos y tipografía Inter. El diseño garantiza una experiencia fluida y funcional desde dispositivos móviles.
+
+
+### 5.1.2. Information Architecture
+
+El concepto de software que Alumware está planteando a través de su proyecto, TrackLab, es precisamente con el propósito de mejorar la organización dentro de una empresa transportadora. En este mismo sentido, deseamos plantear un flujo de funcionalidades ordenado e intuitivo, de forma de que sea sencillo para los usuarios considerados utilizar la aplicación web. La información será de fácil acceso y se permitirá realizar búsquedas dentro de los bancos de información, logrando que no se pierda tiempo en ello. Asimismo, se seguirán algunos patrones para distribuir los elementos en la pantalla de forma que se vea atractiva y organizada, pero sobre todo no sobrecargada. En la parte superior se incluirán las opciones principales para que sea más sencillo navegar entre pantallas y funcionalidad. De esta forma, se habrá alcanzado facilitar los procesos de la empresa para los empleados, consiguiendo una reducción de errores significativa.
+
+#### 5.1.2.1. Organization Systems
+
+La organización que presentamos en pantalla se encuentra organizada de distintas formas dependiendo de la sección y necesidades de la misma. En un primer punto, puede mencionarse que nuestra landing page se encuentra organizada de forma jerárquica, puesto que presenta la información primordial en la parte superior, misma que incluye nuestro logo, eslogan y opciones primordiales, resaltando la de “Solicitar Demo”, que sirve para comprar y comenzar a trabajar dentro de nuestra aplicación.
+
+Continuando con la landing page, en las secciones en que la información presentada posee igual importancia, optamos por presentar los elementos de forma horizontal, como es el caso de la sección de “Beneficios principales” y de “Para quién es TrackLab”. En el caso de las secciones de “Contacto” y “¿Cómo funciona TrackLab”, dividimos la pantalla a la mitad verticalmente para presentarle al usuario tramos relacionados de información de forma simultánea.
+
+Pasando directamente a la aplicación web vista en formato desktop, se puede ver que se deja cierto espacio entre los elementos con el fin de no sobrecargar las pantallas. De la misma forma, se le da un espacio adecuado a cada elemento por sí mismo, evitando reducir sus datos con el fin de ahorrar espacio. Esto se puede ver en la pantalla “Iniciar un pedido nuevo”, en donde los elementos están colocados lado a lado y cuenta con una barra de búsqueda en la parte superior. 
+
+En cuanto a pantallas como “Aceptar pedidos” y “Responder consultas”, se opta por un orden que apila los elementos mostrados de forma horizontal basándose en la antigüedad de los mismos. Así, el administrador usuario podrá ver las notificaciones más recientes en la parte superior. Por último, en pantallas como la de registro, se organizan los elementos de forma que resalten los recuadros que deben ser completados por el autor.
+
+Prosiguiendo con la aplicación web con vista mobile, hemos cambiado parte de la organización de la estructura dado el espacio reducido ahora prefiriendo la organización vertical, de forma que esta siga siendo agradable a la vista y sencilla de comprender. Asimismo, se han aumentado las subopciones para que los detalles respecto a los pedidos puedan verse con mayor precisión. 
+
+#### 5.1.2.2. Labeling Systems
+
+Para el nombramiento de opciones, buscamos utilizar nombres claros y comprensibles que detallen brevemente la funcionalidad u opción a la que dirigen. Esto puede reflejarse en la barra lateral en la que se nombren los accesos con palabras comunes como “Home”, “Pedidos” o “Notificaciones”. De la misma forma, los títulos son “Iniciar un pedido nuevo” o “Seguimiento de pedidos”, frases que nos describen a que está destinada esa pantalla. En el caso de los botones, estos son nombrados como “Detalles”, “Registrar”, “Pedir”, entre otros; siempre un sustantivo o verbo del lenguaje común que indica a la perfección la acción que ejecuta.
+
+
+#### 5.1.2.3. SEO Tags and Meta Tags
+
+Los Meta Tags o SEO Tags son datos de las páginas web que se encuentran almacenadas en la cabecera del sitio, pero, en la mayor parte, no son visibles. Estas etiquetas proveen información sobre el contenido de la página a los navegadores y motores de búsqueda, ayudándonos en el posicionamiento de nuestra plataforma.
+
+Estas son las meta etiquetas que usamos en nuestra página web:
+
+- __Title:__ Esta etiqueta es el título de la página web que aparece en los resultados de búsqueda en los navegadores.  
+`<title>TrackLab: Logística y Tracking Avanzado</title>`
+
+- __Description:__ Esta etiqueta es la descripción que aparece debajo del título de la página web en los resultados de búsqueda en los navegadores.  
+`<meta charset="utf-8">`
+
+- __Charset:__ Esta etiqueta ajusta la codificación de carácteres de la página web, logrando que los carácteres especiales se muestren correctamente.  
+`<meta name="description" content="TrackLab es un sistema de logística especializada en el transporte y seguimiento de cargas." />`
+
+- __Keywords:__ Esta etiqueta almacena las palabras clave que están relacionadas al contenido de la página web. Nos ayuda a que nuestra página tenga una mejor oportunidad de visibilidad.  
+`<meta name="keywords" content="logistics, transport, tracking, tracking number, b2b, business, load" />`
+
+- __Author & Copyright:__ Estas etiquetas registran la información del autor de la página web y los derechos de autor.  
+`<meta name="author" content="AlumWare" />`   
+`<meta name="copyright" content="Copyright AlumWare 2025" />`
+
+#### 5.1.2.4. Searching Systems
+
+En cuanto a sistemas de búsqueda, deseamos que las funcionalidades y pantallas principales sean de fácil acceso por lo que no es necesario buscarlas, sino que aparecen en el menú desplegable en la parte lateral. Centrándonos más en la búsqueda en sí, en las pantallas en las que aparecen varios elementos uno detrás de otro, hemos implementado barras de búsqueda que filtrarán aquellos elementos que coincidan con las palabras ingresadas por el usuario, tanto para la aplicación web vista desde desktop como en mobile. Este es el caso de la pantalla “Iniciar un nuevo pedido”, en donde se encuentra una barra de búsqueda para encontrar pedidos con mayor rapidez. 
+
+#### 5.1.2.5. Navigation Systems
+
+Por último, buscamos que los sistemas de navegación sean lo más claros posible, estableciendo un flujo sencillo de recorrer y siempre conectado a las opciones principales a través del menú desplegable. Puede resaltarse la forma en que se navegará de la landing page hacia la aplicación web en sí. Esto se hará al iniciar sesión, siempre y cuando ya exista una sesión contratada, en la cuenta personal del usuario. Una vez dentro se valide la contraseña y/o correo empleados, el usuario podrá hacer uso de todas las funcionalidades ya sea en un dispositivo mobile o desktop. Finalmente, los botones incluídos facilitan la navegación, dado que logran que el usuario llegue a la información o funcionalidad que desea en pocos pasos.
+
+### 5.1.3 Landing Page UI Design
+
+#### 5.1.3.1. Landing Page Wireframe
+
+A continuación, presentaremos nuestro landing page wireframe, en donde hemos considerado la presentación de la estructura quw tendrá nuestra lansing page final. En ese sentido, se resaltan los espacios en los que irán nuestros elemntos como imágenes y texto explicativo, así como la ubicación de nuestros botones. En el caso de los títulos, decidimos incluirlos desde ahora con el fin de organizar cada sección en el lugar adecuado.
+
+<div>
+  <p align="center"><img src="assets/md-images/landing-wireframes.png" alt="landing-wireframes.png" width="700px" /></p>
+</div>
+
+#### 5.1.3.2. Landing Page Mock-up
+
+En el caso de nuestro mock-up, aquí ya estamos incluyendo los texto que deseamos mostrar a nuestros usuarios, lo que incluye explicaciones en cuanto a las funcionalidades y mención de nuestros beneficios. De la misma manera, se incluyen imágenes referenciales y opción ya nombradas. Ejemple de ello es la sección de "Preguntas frecuentes", la cual cuenta con respuestas que serán desplegables más adelante. 
+
+<div>
+  <p align="center"><img src="assets/md-images/landing-mockup.png" alt="landing-mockup.png" width="700px" /></p>
+</div>
+
+### 5.1.4. Mobile Applications UX/UI Design
+
+#### 5.1.4.1. Mobile Applications Wireframes
+
+#### 5.1.4.2. Mobile Applications Wireflow Diagrams
+
+#### 5.1.4.3. Mobile Applications Mock-ups
+
+#### 5.1.4.4. Mobile Applications User Flow Diagrams
+
+#### 5.1.4.5. Mobile Applications Prototyping
+
+# Conclusiones
 
 ### Enfoque centrado en el usuario
 Las historias de usuario retratan de manera clara y realista las necesidades de nuestros segmentos. Consideramos tanto a quienes organizan y envían pedidos, como a quienes los reciben, logrando un enfoque integral.
@@ -1786,7 +2055,7 @@ Se aplicaron con éxito los conceptos de *Domain Driven Design*. Esto permitió:
 
 ---
 
-## 5.2. Recomendaciones
+# Recomendaciones
 
 - **Versión de prueba gratis**: habilitar una versión limitada con información precargada, accesible desde la landing page. Esto permitiría a los usuarios experimentar con la aplicación y aumentaría la conversión en suscripciones.
 
@@ -1798,12 +2067,12 @@ Se aplicaron con éxito los conceptos de *Domain Driven Design*. Esto permitió:
 
 - **Sistema de cámaras en transportes de carga**: implementar monitoreo inteligente para detectar movimientos irregulares o riesgos. Esto permitiría prevenir accidentes y localizar paquetes desviados en tiempo real.
 
-# 6. Bibliografía 
+# Bibliografía 
 
 Esan. (s.f.). Los problemas más comunes en la distribución física de productos. https://www.esan.edu.pe/conexion-esan/los-problemas-mas-comunes-en-la-distribucion-fisica-de-productos
 
 Superintendencia Nacional de Aduanas y de Administración Tributaria (SUNAT). (2023). Estudio de tiempos de despacho - Perú 2023: Informe. https://cdn.www.gob.pe/uploads/document/file/5402455/4763608-estudio-de-tiempos-de-despacho-peru-2023-informe.pdf
 
-# 7. Anexos 
+# Anexos 
 
 Para acceder a los diferentes recursos del proyecto, puedes visitar los siguientes enlaces:
