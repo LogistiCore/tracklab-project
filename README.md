@@ -971,6 +971,7 @@ Kathya está interesada en soluciones que permitan monitoreo en tiempo real del 
 1. El 30% al 40% de la planificación semanal se ve afectado por imprevistos, obligando a rehacer el trabajo manualmente.
 2. No existen plataformas integradas; se usa Excel, radio y WhatsApp. No hay registro digital en campo.
 3. El registro de reportes es manual, inconsistente e incompleto.
+
 **Segmento objetivo #2: Empresas Cliente (B2B – Solicitan servicios logísticos)**  
 #### Características Objetivas:
 1. **Herramientas utilizadas**:
@@ -1006,6 +1007,7 @@ Kathya está interesada en soluciones que permitan monitoreo en tiempo real del 
      - Visualizar el estado de sus cargas, recursos o tareas asignadas.
      - Recibir reportes automáticos o notificaciones de cambios, ejecución o entrega.
    - Se mostraron abiertos a plataformas web o apps si facilitan la comunicación y reducen los pasos intermedios.
+  
 #### Insights:
 1. No reciben reportes automáticos ni tienen trazabilidad digital. Cualquier cambio requiere volver a coordinar desde cero
 2. La validación de entregas depende de reportes del proveedor o verificaciones cruzadas.
