@@ -969,12 +969,8 @@ Kathya está interesada en soluciones que permitan monitoreo en tiempo real del 
    - La adopción tecnológica se ve posible siempre que la solución sea **simple y robusta ante cortes de conectividad**.
 #### Insights:
 1. El 30% al 40% de la planificación semanal se ve afectado por imprevistos, obligando a rehacer el trabajo manualmente.
-   - La dependencia de herramientas manuales y dispersas no solo duplica el trabajo, sino que genera una ansiedad operativa constante, ya que el costo de cada imprevisto no es solo de tiempo, sino de pérdida de control y predictibilidad de la operación.
 2. No existen plataformas integradas; se usa Excel, radio y WhatsApp. No hay registro digital en campo.
-   - La dispersión manual de la información la hace vulnerable a la amnesia operativa y al error humano. En un entorno de baja conectividad, la continuidad del servicio depende peligrosamente de la memoria individual y la presencia física, elevando el riesgo y el costo.
 3. El registro de reportes es manual, inconsistente e incompleto.
-   - La falta de datos fiables en tiempo real impide la optimización del negocio. La empresa no solo pierde tiempo generando reportes, sino que no puede tomar decisiones informadas sobre la eficiencia del consumo de combustible o la capacidad de carga, impactando directamente su margen de ganancia.
-
 **Segmento objetivo #2: Empresas Cliente (B2B – Solicitan servicios logísticos)**  
 #### Características Objetivas:
 1. **Herramientas utilizadas**:
@@ -1010,15 +1006,11 @@ Kathya está interesada en soluciones que permitan monitoreo en tiempo real del 
      - Visualizar el estado de sus cargas, recursos o tareas asignadas.
      - Recibir reportes automáticos o notificaciones de cambios, ejecución o entrega.
    - Se mostraron abiertos a plataformas web o apps si facilitan la comunicación y reducen los pasos intermedios.
-
----
 #### Insights:
 1. No reciben reportes automáticos ni tienen trazabilidad digital. Cualquier cambio requiere volver a coordinar desde cero
-   - La falta de visibilidad en tiempo real sobre sus cargas o tareas genera una profunda desconfianza en el servicio. La empresa cliente no solo necesita que le entreguen, sino necesita la tranquilidad de saber dónde está y cuándo llegará, para poder planificar sus propias operaciones con certeza.
 2. La validación de entregas depende de reportes del proveedor o verificaciones cruzadas.
-   - El proceso de validación actual es una pérdida de tiempo valioso y un riesgo operativo. Necesitan la prueba digital e inmediata de la entrega para cerrar el ciclo logístico y evitar conflictos por servicios no comprobados o demoras en sus procesos internos.
 3. Las solicitudes urgentes dependen de la disponibilidad de la persona que las recibe, generando frustración.
-   - La gestión de solicitudes es percibida como una "caja negra". El cliente no siente que está usando un sistema, sino que está "rogando por un favor" a una persona específica. Quieren un proceso que les dé control, predictibilidad y la sensación de que su solicitud está siendo atendida de forma prioritaria sin depender de un único contacto.
+---
 
 ### Conclusión del análisis
 
