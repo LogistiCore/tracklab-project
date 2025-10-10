@@ -74,24 +74,6 @@ Asimismo, se explican las ramas que tenemos hasta el momento:
 - develop: Representada por la rama blanca. Se trata de la rama principal para el proceso del desarrollo del proyecto.
 - readme: Representada por la rama morada. Se trata de la rama en la que se han estado realizando las modificaciones al informe.
 
-__Report repository__
-
-<div>
-  <p><img src="assets/md-images/network.png" alt="Network Graph TB1" width="700px" /></p>
-</div>
-
-Los siguientes gráficos muestran analíticos en cuanto a los commits que cada integrante del grupo ha estado realizando en el repositorio.
-
-__TB1__
-
-<div>
-  <p><img src="assets/md-images/commits-readme.png" alt="Network Graph TB1" width="700px" /></p>
-</div>
-
-<div>
-  <p><img src="assets/md-images/graficos-readme.png" alt="Network Graph TB1" width="700px" /></p>
-</div>
-
 ---
 
 ## Students Outcomes
@@ -173,12 +155,10 @@ __TB1__
    3.3. [Impact Mapping](#33-impact-mapping)  
    3.4. [Product Backlog](#34-product-backlog)
 4. __[Capítulo IV: Product Design](#capítulo-iv-product-design)__  
-  
-5. __[Conclusiones](#Conclusiones)__  
-   5.1. [Conclusiones](#61-conclusiones)  
-   5.2. [Recomendaciones](#62-recomendaciones)  
-6. __[Bibliografía](#bibliografía)__  
-7. __[Anexos](#anexos)__  
+5. __[Capítulo V: Solution UI/UX Design](#capítulo-v-solution-ui/ux-design)__  
+6. __[Capítulo VI: Product Implemention, Validation & Deployment](#capítulo-vi-product-implemention)__  
+7. __[Bibliografía](#bibliografía)__  
+8. __[Anexos](#anexos)__  
 
 ---
 # Capítulo I: Introducción
@@ -2282,20 +2262,20 @@ En esta sección se presentan los avances en la implementación de la solución,
 
 | Repository                        | Branch                         | Commit ID | Commit Message                                          | Commit Message Body                                                       | Committed on (Date) |
 |:----------------------------------|:-------------------------------|:---------:|:--------------------------------------------------------|:---------------------------------------------------------------------------|:-------------------:|
-| UPC-GosTech/tracklab-project      | feature/hero-how-sections      | 19d049e   | feat: Minor adjustments on hero and how-it-works sections | Se realizaron ajustes menores en contenido y estilos de las secciones Hero y How it Works. | 2025-04-26 |
-| UPC-GosTech/tracklab-project      | feature/hero-how-sections      | cd2425a   | chore: merge conflict resolved                          | Se resolvieron conflictos de fusión.                                       | 2025-04-26 |
-| UPC-GosTech/tracklab-project      | feature/header-benefits-sections | c1a1169   | feat: add landing-header.vue, about-us.vue and main-benefits.vue | Se agregaron componentes de encabezado, sobre nosotros y beneficios principales. | 2025-04-26 |
-| UPC-GosTech/tracklab-project      | feature/header-benefits-sections | 8abd8f2   | feat: add tracklab-logo.png to assets                    | Se añadió el logo de TrackLab a la carpeta de assets.                      | 2025-04-26 |
-| UPC-GosTech/tracklab-project      | feature/hero-section           | a6e546b   | feat: Creación de hero-section                          | Se creó el componente principal Hero.                                      | 2025-04-26 |
-| UPC-GosTech/tracklab-project      | feature/problem-solution       | bcfe101   | feat: Add problem-solution.vue                          | Se agregó el componente de Problema-Solución.                              | 2025-04-26 |
-| UPC-GosTech/tracklab-project      | feature/choose-plan            | d6e85a0   | feat: Add choose-plan.vue                               | Se desarrolló la sección para elegir planes.                               | 2025-04-26 |
-| UPC-GosTech/tracklab-project      | feature/share-components       | e85e3d3   | feat: Add plan-card.vue                                 | Se agregó el componente de tarjeta de plan (Plan Card).                    | 2025-04-26 |
-| UPC-GosTech/tracklab-project      | feature/folders-structure      | 1c9b6c7   | feat: Add share and sections file                       | Se creó la estructura de carpetas y archivos base.                         | 2025-04-26 |
-| UPC-GosTech/tracklab-project      | feature/assets                 | a7ccc11   | feat: Add truck.png to assets                           | Se añadió la imagen de camión a assets.                                    | 2025-04-26 |
-| UPC-GosTech/tracklab-project      | ci/config                      | 9709808   | ci: stop tracking .vscode folder                        | Se detuvo el seguimiento de la carpeta .vscode.                            | 2025-04-26 |
-| UPC-GosTech/tracklab-project      | main                           | 56f1d03   | ci: add Azure Static Web Apps workflow file             | Archivo de configuración para despliegue automático en Azure Static Web Apps. | 2025-04-21 |
-| UPC-GosTech/tracklab-project      | main                           | e5b231b   | ci: add Azure Static Web Apps workflow file             | Archivo de despliegue inicial agregado.                                    | 2025-04-21 |
-| UPC-GosTech/tracklab-project      | develop                        | 675a44e   | chore: Project setup                                    | Configuración inicial del proyecto TrackLab.                               | 2025-04-20 |
+| UPC/tracklab-project      | feature/hero-how-sections      | 19d049e   | feat: Minor adjustments on hero and how-it-works sections | Se realizaron ajustes menores en contenido y estilos de las secciones Hero y How it Works. | 2025-10-03 |
+| UPC/tracklab-project      | feature/hero-how-sections      | cd2425a   | chore: merge conflict resolved                          | Se resolvieron conflictos de fusión.                                       | 2025-10-03 |
+| UPC/tracklab-project      | feature/header-benefits-sections | c1a1169   | feat: add landing-header.vue, about-us.vue and main-benefits.vue | Se agregaron componentes de encabezado, sobre nosotros y beneficios principales. | 2025-10-03 |
+| UPC/tracklab-project      | feature/header-benefits-sections | 8abd8f2   | feat: add tracklab-logo.png to assets                    | Se añadió el logo de TrackLab a la carpeta de assets.                      | 2025-10-03 |
+| UPC/tracklab-project      | feature/hero-section           | a6e546b   | feat: Creación de hero-section                          | Se creó el componente principal Hero.                                      | 2025-10-03 |
+| UPC/tracklab-project      | feature/problem-solution       | bcfe101   | feat: Add problem-solution.vue                          | Se agregó el componente de Problema-Solución.                              | 2025-10-03 |
+| UPC/tracklab-project      | feature/choose-plan            | d6e85a0   | feat: Add choose-plan.vue                               | Se desarrolló la sección para elegir planes.                               | 2025-10-03 |
+| UPC/tracklab-project      | feature/share-components       | e85e3d3   | feat: Add plan-card.vue                                 | Se agregó el componente de tarjeta de plan (Plan Card).                    | 2025-10-03 |
+| UPC/tracklab-project      | feature/folders-structure      | 1c9b6c7   | feat: Add share and sections file                       | Se creó la estructura de carpetas y archivos base.                         | 2025-10-03 |
+| UPC/tracklab-project      | feature/assets                 | a7ccc11   | feat: Add truck.png to assets                           | Se añadió la imagen de camión a assets.                                    | 2025-10-03 |
+| UPC/tracklab-project      | ci/config                      | 9709808   | ci: stop tracking .vscode folder                        | Se detuvo el seguimiento de la carpeta .vscode.                            | 2025-10-03 |
+| UPC/tracklab-project      | main                           | 56f1d03   | ci: add Azure Static Web Apps workflow file             | Archivo de configuración para despliegue automático en Azure Static Web Apps. | 2025-10-03 |
+| UPC/tracklab-project      | main                           | e5b231b   | ci: add Azure Static Web Apps workflow file             | Archivo de despliegue inicial agregado.                                    | 2025-10-03 |
+| UPC/tracklab-project      | develop                        | 675a44e   | chore: Project setup                                    | Configuración inicial del proyecto TrackLab.                               | 2025-10-03 |
 
 
 ### 6.2.1.4. Execution Evidence for Sprint Review
