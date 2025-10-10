@@ -1434,6 +1434,8 @@ Enlace para acceder a [Miro](https://miro.com/app/board/uXjVICzj2Tg=/?share_link
 | 25 | US02 | Acceso a información de la app | 2 |
 | 26 | US03 | Ingreso desde landing | 2 |
 
+https://trello.com/invite/b/68e85dceecb7ceb63cde75b4/ATTI1c0b6c919360b3b3a23a4be5f6f4f1f031F857B0/product-backlog
+
 # 4. Capítulo IV: Solution Software Design
 
 ## 4.1. Strategic-Level Domain-Driven Design
