@@ -316,7 +316,7 @@ Nuestra solución busca proveer un espacio digital a través de una aplicación 
 
 Sin embargo, actualmente no existe un canal accesible y en tiempo real que permita verificar la condición de los paquetes antes de su entrega final, lo que provoca pérdidas, retrasos no detectados y entregas en ubicaciones incorrectas, afectando la operación y la satisfacción del cliente.
 
-__¿Cómo podríamos diseñar un sistema de seguimiento y verificación en tiempo real que garantice la seguridad y el estado de los paquetes, reduzca pérdidas y errores en la entrega, y aumente la confianza de todas las partes involucradas?__
+__¿Cómo podríamos diseñar un sistema de seguimiento y verificación en tiempo real que garantice la seguridad y el estado de los paquetes para reducir las pérdidas, errores en la entrega y aumentar la confianza de todas las partes involucradas?__
 
 #### 1.2.2.2. Lean UX Assumptions
 
