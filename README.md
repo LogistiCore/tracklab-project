@@ -36,7 +36,7 @@
 | --------- | ---------- | ------- | ----------------------------- |
 | 1.0       | 06/09/2025 |  | Creación del repositorio |
 | 1.1       | 16/09/2025 |  | Capítulos I (sin entrevistas), Capítulo II (ubiquitous language) y Capítulo 3 (hasta 3.2) |
-| 1.2       | 18/09/2025 |  | Implementación de los capítulos IV|
+| 1.2       | 08/10/2025 |  | Implementación de los capítulos IV|
 
 ---
 
@@ -141,19 +141,20 @@ __TB1__
 
 # Contenido
 
-1. __[Capítulo I: Introducción](#Capítulo-i-Introducción)__  
+1. __[Capítulo I: Presentación](#capítulo-i-presentación)__  
    1.1. [Startup Profile](#11-startup-profile)  
-   &nbsp;&nbsp;&nbsp;&nbsp;1.1.1. [Descripción del startup](#111-descripción-del-startup)  
-   &nbsp;&nbsp;&nbsp;&nbsp;1.1.2. [Perfiles de los integrantes del equipo](#112-perfiles-de-los-integrantes-del-equipo)  
+   &nbsp;&nbsp;&nbsp;&nbsp;1.1.1. [Descripción de la Startup](#111-descripción-de-la-startup)  
+   &nbsp;&nbsp;&nbsp;&nbsp;1.1.2. [Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)  
    1.2. [Solution Profile](#12-solution-profile)  
-   &nbsp;&nbsp;&nbsp;&nbsp;1.2.1. [Antecedentes y Problemática](#121-antecedentes-y-problemática)  
+   &nbsp;&nbsp;&nbsp;&nbsp;1.2.1. [Antecedentes y problemática](#121-antecedentes-y-problemática)  
    &nbsp;&nbsp;&nbsp;&nbsp;1.2.2. [Lean UX Process](#122-lean-ux-process)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.2.1. [Lean UX Problem Statements](#1221-lean-ux-problem-statements)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.2.2. [Lean UX Assumptions](#1222-lean-ux-assumptions)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.2.3. [Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.2.4. [Lean UX Canvas](#1224-lean-ux-canvas)  
    1.3. [Segmentos objetivo](#13-segmentos-objetivo)  
-2. __[Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)__  
+
+2. __[Capítulo II: Requirements Development and Software Solution Design](#capítulo-ii-requirements-development-and-software-solution-design)__  
    2.1. [Competidores](#21-competidores)  
    &nbsp;&nbsp;&nbsp;&nbsp;2.1.1. [Análisis competitivo](#211-análisis-competitivo)  
    &nbsp;&nbsp;&nbsp;&nbsp;2.1.2. [Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)  
@@ -166,13 +167,68 @@ __TB1__
    &nbsp;&nbsp;&nbsp;&nbsp;2.3.2. [User Task Matrix](#232-user-task-matrix)  
    &nbsp;&nbsp;&nbsp;&nbsp;2.3.3. [User Journey Mapping](#233-user-journey-mapping)  
    &nbsp;&nbsp;&nbsp;&nbsp;2.3.4. [Empathy Mapping](#234-empathy-mapping)  
-   &nbsp;&nbsp;&nbsp;&nbsp;2.3.5. [As-is Scenario Mapping](#235-as-is-scenario-mapping)  
-3. __[Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)__  
-   3.1. [To-Be Scenario Mapping](#31-to-be-scenario-mapping)  
-   3.2. [User Stories](#32-user-stories)  
-   3.3. [Impact Mapping](#33-impact-mapping)  
-   3.4. [Product Backlog](#34-product-backlog)
-4. __[Capítulo IV: Product Design](#capítulo-iv-product-design)__  
+   &nbsp;&nbsp;&nbsp;&nbsp;2.3.5. [Ubiquitous Language](#235-ubiquitous-language)  
+   2.4. [Requirements specification](#24-requirements-specification)  
+   &nbsp;&nbsp;&nbsp;&nbsp;2.4.1. [User Stories](#241-user-stories)  
+   &nbsp;&nbsp;&nbsp;&nbsp;2.4.2. [Impact Mapping](#242-impact-mapping)  
+   &nbsp;&nbsp;&nbsp;&nbsp;2.4.3. [Product Backlog](#243-product-backlog)  
+   2.5. [Strategic-Level Domain-Driven Design](#25-strategic-level-domain-driven-design)  
+   &nbsp;&nbsp;&nbsp;&nbsp;2.5.1. [EventStorming](#251-eventstorming)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.5.1.1. [Candidate Context Discovery](#2511-candidate-context-discovery)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.5.1.2. [Domain Message Flows Modeling](#2512-domain-message-flows-modeling)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.5.1.3. [Bounded Context Canvases](#2513-bounded-context-canvases)  
+   &nbsp;&nbsp;&nbsp;&nbsp;2.5.2. [Context Mapping](#252-context-mapping)  
+   &nbsp;&nbsp;&nbsp;&nbsp;2.5.3. [Software Architecture](#253-software-architecture)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.5.3.1. [Software Architecture Context Level Diagrams](#2531-software-architecture-context-level-diagrams)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.5.3.2. [Software Architecture Container Level Diagrams](#2532-software-architecture-container-level-diagrams)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.5.3.3. [Software Architecture Deployment Diagrams](#2533-software-architecture-deployment-diagrams)  
+   2.6. [Tactical-Level Domain-Driven Design](#26-tactical-level-domain-driven-design)  
+   &nbsp;&nbsp;&nbsp;&nbsp;2.6.x. [Bounded Context: <Bounded Context Name>](#26x-bounded-context-name)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.6.x.1. [Domain Layer](#26x1-domain-layer)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.6.x.2. [Interface Layer](#26x2-interface-layer)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.6.x.3. [Application Layer](#26x3-application-layer)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.6.x.4. [Infrastructure Layer](#26x4-infrastructure-layer)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.6.x.5. [Bounded Context Software Architecture Component Level Diagrams](#26x5-bounded-context-software-architecture-component-level-diagrams)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.6.x.6. [Bounded Context Software Architecture Code Level Diagrams](#26x6-bounded-context-software-architecture-code-level-diagrams)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.6.x.6.1. [Bounded Context Domain Layer Class Diagrams](#26x61-bounded-context-domain-layer-class-diagrams)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.6.x.6.2. [Bounded Context Database Design Diagram](#26x62-bounded-context-database-design-diagram)  
+
+3. __[Capítulo III: Solution UI/UX Design](#capítulo-iii-solution-uiux-design)__  
+   3.1. [Product design](#31-product-design)  
+   &nbsp;&nbsp;&nbsp;&nbsp;3.1.1. [Style Guidelines](#311-style-guidelines)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1.1.1. [General Style Guidelines](#3111-general-style-guidelines)  
+   &nbsp;&nbsp;&nbsp;&nbsp;3.1.2. [Information Architecture](#312-information-architecture)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1.2.1. [Organization Systems](#3121-organization-systems)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1.2.2. [Labelling Systems](#3122-labelling-systems)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1.2.3. [SEO Tags and Meta Tags](#3123-seo-tags-and-meta-tags)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1.2.4. [Searching Systems](#3124-searching-systems)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1.2.5. [Navigation Systems](#3125-navigation-systems)  
+   &nbsp;&nbsp;&nbsp;&nbsp;3.1.3. [Landing Page UI Design](#313-landing-page-ui-design)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1.3.1. [Landing Page Wireframe](#3131-landing-page-wireframe)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1.3.2. [Landing Page Mock-up](#3132-landing-page-mock-up)  
+   &nbsp;&nbsp;&nbsp;&nbsp;3.1.4. [Mobile Applications UX/UI Design](#314-mobile-applications-uxui-design)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1.4.1. [Mobile Applications Wireframes](#3141-mobile-applications-wireframes)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1.4.2. [Mobile Applications Wireflow Diagrams](#3142-mobile-applications-wireflow-diagrams)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1.4.3. [Mobile Applications Mock-ups](#3143-mobile-applications-mock-ups)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1.4.4. [Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1.4.5. [Mobile Applications Prototyping](#3145-mobile-applications-prototyping)  
+
+4. __[Capítulo IV: Product Implementation & Validation](#capítulo-iv-product-implementation--validation)__  
+   4.1. [Software Configuration Management](#41-software-configuration-management)  
+   &nbsp;&nbsp;&nbsp;&nbsp;4.1.1. [Software Development Environment Configuration](#411-software-development-environment-configuration)  
+   &nbsp;&nbsp;&nbsp;&nbsp;4.1.2. [Source Code Management](#412-source-code-management)  
+   &nbsp;&nbsp;&nbsp;&nbsp;4.1.3. [Source Code Style Guide & Conventions](#413-source-code-style-guide--conventions)  
+   &nbsp;&nbsp;&nbsp;&nbsp;4.1.4. [Software Deployment Configuration](#414-software-deployment-configuration)  
+   4.2. [Landing Page & Mobile Application Implementation](#42-landing-page--mobile-application-implementation)  
+   &nbsp;&nbsp;&nbsp;&nbsp;4.2.1. [Sprint n](#421-sprint-n)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.1.1. [Sprint Planning n](#4211-sprint-planning-n)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.1.2. [Sprint Backlog n](#4212-sprint-backlog-n)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.1.3. [Development Evidence for Sprint Review](#4213-development-evidence-for-sprint-review)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.1.4. [Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.1.5. [Execution Evidence for Sprint Review](#4215-execution-evidence-for-sprint-review)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.1.6. [Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.1.7. [Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.1.8. [Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)  
   
 5. __[Conclusiones](#Conclusiones)__  
    5.1. [Conclusiones](#61-conclusiones)  
@@ -1250,7 +1306,7 @@ Conociendo todos los datos mostrados anteriormente, realizamos un As-Is Scenario
 
 Enlace para visualizar en [Miro](https://miro.com/app/board/uXjVIDT9LS4=/?share_link_id=400490575884)
 
-## 2.4. Ubiquitous Language
+### 2.3.5 Ubiquitous Language
 
 ### Glosario de Términos del Dominio
 
@@ -1296,9 +1352,9 @@ _Definición:_ Conjunto de actividades coordinadas para planificar, ejecutar y c
 __Status (Estado)__  
 _Definición:_ Indicador que refleja la situación actual de la carga en cada fase del proceso logístico, tales como “en proceso”, “en tránsito” o “entregado”.  
 
-# 3. Capítulo III: Requirements Specification
+## 2.4 Requirements Specification
 
-## 3.1. To-Be Scenario Mapping
+## 2.1. To-Be Scenario Mapping
 
 A continuación, mostraremos los To-Be Scenario Mapping que creamos para mostrar el cambio en las actividades que realizarían nuestros segmentos objetivos en comparación a aquellas que realizan ahora, resaltando no solo el aumento en la eficiencia de las tareas sino también como mejora el sentir de los involucrados en los nuevos procesos.
 
@@ -1316,7 +1372,7 @@ A continuación, mostraremos los To-Be Scenario Mapping que creamos para mostrar
 
 Enlace para visualizar en [Miro](https://miro.com/app/board/uXjVIDT9LS4=/?share_link_id=400490575884)
 
-## 3.2. User Stories
+### 2.4.1 User Stories
 
 Las epics y user stories nos sirven para traducir aquellas ideas y necesidades que expresan nuestros posibles próximos usarios en requisitos funcionales y no funcionales que podemos aplicar en la implementación de nuestro produto. Estas deben ser construídas adecuadamente, con un lenguaje comprensible por los encargados de ejecutarlas y siempre siguiente el patrón persona. A continuación, Alumware presenta las user stories que considerará en la elaboración de su producto TrackLab.  
 
@@ -1411,7 +1467,7 @@ Las epics y user stories nos sirven para traducir aquellas ideas y necesidades q
 | TS51               | Editar almacén (Put Warehouse By Id)        | Como empresa usuaria de la app LogistiCore, quiero editar el detalle de un almacén en específico desde mi dispositivo móvil usando su ID.      | Escenario 1: Si el ID y los datos son válidos, la app refleja los cambios en la base de datos y confirma la acción.<br>Escenario 2: Si los datos son inválidos, la app muestra un error. |
 | TS52               | Eliminar almacén (Delete Warehouse By Id)   | Como empresa usuaria de la app LogistiCore, quiero eliminar un almacén en específico desde mi app móvil usando su ID.                          | Escenario 1: Si el ID es válido, la app elimina el almacén y confirma la acción.<br>Escenario 2: Si el ID es inválido, la app muestra un error y sugiere ingresar un ID válido. |
 
-## 3.3 Impact Mapping
+### 2.4.2 Impact Mapping
 
 <div>
   <p align="center"><img src="assets/md-images/Impact-Map-Web.jpg" alt="ImpactMap" width="800px" /></p>
@@ -1419,7 +1475,7 @@ Las epics y user stories nos sirven para traducir aquellas ideas y necesidades q
 
 Enlace para acceder a [Miro](https://miro.com/app/board/uXjVICzj2Tg=/?share_link_id=950798437690)
 
-## 3.4 Product Backlog
+### 2.4.3 Product Backlog
 
 | # Orden | User Story ID | Título | Story Points |
 |-------|---------------|-------|--------------|
@@ -1452,25 +1508,23 @@ Enlace para acceder a [Miro](https://miro.com/app/board/uXjVICzj2Tg=/?share_link
 
 https://trello.com/invite/b/68e85dceecb7ceb63cde75b4/ATTI1c0b6c919360b3b3a23a4be5f6f4f1f031F857B0/product-backlog
 
-# 4. Capítulo IV: Solution Software Design
+## 2.5. Strategic-Level Domain-Driven Design
 
-## 4.1. Strategic-Level Domain-Driven Design
-
-### 4.1.1. EventStorming
+### 2.5.1. EventStorming
 
 ![est](assets/md-images/f1.JPG)
 ![est2](assets/md-images/f2.JPG)
 
-#### 4.1.1.1. Candidate Context Discovery
+#### 2.5.1.1. Candidate Context Discovery
 ![db](assets/md-images/db.jpeg)
-#### 4.1.1.2. Domain Message Flows Modeling
+#### 2.5.1.2. Domain Message Flows Modeling
 ![pedidos](assets/md-images/transibilidad.jpeg)
-#### 4.1.1.3. Bounded Context Canvases
+#### 2.5.1.3. Bounded Context Canvases
 ![cuadro](assets/md-images/cuadro.jpeg)
 ![cuadro](assets/md-images/imagen3.jpeg)
 ![cuadro](assets/md-images/imagen4.jpeg)
 
-## 4.1.2. Context Mapping
+### 2.5.2. Context Mapping
 
 El enfoque Domain-Driven Design (DDD) persigue que el software refleje fielmente el dominio de
 negocio, facilitando la colaboración entre desarrolladores y expertos en la materia. Para ello, DDD
@@ -1487,9 +1541,9 @@ En TrackLab, aplicar DDD nos permite aislar responsabilidades (tracking, manejo 
 notificaciones, facturación, recursos y seguridad) y evolucionar cada parte de forma independiente sin
 perder la coherencia global.
 
-### 4.1.3. Software Architecture
+### 2.5.3. Software Architecture
 
-#### 4.1.3.1. Software Architecture Context Level Diagrams
+#### 2.5.3.1. Software Architecture Context Level Diagrams
 
 Este diagrama muestra en una única vista al sistema Tracklab, sus actores principales y los sistemas
 externos con los que interactúa:
@@ -1497,14 +1551,14 @@ externos con los que interactúa:
   <p align="center"><img src="assets/md-images/ContextDiagram.JPG" alt="CD" width="700px" /></p>
 </div>
 
-#### 4.1.3.2. Software Architecture Container Level Diagrams
+#### 2.5.3.2. Software Architecture Container Level Diagrams
 
 En el C2, se hace "zoom" dentro de el sistema, y se identifican los contenedores.
 <div>
   <p align="center"><img src="assets/md-images/c2.JPG" alt="CD" width="700px" /></p>
 </div>
 
-#### 4.1.3.3. Software Architecture Deployment Diagrams
+#### 2.5.3.3. Software Architecture Deployment Diagrams
 El despliegue de la arquitectura de la solución se organiza en cuatro capas principales: usuarios, aplicaciones en la nube, datos y IoT/edge.
 <div>
   <p align="center"><img src="assets/md-images/DeploymentD.png" alt="CD" width="700px" /></p>
@@ -1537,11 +1591,11 @@ El despliegue de la arquitectura de la solución se organiza en cuatro capas pri
 
 * En conjunto, esta arquitectura asegura la comunicación fluida entre usuarios, aplicaciones y dispositivos IoT, manteniendo la integridad de los datos y habilitando el monitoreo en tiempo real.
 
-### 4.2. Tactical-Level Domain-Driven Design
+## 2.6. Tactical-Level Domain-Driven Design
 
-#### 4.2.1. Bounded context: Operaciones Logisticas
+#### 2.6.1. Bounded context: Operaciones Logisticas
 
-#### 4.2.1.1. Domain Layer
+#### 2.6.1.1. Domain Layer
 
 ### Aggregates
 
@@ -1655,7 +1709,7 @@ Representa el código QR usado para verificar carga y entrega.
 - **Funciones**
   - QRCode(value: String)
 
-## 4.2.1.2. Interface Layer
+## 2.6.1.2. Interface Layer
 
 ### PedidosController
 Expone operaciones móviles/web para la gestión de pedidos.
@@ -1688,7 +1742,7 @@ Expone operaciones móviles/web para la gestión de pedidos.
   - createEmpresaLogistica(CreateEmpresaLogisticaCommand)
   - asignarUsuario(UUID, User)
 
-## 4.2.1.3. Application Layer
+## 2.6.1.3. Application Layer
 
 ### Commands
 - **CreatePedidoCommand**
@@ -1704,7 +1758,7 @@ Expone operaciones móviles/web para la gestión de pedidos.
 - **CreateIncidenciaCommand**
   - Atributos: envioId: UUID, descripcion: String, fotos: List<Foto>
 
-## 4.2.1.4. Infrastructure Layer
+## 2.6.1.4. Infrastructure Layer
 
 ### Repositories
 
@@ -1739,25 +1793,641 @@ Expone operaciones móviles/web para la gestión de pedidos.
   - findById(UUID): Optional<Incidencia>
   - save(Incidencia): Incidencia
 
-#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 
 <div>
   <p align="center"><img src="assets/md-images/Bounded_Context_Software_Architecture_Component_Level_Diagrams.png" alt="Bounded context software component" width="700px" /></p>
 </div>
 
-#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 
-#### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+#### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 
 <div>
   <p align="center"><img src="assets/md-images/Bounded_Context_Domain_Layer_Class_Diagrams.png" alt="Bounded context domain class" width="700px" /></p>
 </div>
 
-#### 4.2.1.6.2. Bounded Context Database Design Diagram
+#### 2.6.1.6.2. Bounded Context Database Design Diagram
 
 <div>
   <p align="center"><img src="assets/md-images/Bounded_Context_Database_Design_Diagram.png" alt="Bounded context database" width="700px" /></p>
 </div>
+
+# 3. Capítulo III: Solution UI/UX Design
+
+## 3.1. Product Design
+
+### 3.1.1. Style Guidelines
+
+#### 3.1.1.1. General Style Guidelines
+
+Un _“style guideline”_ o guía de estilo es un conjunto de reglas y pautas que establecen la forma en que se deben escribir, diseñar o presentar documentos, contenido web, software o cualquier otro tipo de trabajo creativo. A continuación, se detallan los parámetros implementados en la estructura visual y conceptual del proyecto **AlumWare** y **TrackLab**.
+
+
+### **Branding**
+
+#### **Brand Overview – AlumWare**
+
+La startup, presentada bajo el nombre de **AlumWare**, tiene como objetivo transformar digitalmente la gestión logística entre empresas en el Perú. A través de una plataforma web intuitiva y especializada, AlumWare permite a empresas clientes registrar y hacer seguimiento a sus órdenes de compra, mientras que las empresas logísticas pueden gestionar la recepción, agrupación, trazabilidad y entrega de la carga mediante tecnología de escaneo con códigos QR.
+
+La solución se centra en resolver la fragmentación y falta de visibilidad en el flujo de carga entre múltiples actores (proveedores, operadores logísticos, empresas en campo), permitiendo un control preciso desde el origen hasta el destino final, incluyendo almacenes intermedios, rutas de transporte y procesos de consolidación de carga.
+
+La trazabilidad completa de cada unidad de carga, incluso cuando esta se agrupa en contenedores mayores, representa una de las principales ventajas competitivas del sistema. Además, AlumWare contempla dashboards interactivos para el análisis de datos operativos, facilitando la toma de decisiones estratégicas tanto para empresas logísticas como para sus clientes.
+
+#### **Misión**
+
+Digitalizar y optimizar la trazabilidad logística B2B mediante una plataforma web intuitiva, segura y eficiente para empresas peruanas.
+
+#### **Visión**
+
+AlumWare aspira a consolidarse como la solución tecnológica líder en gestión logística empresarial en Latinoamérica, facilitando la transformación digital del sector logístico con un enfoque en trazabilidad, transparencia y control de operaciones.
+
+<p align="center">
+  <img src="assets/md-images/logo%20AlumWare.png" alt="Logo de AlumWare" width="250px" />
+</p>
+
+
+#### **Brand Name – TrackLab**
+
+El nombre de la solución propuesta es **TrackLab**, una fusión entre las palabras _“Track”_ (rastrear, seguir) y _“Lab”_ (laboratorio), lo cual transmite la idea de una solución innovadora, técnica y precisa orientada al análisis y mejora continua en los procesos logísticos. Este nombre representa el enfoque tecnológico de la plataforma para lograr una trazabilidad completa de los envíos logísticos en tiempo real.
+
+TrackLab busca ser identificado como una herramienta moderna, confiable y de fácil uso para empresas logísticas y proveedoras que requieren un control riguroso sobre sus operaciones de transporte, almacenamiento y entrega.
+
+<p align="center">
+  <img src="assets/md-images/Logo%20TrackLab.png" alt="Logo de TrackLab" width="380px" />
+</p>
+
+
+### **Colores**
+
+Los colores representan un componente fundamental en la primera impresión visual que recibe el usuario al interactuar con **TrackLab**. Por ello, siguiendo los principios de la **psicología del color**, se ha elegido el **azul** como tonalidad principal en la implementación de la plataforma.
+
+El azul simboliza **confianza, tecnología, transparencia y eficiencia**, cualidades que reflejan los valores de la startup y su enfoque hacia la trazabilidad logística en tiempo real. Además, este color está estrechamente vinculado con los entornos digitales y de servicios empresariales, lo cual refuerza la percepción de fiabilidad e innovación ante los usuarios.
+
+Como tonalidades **secundarias**, se ha integrado una gama complementaria compuesta por variantes de **amarillo**, **verde**, **blanco** y **gris**, los cuales permiten destacar estados operativos, jerarquías visuales y elementos de navegación. Estas combinaciones buscan proporcionar una experiencia visual clara, intuitiva y coherente en todos los módulos de la aplicación.
+
+<p align="center">
+  <img src="assets/md-images/Colors.png" alt="Paleta de colores TrackLab" width="600px" />
+</p>
+
+### Tipografía
+
+La tipografía cumple una función fundamental en la interfaz de usuario de **TrackLab**, no solo por su valor estético, sino porque facilita la jerarquía visual y mejora la experiencia de navegación. Ayuda a dirigir la atención del usuario, mejorar la comprensión del contenido y reforzar la identidad del producto.
+
+Para el desarrollo de la plataforma se ha seleccionado la tipografía **“Inter”**, una fuente moderna, versátil y altamente legible en dispositivos digitales. Se utilizan principalmente los estilos **Regular** y **Medium** para cubrir distintos niveles jerárquicos del contenido.
+
+<div align="center">
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center;">Nivel</th>
+      <th style="text-align: center;">Uso principal</th>
+      <th style="text-align: center;">Estilo</th>
+      <th style="text-align: center;">Tamaño</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Heading 01</strong></td>
+      <td>Títulos principales, secciones clave</td>
+      <td>Inter</td>
+      <td>70 px</td>
+    </tr>
+    <tr>
+      <td><strong>Heading 02</strong></td>
+      <td>Subtítulos, bloques destacados</td>
+      <td>Inter</td>
+      <td>40 px</td>
+    </tr>
+    <tr>
+      <td><strong>Heading 03</strong></td>
+      <td>Encabezados internos, tarjetas o módulos</td>
+      <td>Inter</td>
+      <td>25 px</td>
+    </tr>
+    <tr>
+      <td><strong>Body Text</strong></td>
+      <td>Texto general, descripciones, formularios</td>
+      <td>Inter</td>
+      <td>16 px</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+
+<p align="center">
+  <img src="assets/md-images/TYPOGRAPHY.png" alt="TYPOGRAPHY" width="600px" />
+</p>
+
+### 3.1.2. Information Architecture
+
+El concepto de software que Alumware está planteando a través de su proyecto, TrackLab, es precisamente con el propósito de mejorar la organización dentro de una empresa transportadora. En este mismo sentido, deseamos plantear un flujo de funcionalidades ordenado e intuitivo, de forma de que sea sencillo para los usuarios considerados utilizar la aplicación web. La información será de fácil acceso y se permitirá realizar búsquedas dentro de los bancos de información, logrando que no se pierda tiempo en ello. Asimismo, se seguirán algunos patrones para distribuir los elementos en la pantalla de forma que se vea atractiva y organizada, pero sobre todo no sobrecargada. En la parte superior se incluirán las opciones principales para que sea más sencillo navegar entre pantallas y funcionalidad. De esta forma, se habrá alcanzado facilitar los procesos de la empresa para los empleados, consiguiendo una reducción de errores significativa.
+
+#### 3.1.2.1. Organization Systems
+
+La organización que presentamos en pantalla se encuentra organizada de distintas formas dependiendo de la sección y necesidades de la misma. En un primer punto, puede mencionarse que nuestra landing page se encuentra organizada de forma jerárquica, puesto que presenta la información primordial en la parte superior, misma que incluye nuestro logo, eslogan y opciones primordiales, resaltando la de “Solicitar Demo”, que sirve para comprar y comenzar a trabajar dentro de nuestra aplicación.
+
+Continuando con la landing page, en las secciones en que la información presentada posee igual importancia, optamos por presentar los elementos de forma horizontal, como es el caso de la sección de “Beneficios principales” y de “Para quién es TrackLab”. En el caso de las secciones de “Contacto” y “¿Cómo funciona TrackLab”, dividimos la pantalla a la mitad verticalmente para presentarle al usuario tramos relacionados de información de forma simultánea.
+
+Pasando directamente a la aplicación web vista en formato desktop, se puede ver que se deja cierto espacio entre los elementos con el fin de no sobrecargar las pantallas. De la misma forma, se le da un espacio adecuado a cada elemento por sí mismo, evitando reducir sus datos con el fin de ahorrar espacio. Esto se puede ver en la pantalla “Iniciar un pedido nuevo”, en donde los elementos están colocados lado a lado y cuenta con una barra de búsqueda en la parte superior. 
+
+En cuanto a pantallas como “Aceptar pedidos” y “Responder consultas”, se opta por un orden que apila los elementos mostrados de forma horizontal basándose en la antigüedad de los mismos. Así, el administrador usuario podrá ver las notificaciones más recientes en la parte superior. Por último, en pantallas como la de registro, se organizan los elementos de forma que resalten los recuadros que deben ser completados por el autor.
+
+Prosiguiendo con la aplicación web con vista mobile, hemos cambiado parte de la organización de la estructura dado el espacio reducido ahora prefiriendo la organización vertical, de forma que esta siga siendo agradable a la vista y sencilla de comprender. Asimismo, se han aumentado las subopciones para que los detalles respecto a los pedidos puedan verse con mayor precisión. 
+
+#### 3.1.2.2. Labeling Systems
+
+Para el nombramiento de opciones, buscamos utilizar nombres claros y comprensibles que detallen brevemente la funcionalidad u opción a la que dirigen. Esto puede reflejarse en la barra lateral en la que se nombren los accesos con palabras comunes como “Home”, “Pedidos” o “Notificaciones”. De la misma forma, los títulos son “Iniciar un pedido nuevo” o “Seguimiento de pedidos”, frases que nos describen a que está destinada esa pantalla. En el caso de los botones, estos son nombrados como “Detalles”, “Registrar”, “Pedir”, entre otros; siempre un sustantivo o verbo del lenguaje común que indica a la perfección la acción que ejecuta.
+
+
+#### 3.1.2.3. SEO Tags and Meta Tags
+
+Los Meta Tags o SEO Tags son datos de las páginas web que se encuentran almacenadas en la cabecera del sitio, pero, en la mayor parte, no son visibles. Estas etiquetas proveen información sobre el contenido de la página a los navegadores y motores de búsqueda, ayudándonos en el posicionamiento de nuestra plataforma.
+
+Estas son las meta etiquetas que usamos en nuestra página web:
+
+- __Title:__ Esta etiqueta es el título de la página web que aparece en los resultados de búsqueda en los navegadores.  
+`<title>TrackLab: Logística y Tracking Avanzado</title>`
+
+- __Description:__ Esta etiqueta es la descripción que aparece debajo del título de la página web en los resultados de búsqueda en los navegadores.  
+`<meta charset="utf-8">`
+
+- __Charset:__ Esta etiqueta ajusta la codificación de carácteres de la página web, logrando que los carácteres especiales se muestren correctamente.  
+`<meta name="description" content="TrackLab es un sistema de logística especializada en el transporte y seguimiento de cargas." />`
+
+- __Keywords:__ Esta etiqueta almacena las palabras clave que están relacionadas al contenido de la página web. Nos ayuda a que nuestra página tenga una mejor oportunidad de visibilidad.  
+`<meta name="keywords" content="logistics, transport, tracking, tracking number, b2b, business, load" />`
+
+- __Author & Copyright:__ Estas etiquetas registran la información del autor de la página web y los derechos de autor.  
+`<meta name="author" content="AlumWare" />`   
+`<meta name="copyright" content="Copyright AlumWare 2025" />`
+
+#### 3.1.2.4. Searching Systems
+
+En cuanto a sistemas de búsqueda, deseamos que las funcionalidades y pantallas principales sean de fácil acceso por lo que no es necesario buscarlas, sino que aparecen en el menú desplegable en la parte lateral. Centrándonos más en la búsqueda en sí, en las pantallas en las que aparecen varios elementos uno detrás de otro, hemos implementado barras de búsqueda que filtrarán aquellos elementos que coincidan con las palabras ingresadas por el usuario, tanto para la aplicación web vista desde desktop como en mobile. Este es el caso de la pantalla “Iniciar un nuevo pedido”, en donde se encuentra una barra de búsqueda para encontrar pedidos con mayor rapidez. 
+
+#### 3.1.2.5. Navigation Systems
+
+Por último, buscamos que los sistemas de navegación sean lo más claros posible, estableciendo un flujo sencillo de recorrer y siempre conectado a las opciones principales a través del menú desplegable. Puede resaltarse la forma en que se navegará de la landing page hacia la aplicación web en sí. Esto se hará al iniciar sesión, siempre y cuando ya exista una sesión contratada, en la cuenta personal del usuario. Una vez dentro se valide la contraseña y/o correo empleados, el usuario podrá hacer uso de todas las funcionalidades ya sea en un dispositivo mobile o desktop. Finalmente, los botones incluídos facilitan la navegación, dado que logran que el usuario llegue a la información o funcionalidad que desea en pocos pasos.
+
+### 3.1.3 Landing Page UI Design
+
+#### 3.1.3.1. Landing Page Wireframe
+
+A continuación, presentaremos nuestro landing page wireframe, en donde hemos considerado la presentación de la estructura quw tendrá nuestra lansing page final. En ese sentido, se resaltan los espacios en los que irán nuestros elemntos como imágenes y texto explicativo, así como la ubicación de nuestros botones. En el caso de los títulos, decidimos incluirlos desde ahora con el fin de organizar cada sección en el lugar adecuado.
+
+<div>
+  <p align="center"><img src="assets/md-images/landing-wireframes.png" alt="landing-wireframes.png" width="700px" /></p>
+</div>
+
+#### 3.1.3.2. Landing Page Mock-up
+
+En el caso de nuestro mock-up, aquí ya estamos incluyendo los texto que deseamos mostrar a nuestros usuarios, lo que incluye explicaciones en cuanto a las funcionalidades y mención de nuestros beneficios. De la misma manera, se incluyen imágenes referenciales y opción ya nombradas. Ejemple de ello es la sección de "Preguntas frecuentes", la cual cuenta con respuestas que serán desplegables más adelante. 
+
+<div>
+  <p align="center"><img src="assets/md-images/landing-mockup.png" alt="landing-mockup.png" width="700px" /></p>
+</div>
+
+### 3.1.4. Mobile Applications UX/UI Design
+
+#### 3.1.4.1. Mobile Applications Wireframes
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe1.png" alt="wireframe-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe2.png" alt="wireframe-2.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe3.png" alt="wireframe-3.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe4.png" alt="wireframe-4.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe5.png" alt="wireframe-5.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe6.png" alt="wireframe-6.png" width="700px" /></p>
+</div>
+
+#### 3.1.4.2. Mobile Applications Mock-ups
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup1.png" alt="mockup-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup2.png" alt="mockup-2.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup3.png" alt="mockup-3.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup4.png" alt="mockup-4.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup5.png" alt="mockup-5.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup6.png" alt="mockup-6.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup7.png" alt="mockup-7.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup8.png" alt="mockup-8.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup9.png" alt="mockup-9.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup10.png" alt="mockup-10.png" width="700px" /></p>
+</div>
+
+# Capítulo IV: Product Implementation, Validation & Deployment
+
+## 4.1. Software Configuration Management
+
+### 4.1.1. Software Development Environment Configuration
+
+1. **Project Management**
+
+- **Trello**: Gestión de tableros Kanban para organizar tareas y sprints. 
+
+2. **Requirements Management**
+
+- **Pivotal Tracker**: Registro y priorización de historias de usuario.   
+- **Miro**: Diagramas colaborativos (mapas de empatía, user‑flows). 
+
+3. **Product UX/UI Design**
+
+- **Figma**: Prototipado de alta fidelidad y mock‑ups responsivos. 
+
+4. **Software Development**
+
+- **WebStorm**: IDE para Vue.js (JS, CSS, HTML). https://www.jetbrains.com/webstorm/download/  
+- **Rider**: IDE para ASP .NET Core (C#). https://www.jetbrains.com/rider/download/  
+- **Node.js & npm**: Entorno y gestor de paquetes para la SPA en Vue.js. https://nodejs.org/  
+- **Vue CLI**: Scaffold y scripts de desarrollo (vue create, vue serve). Instalación: npm install -g @vue/cli  
+- **Vue.js**: Framework progresivo para la SPA. https://vuejs.org/  
+- **JavaScript, CSS y HTML**: Lenguajes base de la interfaz cliente.  
+&nbsp;&nbsp;&nbsp;&nbsp; - **JS**: https://developer.mozilla.org/es/docs/Web/JavaScript  
+&nbsp;&nbsp;&nbsp;&nbsp; - **CSS**: https://developer.mozilla.org/es/docs/Web/CSS  
+&nbsp;&nbsp;&nbsp;&nbsp; - **HTML**: https://developer.mozilla.org/es/docs/Web/HTML  
+- **.NET (C#)**: Compilación y ejecución de la API en ASP .NET Core. https://dotnet.microsoft.com/download  
+- **Postman**: Pruebas manuales de endpoints REST y validación Swagger. https://www.postman.com/downloads  
+
+5. **Software Deployment**
+
+- **Azure CLI**: Automatización de despliegues y gestión de recursos. https://docs.microsoft.com/cli/azure/install-azure-cli  
+- **Azure Resources**: https://portal.azure.com/  
+
+6. **Software Documentation**
+
+- **Git**: Control de versiones y gestión de ramas (GitFlow). 
+- **GitHub**: Plataforma SaaS para repositorios Git y CI/CD con Actions. 
+- **LucidChart**: Plataforma SaaS de diagramación que permite crear de forma colaborativa diagramas. Se elaboró el diagrama de base de datos. 
+
+### 4.1.2. Source Code Management
+
+Nuestro proyecto se mantendrá en línea con las convenciones de flujo de trabajo definidas por el modelo GitFlow para el control de versiones de desarrollo. Teniendo a GitHub como plataforma y sistema de control de versiones.
+
+A continuación, detallaremos la implementación del modelo GitFlow y se proporcionará los URL de los repositorios de GitHub de cada producto del trabajo.
+
+
+Flujo de Trabajo GitFlow: GitFlow es un modelo de flujo de trabajo para administrar y gestionar branches en un proyecto Git, propuesto por Vincent Driessen, diseñado para facilitar el desarrollo colaborativo.
+
+Estructuras de branches: Actualmente solo consideramos 3 ramas de las mombradas, pero pensamos trabajabar con todas las siguientes para las próximas entregas.
+
+- Master branch: Es la rama principal de la aplicación, contiene las versiones estables y sin errores listas para ser lanzadas públicamente.
+- Develop branch: Es la rama base para el desarrollo activo, aquí se integran todas las funcionalidades nuevas antes de que se considere un lanzamiento.
+- Feature branch: Es la rama que se usa para desarrollar nuevas funcionalidades o mejoras específicas del proyecto.
+- Release branch: Es la rama que se utiliza para preparar una versión estable del proyecto donde se corrigen bug menores, se actualizan versiones y se ajustan las configuraciones necesarias.
+- Hotfix branch: Es la rama donde se resuelven errores críticos encontrados en la aplicación lanzada. Esta rama se crea directamente del main, ya que necesitan una solución urgente sin pasar por el ciclo completo de desarrollo.
+- Readme-updates: Es la rama mediante la cual se enviarán las actualizaciones hacia el informe en el readme.md.
+
+Versionamiento Semántico: Aplicaremos el sistema de versionamiento semántico (Semantic Versioning) para dar nombre a los releases de nuestra aplicación.
+
+Convenciones de Commits: Para hacer commits claros y estructurados en nuestro proyecto, utilizaremos la especificación Conventional Commits, inspirada en las Angular Commit Guidelines.
+
+### 4.1.3. Source Code Style Guide & Conventions
+
+Uno de los principios fundamentales que aplicamos durante el desarrollo de **TrackLab** fue la importancia de mantener un código ordenado, legible y escalable. Más allá de simplemente escribir funciones que “funcionen”, nos propusimos adoptar una cultura de desarrollo consciente, donde cada línea de código aporte claridad, coherencia y mantenibilidad a largo plazo.
+
+Estas convenciones fueron aplicadas en todos los lenguajes y entornos utilizados, no solo como estándares técnicos, sino como reflejo de un compromiso profesional por la calidad. Aquí presentamos nuestras buenas prácticas organizadas por bloques clave: HTML, CSS, Gherkin y otras reglas generales que estructuraron el backend visual de nuestra plataforma.
+
+#### HTML
+
+1. **Semántica primero:** Siempre usamos etiquetas semánticas como `<section>`, `<nav>`, `<aside>` y `<article>` para reflejar la estructura lógica del contenido.
+
+2. **Jerarquía clara de encabezados:** Se respeta el orden de los encabezados (`<h1>` a `<h6>`) de forma progresiva, evitando saltos arbitrarios para facilitar la accesibilidad y el SEO.
+
+3. **Cierre correcto de etiquetas:** Todas las etiquetas deben cerrarse explícitamente. Ejemplo: `<p>Esto es un párrafo.</p>`
+
+4. **Uso uniforme de minúsculas:** Todos los elementos y atributos se escriben en minúsculas para mantener una estructura visual limpia.
+
+5. **Atributos con comillas dobles:** Siempre que se asignen valores a los atributos, estos deben ir entre comillas dobles. Ejemplo: `<input type="text" placeholder="Ingrese su nombre">`
+
+6. **Atributos alt y dimensiones en imágenes:** Las etiquetas `<img>` deben incluir `alt`, `width` y `height` para mejorar la accesibilidad y el rendimiento de carga.  
+   Ejemplo: `<img src="logo.png" alt="Logo de TrackLab" width="128" height="128">`
+
+7. **Estructura clara y sin anidamientos innecesarios:** Se evita el uso excesivo de `<div>` y se promueve un HTML limpio y fácil de entender.
+
+8. **Uso de atributos ARIA:** Para accesibilidad en botones, formularios y componentes interactivos.
+
+9. **Carga diferida de imágenes:** Se utiliza `loading="lazy"` para optimizar la experiencia del usuario.
+
+#### CSS
+
+1. **Clases descriptivas y reutilizables:** Se usan nombres como `.tarjeta-envio`, `.btn-confirmar`, en lugar de nombres genéricos como `.caja1`.
+
+2. **Guiones como separador estándar:** Ejemplo: `#form-contacto`, `.texto-secundario`.
+
+3. **Variables CSS:** Se definen variables como `--color-primario`, `--font-base` para mejorar la mantenibilidad.
+
+4. **BEM (Block Element Modifier):** Se sigue esta metodología para estructurar componentes. Ejemplo: `.card__title`, `.modal--activo`.
+
+5. **Evitar unidades en valores cero:** Se escribe `margin: 0;` y no `margin: 0px;`.
+
+6. **Separación visual de reglas:** Cada selector se escribe en líneas distintas y con llaves bien identificadas.
+
+7. **Animaciones suaves:** Uso de `transition: all 0.3s ease-in-out;` para efectos visuales sin sobrecargar la experiencia.
+
+8. **Organización modular:** Se separan los estilos por funcionalidad (`_botones.scss`, `_formularios.scss`, etc.) y se importan al archivo global.
+
+9. **Desarrollo mobile-first:** Se diseña para pantallas pequeñas y luego se adaptan los estilos con media queries.
+
+#### Gherkin (BDD)
+
+1. **Lenguaje orientado al usuario:** Todos los escenarios se redactan desde la perspectiva de operarios y supervisores logísticos.
+
+2. **Formato estándar Given–When–Then:** Estructura clara para comprender el comportamiento esperado de cada funcionalidad.
+
+3. **Uso de Background:** Se aplica cuando hay pasos comunes en varios escenarios.
+
+4. **Separación visual y legibilidad:** Se insertan saltos de línea y sangrías para distinguir escenarios y pasos.
+
+5. **Escenarios negativos incluidos:** También se especifica lo que no debería pasar.  
+   Ejemplo: `Then el sistema no debe registrar el pedido si no hay productos seleccionados.`
+
+6. **Uso de Scenario Outline con Examples:** Para validar múltiples combinaciones de datos sin repetir la lógica.
+
+#### Convenciones generales de desarrollo
+
+1. **Naming conventions:**
+   - Archivos en minúsculas y separados por guiones. Ej: `nuevo-pedido.js`
+   - Componentes en PascalCase. Ej: `ModalConfirmacion`, `TarjetaProducto`
+   - Variables descriptivas. Evitamos `x`, `tmp`, y usamos `estadoPedido`, `usuarioActual`
+
+2. **Estructura de carpetas:**
+   src/ ├── assets/ ├── components/ ├── layouts/ ├── pages/ ├── services/ ├── styles/ └── tests/
+3. **Componentes reutilizables:** Creamos elementos como `BotonSecundario`, `FormularioConsulta`, `TarjetaHistorial`, lo que agiliza el desarrollo y mejora la coherencia visual.
+
+4. **Seguridad básica en front-end:**
+- Validación de entradas de usuario.
+- Confirmación de acciones destructivas con alertas visuales.
+- Prevención de doble envío de formularios.
+
+5. **Testing automatizado (Cypress + Gherkin):**
+- Validación de login, escaneo de QR, seguimiento de pedidos.
+- Automatización de flujos completos tipo “happy path” y errores comunes.
+
+6. **Documentación en el código:**
+- Comentarios en funciones y bloques de lógica compleja.
+- Estilo estándar de JSDoc:
+  ```js
+  /**
+   * Valida si el pedido se encuentra activo.
+   * @param {string} id - ID del pedido
+   * @returns {boolean}
+   */
+  ```
+
+7. **Versionado y commits semánticos:**
+- Ramas tipo `feature/seguimiento`, `fix/formulario-envio`.
+- Commits como:
+  - `feat: agregar validación al botón de escaneo`
+  - `fix: resolver error en pantalla emergente`
+  - `docs: actualizar convenciones de estilo`
+
+### 4.1.4. Software Deployment Configuration
+
+__Prerrequisitos comunes:__
+
+- Tener una suscripción activa de Azure y permisos para crear recursos.  
+- Disponer de los tres repositorios separados (landing‑page, frontend, backend) con sus ramas principales definidas.  
+- Contar con Azure CLI (o acceso al Portal) configurado con tu cuenta.  
+
+__Creación del grupo de recursos:__ Es preferible que nuestros recursos compartan un único grupo para facilitar el proceso de CORS.
+
+En el portal de Azure, ingresamos a la sección  de grupo de recursos y creamos uno:
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-web-1.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+Aquí es dónde crearemos cada uno de los recursos necesarios.
+
+__Landing Page Deployment__
+
+__Paso 1:__ En el Portal de Azure, vamos a crear un recurso y buscamos la opción Static Web Application:
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-web-2.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+__Paso 2:__ Seleccionamos Crear y asignamos la suscripción y el grupo de recursos creado previamente. Además, asignamos el nombre del recurso
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-web-3.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+Seleccionamos el plan gratuito por fines académicos y en Detalles de implementación elegimos GitHub
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-web-4.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+
+Seleccionamos el repositorio para la landing page y configuramos la ubicación de salida de la siguiente manera, respetando gitFlow: 
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-web-6.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+__Paso 3:__ Al seleccionar la opción Revisar y crear, se hará un commit sobre la rama main añadiendo el archivo .yml para la publicación automática (on-push)
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-web-7.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-web-8.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+## 4.2. Landing Page, Services & Applications Implementation
+
+### 4.2.1. Sprint 1
+
+### 4.2.1.1. Sprint Planning 1
+
+| Sprint # | Sprint 1 |
+|----------|---------|
+| Date | 2025 - 04 - 12 | 
+| Time | 11:45 PM |
+| Location | Reunión virtual a través de discord | 
+| Prepared by | Baldeón Vivar, Santiago Armando | 
+| Attendees (to planning meeting) | Vargas Javier, Jose Enrique; Trillo Hernandez, Anghel Melanie; Baldeón Vivar, Santiago Armando y De La Cruz Moreno, Roy Hernan 
+| Sprint n – 1 Review Summary | No existe sprint previo | 
+| Sprint 1 Goal | Our focues is on deploying our landing page. We believe it delivers satisfaction and confidence to our team and future users. This will be confirmed when all the members of the team and a user navigates our landing page without issues | 
+| Sprint 1 Velocity | 20 story points | 
+| Sum of story points | 20 story points |
+
+
+### 4.2.1.2. Sprint Backlog 1
+
+El objetivo principal del Sprint 1 es desarrollar y desplegar una landing page funcional para el proyecto SwiftPort. 
+A continuación se muestra una captura de pantalla de las historias de usuario que se buscan trabajar en este sprint, con sus epicas correspondientes y su estado. 
+
+| Sprint # | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (hours) | Assigned To | Status | Story Points |
+|:--------:|:-------------:|:-----------------|:-------:|:-----------|:------------|:------------------:|:------------|:------:|:------------:|
+| Sprint 1 | US01 | Contactar a la startup | T01 | Diseñar formulario de contacto | Crear formulario con campos de nombre, correo y mensaje. | 2 | Baldeón Vivar, Santiago Armando | To Do | 1 |
+| Sprint 1 | US01 | Contactar a la startup | T02 | Conectar formulario con backend | Programar API para enviar los datos al servidor. | 3 | Baldeón Vivar, Santiago Armando | To Do | 1 |
+| Sprint 1 | US01 | Contactar a la startup | T03 | Validar campos del formulario | Agregar validaciones de campos requeridos. | 1 | De La Cruz Moreno Roy Hernan | To Do | 1 |
+| Sprint 1 | US02 | Obtener información sobre la aplicación | T04 | Redactar contenido de preguntas frecuentes | Escribir las preguntas y respuestas de la sección FAQ. | 2 | Vargas Javier Jose Enrique | To Do | 1 |
+| Sprint 1 | US02 | Obtener información sobre la aplicación | T05 | Implementar sección FAQ | Diseñar y programar sección FAQ expandible. | 3 | De La Cruz Moreno Roy Hernan | To Do | 1 |
+| Sprint 1 | US02 | Obtener información sobre la aplicación | T06 | Validar diseño responsive FAQ | Asegurar que la FAQ funcione correctamente en movil web. | 1 | Trillo Hernandez, Anghel Melanie | To Do | 1 |
+| Sprint 1 | US03 | Acceder a la app desde landing page | T07 | Crear botón de acceso | Diseñar botón "Ingresar a la App" en Hero Section. | 1 | Trillo Hernandez, Anghel Melanie | To Do | 2 |
+| Sprint 1 | US03 | Acceder a la app desde landing page | T08 | Programar redirección a login | Programar funcionalidad de enlace a login de TrackLab. | 2 | Baldeón Vivar, Santiago Armando | To Do | 2 |
+| Sprint 1 | US03 | Acceder a la app desde landing page | T09 | Validar acceso en mobile y desktop | Probar acceso correcto desde todos los dispositivos. | 1 | Vargas Javier Jose Enrique | To Do | 2 |
+
+
+### 4.2.1.3. Development Evidence for Sprint Review
+
+En esta sección se presentan los avances en la implementación de la solución, específicamente en el desarrollo de la Landing Page correspondiente al alcance del Sprint actual. Se detallan los commits realizados en el repositorio, evidenciando las funcionalidades implementadas, los ajustes de estilo y las mejoras en la interfaz de usuario. A continuación, se muestra una tabla que resume los commits relevantes asociados a este componente.
+
+| Repository                        | Branch                         | Commit ID | Commit Message                                          | Commit Message Body                                                       | Committed on (Date) |
+|:----------------------------------|:-------------------------------|:---------:|:--------------------------------------------------------|:---------------------------------------------------------------------------|:-------------------:|
+| UPC/tracklab-project      | feature/hero-how-sections      | 19d049e   | feat: Minor adjustments on hero and how-it-works sections | Se realizaron ajustes menores en contenido y estilos de las secciones Hero y How it Works. | 2025-10-03 |
+| UPC/tracklab-project      | feature/hero-how-sections      | cd2425a   | chore: merge conflict resolved                          | Se resolvieron conflictos de fusión.                                       | 2025-10-03 |
+| UPC/tracklab-project      | feature/header-benefits-sections | c1a1169   | feat: add landing-header.vue, about-us.vue and main-benefits.vue | Se agregaron componentes de encabezado, sobre nosotros y beneficios principales. | 2025-10-03 |
+| UPC/tracklab-project      | feature/header-benefits-sections | 8abd8f2   | feat: add tracklab-logo.png to assets                    | Se añadió el logo de TrackLab a la carpeta de assets.                      | 2025-10-03 |
+| UPC/tracklab-project      | feature/hero-section           | a6e546b   | feat: Creación de hero-section                          | Se creó el componente principal Hero.                                      | 2025-10-03 |
+| UPC/tracklab-project      | feature/problem-solution       | bcfe101   | feat: Add problem-solution.vue                          | Se agregó el componente de Problema-Solución.                              | 2025-10-03 |
+| UPC/tracklab-project      | feature/choose-plan            | d6e85a0   | feat: Add choose-plan.vue                               | Se desarrolló la sección para elegir planes.                               | 2025-10-03 |
+| UPC/tracklab-project      | feature/share-components       | e85e3d3   | feat: Add plan-card.vue                                 | Se agregó el componente de tarjeta de plan (Plan Card).                    | 2025-10-03 |
+| UPC/tracklab-project      | feature/folders-structure      | 1c9b6c7   | feat: Add share and sections file                       | Se creó la estructura de carpetas y archivos base.                         | 2025-10-03 |
+| UPC/tracklab-project      | feature/assets                 | a7ccc11   | feat: Add truck.png to assets                           | Se añadió la imagen de camión a assets.                                    | 2025-10-03 |
+| UPC/tracklab-project      | ci/config                      | 9709808   | ci: stop tracking .vscode folder                        | Se detuvo el seguimiento de la carpeta .vscode.                            | 2025-10-03 |
+| UPC/tracklab-project      | main                           | 56f1d03   | ci: add Azure Static Web Apps workflow file             | Archivo de configuración para despliegue automático en Azure Static Web Apps. | 2025-10-03 |
+| UPC/tracklab-project      | main                           | e5b231b   | ci: add Azure Static Web Apps workflow file             | Archivo de despliegue inicial agregado.                                    | 2025-10-03 |
+| UPC/tracklab-project      | develop                        | 675a44e   | chore: Project setup                                    | Configuración inicial del proyecto TrackLab.                               | 2025-10-03 |
+
+
+### 4.2.1.4. Execution Evidence for Sprint Review
+
+En el primer sprint, logramos desarrollar parcialmente la implementación del despliegue del landing page. Donde se muestra las diferentes divisiones que el usuario podrá visualizar como lo sería la información sobre el startup y nuestro producto. A continuación mostramos algunas evidencias:
+
+- Sección Sobre Nosotros (About Us): En esta sección, damos al usuario una introducción sobre nosotros y nuestro producto, TrackLab.
+
+<div>
+  <p align="center"><img src="assets/md-images/landing_page-about_us.png" alt="landing_page_about_us.png" width="700px" /></p>
+</div>
+
+- Sección Funcionamiento (¿Cómo funciona TrackLab?): En esta sección, el usuario puede enterarse del funcionamiento de nuestro producto a través de un video informativo y una pequeña guía de cómo registrarse.
+
+<div>
+  <p align="center"><img src="assets/md-images/landing_page-how_does_it_work.png" alt="landing_page_how_does_it_work.png" width="700px" /></p>
+</div>
+
+- Sección Plan: En esta sección, ofrecemos al usuario diferentes planes en los que se puede suscribir.
+
+<div>
+  <p align="center"><img src="assets/md-images/landing_page-plan.png" alt="landing_page_plan.png" width="700px" /></p>
+</div>
+
+- Sección Contacto: En esta sección, el usuario puede ingresar sus datos para poder consultarnos algunas dudas que tenga. Además, proveemos nuestro correo, teléfono y redes sociales como otra alternativa de contacto.
+<div>
+  <p align="center"><img src="assets/md-images/landing_page-contact.png" alt="landing_page_contact.png" width="700px" /></p>
+</div>
+
+### 4.2.1.5. Services Documentation Evidence for Sprint Review
+
+Durante este Sprint no se desarrollaron ni documentaron Web Services, dado que el enfoque principal estuvo en la implementación de la Landing Page como primer entregable del sistema. Por lo tanto, no se cuenta con endpoints disponibles ni documentación generada en OpenAPI en esta etapa del proyecto.
+
+La documentación de servicios será considerada en los siguientes Sprints, una vez que se inicie el desarrollo del backend y se establezca la estructura básica de la API que permitirá la integración con las vistas web implementadas.
+
+### 4.2.1.6. Software Deployment Evidence for Sprint Review
+
+A continuación, se muestra nuestra landing page desplegada:
+
+<div>
+  <p align="center"><img src="assets/md-images/langing-completa-web.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+### 4.2.1.7. Team Collaboration Insights during Sprint
+
+Durante el desarrollo del Sprint, cada miembro del equipo participó activamente en la implementación de la **Landing Page**, dividiéndose por secciones según el diseño y el contenido definido previamente.
+
+A continuación, se detalla la participación específica de cada integrante del equipo:
+
+| **Nombre**                       | **Actividades** |
+| ---------------------------------|------------|
+| De La Cruz Moreno, Roy Hernan       | Implementación de secciones "Problemáhtica y Solución" y "Elige tu plan" |
+| Trillo Hernandez, Anghel Melanie	      | Implementación de secciones "¿Cómo funciona TrackLab?" y de presentación |
+| Baldeón Vivar, Santiago Armando | Implementación de secciones "Contacto", "Preguntas frecuentes" y footer |
+| Vargas Javier, Jose Enrique	      | Implementación de header y de secciones "Beneficios principales" y "¿Para quién es TrackLab"? |
+# Conclusiones
+
+### Enfoque centrado en el usuario
+Las historias de usuario retratan de manera clara y realista las necesidades de nuestros segmentos. Consideramos tanto a quienes organizan y envían pedidos, como a quienes los reciben, logrando un enfoque integral.
+
+### Diseño orientado a la experiencia del usuario
+Nuestra landing page y aplicación web fueron diseñadas buscando máxima utilidad.  
+- **Landing page**: incluye información suficiente para que los usuarios comprendan la función y beneficios del producto sin generar dudas.  
+- **Aplicación**: incorpora secciones y funcionalidades específicas para cubrir las necesidades detectadas en los segmentos objetivo.
+
+### Impacto estratégico
+El uso del *impact map* nos permitió identificar las funcionalidades con mayor impacto en las necesidades de los usuarios. Esto guió la priorización, asignación de recursos y gestión del tiempo.
+
+### Priorización en el product backlog
+Al estructurar el backlog, logramos asignar un valor a cada tarea en función de su impacto en el cliente. Esto mejoró nuestra organización interna y la toma de decisiones sobre qué tareas abordar primero.
+
+### Diseño visual agradable y organizado
+En los wireframes y mockups se usaron patrones de diseño que muestran la información de forma clara y ordenada, evitando la sobrecarga visual. Esto facilita la navegación y acceso a secciones de interés.
+
+### Funcionalidades precisas
+Las funcionalidades implementadas en el backend permiten al usuario acceder sin dificultad a la información que necesita mediante las *queries* propuestas. La aplicación responde con rapidez y claridad.
+
+### Registro acorde con el negocio
+Se aplicaron correctamente las reglas de negocio de Tracklab:  
+- IDs no nulos.  
+- Evitar registros con datos incoherentes o incompletos.  
+
+Esto eleva el valor del producto y reduce errores de gestión en las empresas usuarias.
+
+### Aplicación de DDD
+Se aplicaron con éxito los conceptos de *Domain Driven Design*. Esto permitió:  
+- Identificar detalles importantes del negocio.  
+- Fraccionar el dominio en *bounded contexts*.  
+- Trabajar colaborativamente y de manera progresiva hasta alcanzar un resultado óptimo.
 
 # 5. Conclusiones
 
