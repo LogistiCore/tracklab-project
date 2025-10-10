@@ -2018,6 +2018,339 @@ En el caso de nuestro mock-up, aquí ya estamos incluyendo los texto que deseamo
 
 #### 5.1.4.5. Mobile Applications Prototyping
 
+# Capítulo VI: Product Implementation, Validation & Deployment
+
+## 6.1. Software Configuration Management
+
+### 6.1.1. Software Development Environment Configuration
+
+1. **Project Management**
+
+- **Trello**: Gestión de tableros Kanban para organizar tareas y sprints. 
+
+2. **Requirements Management**
+
+- **Pivotal Tracker**: Registro y priorización de historias de usuario.   
+- **Miro**: Diagramas colaborativos (mapas de empatía, user‑flows). 
+
+3. **Product UX/UI Design**
+
+- **Figma**: Prototipado de alta fidelidad y mock‑ups responsivos. 
+
+4. **Software Development**
+
+- **WebStorm**: IDE para Vue.js (JS, CSS, HTML). https://www.jetbrains.com/webstorm/download/  
+- **Rider**: IDE para ASP .NET Core (C#). https://www.jetbrains.com/rider/download/  
+- **Node.js & npm**: Entorno y gestor de paquetes para la SPA en Vue.js. https://nodejs.org/  
+- **Vue CLI**: Scaffold y scripts de desarrollo (vue create, vue serve). Instalación: npm install -g @vue/cli  
+- **Vue.js**: Framework progresivo para la SPA. https://vuejs.org/  
+- **JavaScript, CSS y HTML**: Lenguajes base de la interfaz cliente.  
+&nbsp;&nbsp;&nbsp;&nbsp; - **JS**: https://developer.mozilla.org/es/docs/Web/JavaScript  
+&nbsp;&nbsp;&nbsp;&nbsp; - **CSS**: https://developer.mozilla.org/es/docs/Web/CSS  
+&nbsp;&nbsp;&nbsp;&nbsp; - **HTML**: https://developer.mozilla.org/es/docs/Web/HTML  
+- **.NET (C#)**: Compilación y ejecución de la API en ASP .NET Core. https://dotnet.microsoft.com/download  
+- **Postman**: Pruebas manuales de endpoints REST y validación Swagger. https://www.postman.com/downloads  
+
+5. **Software Deployment**
+
+- **Azure CLI**: Automatización de despliegues y gestión de recursos. https://docs.microsoft.com/cli/azure/install-azure-cli  
+- **Azure Resources**: https://portal.azure.com/  
+
+6. **Software Documentation**
+
+- **Git**: Control de versiones y gestión de ramas (GitFlow). 
+- **GitHub**: Plataforma SaaS para repositorios Git y CI/CD con Actions. 
+- **LucidChart**: Plataforma SaaS de diagramación que permite crear de forma colaborativa diagramas. Se elaboró el diagrama de base de datos. 
+
+### 6.1.2. Source Code Management
+
+Nuestro proyecto se mantendrá en línea con las convenciones de flujo de trabajo definidas por el modelo GitFlow para el control de versiones de desarrollo. Teniendo a GitHub como plataforma y sistema de control de versiones.
+
+A continuación, detallaremos la implementación del modelo GitFlow y se proporcionará los URL de los repositorios de GitHub de cada producto del trabajo.
+
+
+Flujo de Trabajo GitFlow: GitFlow es un modelo de flujo de trabajo para administrar y gestionar branches en un proyecto Git, propuesto por Vincent Driessen, diseñado para facilitar el desarrollo colaborativo.
+
+Estructuras de branches: Actualmente solo consideramos 3 ramas de las mombradas, pero pensamos trabajabar con todas las siguientes para las próximas entregas.
+
+- Master branch: Es la rama principal de la aplicación, contiene las versiones estables y sin errores listas para ser lanzadas públicamente.
+- Develop branch: Es la rama base para el desarrollo activo, aquí se integran todas las funcionalidades nuevas antes de que se considere un lanzamiento.
+- Feature branch: Es la rama que se usa para desarrollar nuevas funcionalidades o mejoras específicas del proyecto.
+- Release branch: Es la rama que se utiliza para preparar una versión estable del proyecto donde se corrigen bug menores, se actualizan versiones y se ajustan las configuraciones necesarias.
+- Hotfix branch: Es la rama donde se resuelven errores críticos encontrados en la aplicación lanzada. Esta rama se crea directamente del main, ya que necesitan una solución urgente sin pasar por el ciclo completo de desarrollo.
+- Readme-updates: Es la rama mediante la cual se enviarán las actualizaciones hacia el informe en el readme.md.
+
+Versionamiento Semántico: Aplicaremos el sistema de versionamiento semántico (Semantic Versioning) para dar nombre a los releases de nuestra aplicación.
+
+Convenciones de Commits: Para hacer commits claros y estructurados en nuestro proyecto, utilizaremos la especificación Conventional Commits, inspirada en las Angular Commit Guidelines.
+
+### 6.1.3. Source Code Style Guide & Conventions
+
+Uno de los principios fundamentales que aplicamos durante el desarrollo de **TrackLab** fue la importancia de mantener un código ordenado, legible y escalable. Más allá de simplemente escribir funciones que “funcionen”, nos propusimos adoptar una cultura de desarrollo consciente, donde cada línea de código aporte claridad, coherencia y mantenibilidad a largo plazo.
+
+Estas convenciones fueron aplicadas en todos los lenguajes y entornos utilizados, no solo como estándares técnicos, sino como reflejo de un compromiso profesional por la calidad. Aquí presentamos nuestras buenas prácticas organizadas por bloques clave: HTML, CSS, Gherkin y otras reglas generales que estructuraron el backend visual de nuestra plataforma.
+
+#### HTML
+
+1. **Semántica primero:** Siempre usamos etiquetas semánticas como `<section>`, `<nav>`, `<aside>` y `<article>` para reflejar la estructura lógica del contenido.
+
+2. **Jerarquía clara de encabezados:** Se respeta el orden de los encabezados (`<h1>` a `<h6>`) de forma progresiva, evitando saltos arbitrarios para facilitar la accesibilidad y el SEO.
+
+3. **Cierre correcto de etiquetas:** Todas las etiquetas deben cerrarse explícitamente. Ejemplo: `<p>Esto es un párrafo.</p>`
+
+4. **Uso uniforme de minúsculas:** Todos los elementos y atributos se escriben en minúsculas para mantener una estructura visual limpia.
+
+5. **Atributos con comillas dobles:** Siempre que se asignen valores a los atributos, estos deben ir entre comillas dobles. Ejemplo: `<input type="text" placeholder="Ingrese su nombre">`
+
+6. **Atributos alt y dimensiones en imágenes:** Las etiquetas `<img>` deben incluir `alt`, `width` y `height` para mejorar la accesibilidad y el rendimiento de carga.  
+   Ejemplo: `<img src="logo.png" alt="Logo de TrackLab" width="128" height="128">`
+
+7. **Estructura clara y sin anidamientos innecesarios:** Se evita el uso excesivo de `<div>` y se promueve un HTML limpio y fácil de entender.
+
+8. **Uso de atributos ARIA:** Para accesibilidad en botones, formularios y componentes interactivos.
+
+9. **Carga diferida de imágenes:** Se utiliza `loading="lazy"` para optimizar la experiencia del usuario.
+
+#### CSS
+
+1. **Clases descriptivas y reutilizables:** Se usan nombres como `.tarjeta-envio`, `.btn-confirmar`, en lugar de nombres genéricos como `.caja1`.
+
+2. **Guiones como separador estándar:** Ejemplo: `#form-contacto`, `.texto-secundario`.
+
+3. **Variables CSS:** Se definen variables como `--color-primario`, `--font-base` para mejorar la mantenibilidad.
+
+4. **BEM (Block Element Modifier):** Se sigue esta metodología para estructurar componentes. Ejemplo: `.card__title`, `.modal--activo`.
+
+5. **Evitar unidades en valores cero:** Se escribe `margin: 0;` y no `margin: 0px;`.
+
+6. **Separación visual de reglas:** Cada selector se escribe en líneas distintas y con llaves bien identificadas.
+
+7. **Animaciones suaves:** Uso de `transition: all 0.3s ease-in-out;` para efectos visuales sin sobrecargar la experiencia.
+
+8. **Organización modular:** Se separan los estilos por funcionalidad (`_botones.scss`, `_formularios.scss`, etc.) y se importan al archivo global.
+
+9. **Desarrollo mobile-first:** Se diseña para pantallas pequeñas y luego se adaptan los estilos con media queries.
+
+#### Gherkin (BDD)
+
+1. **Lenguaje orientado al usuario:** Todos los escenarios se redactan desde la perspectiva de operarios y supervisores logísticos.
+
+2. **Formato estándar Given–When–Then:** Estructura clara para comprender el comportamiento esperado de cada funcionalidad.
+
+3. **Uso de Background:** Se aplica cuando hay pasos comunes en varios escenarios.
+
+4. **Separación visual y legibilidad:** Se insertan saltos de línea y sangrías para distinguir escenarios y pasos.
+
+5. **Escenarios negativos incluidos:** También se especifica lo que no debería pasar.  
+   Ejemplo: `Then el sistema no debe registrar el pedido si no hay productos seleccionados.`
+
+6. **Uso de Scenario Outline con Examples:** Para validar múltiples combinaciones de datos sin repetir la lógica.
+
+#### Convenciones generales de desarrollo
+
+1. **Naming conventions:**
+   - Archivos en minúsculas y separados por guiones. Ej: `nuevo-pedido.js`
+   - Componentes en PascalCase. Ej: `ModalConfirmacion`, `TarjetaProducto`
+   - Variables descriptivas. Evitamos `x`, `tmp`, y usamos `estadoPedido`, `usuarioActual`
+
+2. **Estructura de carpetas:**
+   src/ ├── assets/ ├── components/ ├── layouts/ ├── pages/ ├── services/ ├── styles/ └── tests/
+3. **Componentes reutilizables:** Creamos elementos como `BotonSecundario`, `FormularioConsulta`, `TarjetaHistorial`, lo que agiliza el desarrollo y mejora la coherencia visual.
+
+4. **Seguridad básica en front-end:**
+- Validación de entradas de usuario.
+- Confirmación de acciones destructivas con alertas visuales.
+- Prevención de doble envío de formularios.
+
+5. **Testing automatizado (Cypress + Gherkin):**
+- Validación de login, escaneo de QR, seguimiento de pedidos.
+- Automatización de flujos completos tipo “happy path” y errores comunes.
+
+6. **Documentación en el código:**
+- Comentarios en funciones y bloques de lógica compleja.
+- Estilo estándar de JSDoc:
+  ```js
+  /**
+   * Valida si el pedido se encuentra activo.
+   * @param {string} id - ID del pedido
+   * @returns {boolean}
+   */
+  ```
+
+7. **Versionado y commits semánticos:**
+- Ramas tipo `feature/seguimiento`, `fix/formulario-envio`.
+- Commits como:
+  - `feat: agregar validación al botón de escaneo`
+  - `fix: resolver error en pantalla emergente`
+  - `docs: actualizar convenciones de estilo`
+
+### 6.1.4. Software Deployment Configuration
+
+__Prerrequisitos comunes:__
+
+- Tener una suscripción activa de Azure y permisos para crear recursos.  
+- Disponer de los tres repositorios separados (landing‑page, frontend, backend) con sus ramas principales definidas.  
+- Contar con Azure CLI (o acceso al Portal) configurado con tu cuenta.  
+
+__Creación del grupo de recursos:__ Es preferible que nuestros recursos compartan un único grupo para facilitar el proceso de CORS.
+
+En el portal de Azure, ingresamos a la sección  de grupo de recursos y creamos uno:
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-web-1.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+Aquí es dónde crearemos cada uno de los recursos necesarios.
+
+__Landing Page Deployment__
+
+__Paso 1:__ En el Portal de Azure, vamos a crear un recurso y buscamos la opción Static Web Application:
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-web-2.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+__Paso 2:__ Seleccionamos Crear y asignamos la suscripción y el grupo de recursos creado previamente. Además, asignamos el nombre del recurso
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-web-3.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+Seleccionamos el plan gratuito por fines académicos y en Detalles de implementación elegimos GitHub
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-web-4.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+
+Seleccionamos el repositorio para la landing page y configuramos la ubicación de salida de la siguiente manera, respetando gitFlow: 
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-web-6.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+__Paso 3:__ Al seleccionar la opción Revisar y crear, se hará un commit sobre la rama main añadiendo el archivo .yml para la publicación automática (on-push)
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-web-7.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-web-8.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+## 6.2. Landing Page, Services & Applications Implementation
+
+### 6.2.1. Sprint 1
+
+### 6.2.1.1. Sprint Planning 1
+
+| Sprint # | Sprint 1 |
+|----------|---------|
+| Date | 2025 - 04 - 12 | 
+| Time | 11:45 PM |
+| Location | Reunión virtual a través de discord | 
+| Prepared by | Baldeón Vivar, Santiago Armando | 
+| Attendees (to planning meeting) | Vargas Javier, Jose Enrique; Trillo Hernandez, Anghel Melanie; Baldeón Vivar, Santiago Armando y De La Cruz Moreno, Roy Hernan 
+| Sprint n – 1 Review Summary | No existe sprint previo | 
+| Sprint 1 Goal | Our focues is on deploying our landing page. We believe it delivers satisfaction and confidence to our team and future users. This will be confirmed when all the members of the team and a user navigates our landing page without issues | 
+| Sprint 1 Velocity | 20 story points | 
+| Sum of story points | 20 story points |
+
+
+### 6.2.1.2. Sprint Backlog 1
+
+El objetivo principal del Sprint 1 es desarrollar y desplegar una landing page funcional para el proyecto SwiftPort. 
+A continuación se muestra una captura de pantalla de las historias de usuario que se buscan trabajar en este sprint, con sus epicas correspondientes y su estado. 
+
+| Sprint # | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (hours) | Assigned To | Status | Story Points |
+|:--------:|:-------------:|:-----------------|:-------:|:-----------|:------------|:------------------:|:------------|:------:|:------------:|
+| Sprint 1 | US01 | Contactar a la startup | T01 | Diseñar formulario de contacto | Crear formulario con campos de nombre, correo y mensaje. | 2 | Baldeón Vivar, Santiago Armando | To Do | 1 |
+| Sprint 1 | US01 | Contactar a la startup | T02 | Conectar formulario con backend | Programar API para enviar los datos al servidor. | 3 | Baldeón Vivar, Santiago Armando | To Do | 1 |
+| Sprint 1 | US01 | Contactar a la startup | T03 | Validar campos del formulario | Agregar validaciones de campos requeridos. | 1 | De La Cruz Moreno Roy Hernan | To Do | 1 |
+| Sprint 1 | US02 | Obtener información sobre la aplicación | T04 | Redactar contenido de preguntas frecuentes | Escribir las preguntas y respuestas de la sección FAQ. | 2 | Vargas Javier Jose Enrique | To Do | 1 |
+| Sprint 1 | US02 | Obtener información sobre la aplicación | T05 | Implementar sección FAQ | Diseñar y programar sección FAQ expandible. | 3 | De La Cruz Moreno Roy Hernan | To Do | 1 |
+| Sprint 1 | US02 | Obtener información sobre la aplicación | T06 | Validar diseño responsive FAQ | Asegurar que la FAQ funcione correctamente en movil web. | 1 | Trillo Hernandez, Anghel Melanie | To Do | 1 |
+| Sprint 1 | US03 | Acceder a la app desde landing page | T07 | Crear botón de acceso | Diseñar botón "Ingresar a la App" en Hero Section. | 1 | Trillo Hernandez, Anghel Melanie | To Do | 2 |
+| Sprint 1 | US03 | Acceder a la app desde landing page | T08 | Programar redirección a login | Programar funcionalidad de enlace a login de TrackLab. | 2 | Baldeón Vivar, Santiago Armando | To Do | 2 |
+| Sprint 1 | US03 | Acceder a la app desde landing page | T09 | Validar acceso en mobile y desktop | Probar acceso correcto desde todos los dispositivos. | 1 | Vargas Javier Jose Enrique | To Do | 2 |
+
+
+### 6.2.1.3. Development Evidence for Sprint Review
+
+En esta sección se presentan los avances en la implementación de la solución, específicamente en el desarrollo de la Landing Page correspondiente al alcance del Sprint actual. Se detallan los commits realizados en el repositorio, evidenciando las funcionalidades implementadas, los ajustes de estilo y las mejoras en la interfaz de usuario. A continuación, se muestra una tabla que resume los commits relevantes asociados a este componente.
+
+| Repository                        | Branch                         | Commit ID | Commit Message                                          | Commit Message Body                                                       | Committed on (Date) |
+|:----------------------------------|:-------------------------------|:---------:|:--------------------------------------------------------|:---------------------------------------------------------------------------|:-------------------:|
+| UPC-GosTech/tracklab-project      | feature/hero-how-sections      | 19d049e   | feat: Minor adjustments on hero and how-it-works sections | Se realizaron ajustes menores en contenido y estilos de las secciones Hero y How it Works. | 2025-04-26 |
+| UPC-GosTech/tracklab-project      | feature/hero-how-sections      | cd2425a   | chore: merge conflict resolved                          | Se resolvieron conflictos de fusión.                                       | 2025-04-26 |
+| UPC-GosTech/tracklab-project      | feature/header-benefits-sections | c1a1169   | feat: add landing-header.vue, about-us.vue and main-benefits.vue | Se agregaron componentes de encabezado, sobre nosotros y beneficios principales. | 2025-04-26 |
+| UPC-GosTech/tracklab-project      | feature/header-benefits-sections | 8abd8f2   | feat: add tracklab-logo.png to assets                    | Se añadió el logo de TrackLab a la carpeta de assets.                      | 2025-04-26 |
+| UPC-GosTech/tracklab-project      | feature/hero-section           | a6e546b   | feat: Creación de hero-section                          | Se creó el componente principal Hero.                                      | 2025-04-26 |
+| UPC-GosTech/tracklab-project      | feature/problem-solution       | bcfe101   | feat: Add problem-solution.vue                          | Se agregó el componente de Problema-Solución.                              | 2025-04-26 |
+| UPC-GosTech/tracklab-project      | feature/choose-plan            | d6e85a0   | feat: Add choose-plan.vue                               | Se desarrolló la sección para elegir planes.                               | 2025-04-26 |
+| UPC-GosTech/tracklab-project      | feature/share-components       | e85e3d3   | feat: Add plan-card.vue                                 | Se agregó el componente de tarjeta de plan (Plan Card).                    | 2025-04-26 |
+| UPC-GosTech/tracklab-project      | feature/folders-structure      | 1c9b6c7   | feat: Add share and sections file                       | Se creó la estructura de carpetas y archivos base.                         | 2025-04-26 |
+| UPC-GosTech/tracklab-project      | feature/assets                 | a7ccc11   | feat: Add truck.png to assets                           | Se añadió la imagen de camión a assets.                                    | 2025-04-26 |
+| UPC-GosTech/tracklab-project      | ci/config                      | 9709808   | ci: stop tracking .vscode folder                        | Se detuvo el seguimiento de la carpeta .vscode.                            | 2025-04-26 |
+| UPC-GosTech/tracklab-project      | main                           | 56f1d03   | ci: add Azure Static Web Apps workflow file             | Archivo de configuración para despliegue automático en Azure Static Web Apps. | 2025-04-21 |
+| UPC-GosTech/tracklab-project      | main                           | e5b231b   | ci: add Azure Static Web Apps workflow file             | Archivo de despliegue inicial agregado.                                    | 2025-04-21 |
+| UPC-GosTech/tracklab-project      | develop                        | 675a44e   | chore: Project setup                                    | Configuración inicial del proyecto TrackLab.                               | 2025-04-20 |
+
+
+### 6.2.1.4. Execution Evidence for Sprint Review
+
+En el primer sprint, logramos desarrollar parcialmente la implementación del despliegue del landing page. Donde se muestra las diferentes divisiones que el usuario podrá visualizar como lo sería la información sobre el startup y nuestro producto. A continuación mostramos algunas evidencias:
+
+- Sección Sobre Nosotros (About Us): En esta sección, damos al usuario una introducción sobre nosotros y nuestro producto, TrackLab.
+
+<div>
+  <p align="center"><img src="assets/md-images/landing_page-about_us.png" alt="landing_page_about_us.png" width="700px" /></p>
+</div>
+
+- Sección Funcionamiento (¿Cómo funciona TrackLab?): En esta sección, el usuario puede enterarse del funcionamiento de nuestro producto a través de un video informativo y una pequeña guía de cómo registrarse.
+
+<div>
+  <p align="center"><img src="assets/md-images/landing_page-how_does_it_work.png" alt="landing_page_how_does_it_work.png" width="700px" /></p>
+</div>
+
+- Sección Plan: En esta sección, ofrecemos al usuario diferentes planes en los que se puede suscribir.
+
+<div>
+  <p align="center"><img src="assets/md-images/landing_page-plan.png" alt="landing_page_plan.png" width="700px" /></p>
+</div>
+
+- Sección Contacto: En esta sección, el usuario puede ingresar sus datos para poder consultarnos algunas dudas que tenga. Además, proveemos nuestro correo, teléfono y redes sociales como otra alternativa de contacto.
+<div>
+  <p align="center"><img src="assets/md-images/landing_page-contact.png" alt="landing_page_contact.png" width="700px" /></p>
+</div>
+
+### 6.2.1.5. Services Documentation Evidence for Sprint Review
+
+Durante este Sprint no se desarrollaron ni documentaron Web Services, dado que el enfoque principal estuvo en la implementación de la Landing Page como primer entregable del sistema. Por lo tanto, no se cuenta con endpoints disponibles ni documentación generada en OpenAPI en esta etapa del proyecto.
+
+La documentación de servicios será considerada en los siguientes Sprints, una vez que se inicie el desarrollo del backend y se establezca la estructura básica de la API que permitirá la integración con las vistas web implementadas.
+
+### 6.2.1.6. Software Deployment Evidence for Sprint Review
+
+A continuación, se muestra nuestra landing page desplegada:
+
+<div>
+  <p align="center"><img src="assets/md-images/langing-completa-web.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+### 5.2.1.7. Team Collaboration Insights during Sprint
+
+Durante el desarrollo del Sprint, cada miembro del equipo participó activamente en la implementación de la **Landing Page**, dividiéndose por secciones según el diseño y el contenido definido previamente.
+
+A continuación, se detalla la participación específica de cada integrante del equipo:
+
+| **Nombre**                       | **Actividades** |
+| ---------------------------------|------------|
+| De La Cruz Moreno, Roy Hernan       | Implementación de secciones "Problemáhtica y Solución" y "Elige tu plan" |
+| Trillo Hernandez, Anghel Melanie	      | Implementación de secciones "¿Cómo funciona TrackLab?" y de presentación |
+| Baldeón Vivar, Santiago Armando | Implementación de secciones "Contacto", "Preguntas frecuentes" y footer |
+| Vargas Javier, Jose Enrique	      | Implementación de header y de secciones "Beneficios principales" y "¿Para quién es TrackLab"? |
 # Conclusiones
 
 ### Enfoque centrado en el usuario
