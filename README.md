@@ -312,22 +312,11 @@ Implementar un sistema de seguimiento mediante una aplicación móvil como Logis
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-Nuestra solución busca proveer un espacio digital a través de una aplicación móvil mediante el cual puedan registrarse los pasos que deben ser realizados para asegurar el correcto traslado de un paquete desde su embarque hasta su llegada al lugar indicado.
+Nuestra solución busca proveer un espacio digital a través de una aplicación móvil para gestionar el seguimiento de paquetes. Esto es diseñado para que tanto los operadores de envío como las empresas receptoras puedan monitorear en tiempo real la ubicación y el estado óptimo de los envíos industriales. Este sistema digital busca generar confianza y transparencia en el proceso, reduciendo incertidumbres sobre la entrega y mejorando la precisión en la recepción.
 
-Hemos observado que los operadores logísticos no registran adecuadamente los paquetes y requisitos de traslado, lo que causa errores en empaquetado y colocación en transportes incorrectos, repercutiendo en la calidad de la entrega final y generando pérdidas económicas.
+Sin embargo, actualmente no existe un canal accesible y en tiempo real que permita verificar la condición de los paquetes antes de su entrega final, lo que provoca pérdidas, retrasos no detectados y entregas en ubicaciones incorrectas, afectando la operación y la satisfacción del cliente.
 
-__¿Cómo podríamos mejorar el registro de fases para que los operadores reduzcan errores en un 50% según métricas de entregas exitosas?__
-Nuestra solución busca que ambas empresas involucradas puedan observar la posición geográfica del paquete trasladado, su estado y su fecha prevista de llegada de forma sencilla y en cualquier momento a través de la app móvil.
-
-Hemos observado que las empresas emisoras y receptoras carecen de acceso en tiempo real a la ubicación y estado de los paquetes, lo que afecta operaciones, decisiones y la imagen corporativa debido a incertidumbre y demoras.
-
-__¿Cómo podríamos proporcionar visibilidad compartida para reducir reclamos por incertidumbre en un 40% basado en encuestas de satisfacción?__
-
-Nuestra solución busca proveer un sistema de verificación mediante QR en la app para asegurar que los paquetes son ingresados al vehículo correcto y que, por ende, son trasladados al destino solicitado.
-
-Hemos observado que sin verificación al embarcar vehículos, ocurren errores por carga simultánea de múltiples envíos, resultando en entregas a destinos incorrectos y costos adicionales.
-
-__¿Cómo podríamos implementar verificación digital para disminuir envíos erróneos en un 70% medido por reportes de incidencias?__
+__¿Cómo podríamos diseñar un sistema de seguimiento y verificación en tiempo real que garantice la seguridad y el estado de los paquetes, reduzca pérdidas y errores en la entrega, y aumente la confianza de todas las partes involucradas?__
 
 #### 1.2.2.2. Lean UX Assumptions
 
