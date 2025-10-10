@@ -64,7 +64,7 @@ El proceso de colaboración durante el informe se realizó tanto con commits com
 Github también presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las ramas se crearon tomando en cuenta el diseño de GitFlow para una buena organización cuando se usa un software de control de versiones.
 
 Se puede identificar a los integrantes como:
-- Vargas Javier Jose, Enrique: 
+- Vargas Javier Jose, Enrique: KenRi7
 - Trillo Hernandez, Anghel Melanie: am27th
 - De La Cruz Moreno, Roy Hernan: 
 - Baldeón Vivar, Santiago Armando: Santibal11
