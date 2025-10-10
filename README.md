@@ -1459,6 +1459,8 @@ https://trello.com/invite/b/68e85dceecb7ceb63cde75b4/ATTI1c0b6c919360b3b3a23a4be
 ![pedidos](assets/md-images/transibilidad.jpeg)
 #### 4.1.1.3. Bounded Context Canvases
 ![cuadro](assets/md-images/cuadro.jpeg)
+![cuadro](assets/md-images/imagen3.jpeg)
+![cuadro](assets/md-images/imagen4.jpeg)
 
 ## 4.1.2. Context Mapping
 
