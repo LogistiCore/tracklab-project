@@ -1,31 +1,26 @@
-# Informe del Trabajo Final
 
 <div>
   <p align="center"><img src="assets/md-images/upc-logo.png" alt="Logo UPC" width="150px" /></p>
-  <p align="center"><b>Informe de Trabajo Final</b></p>
-  <p align="center">Facultad de Ingeniería</p>
-  <p align="center">Universidad Peruana de Ciencias Aplicadas</p>
-  <p align="center">Ingeniería de Software</p>
-  <p align="center">Aplicaciones para Dispositivos Móviles</p>
-  <p align="center">14649</p>
-  <p align="center">David Gerardo Quevedo Velasco</p>
+  <p align="center"><b>Universidad Peruana de Ciencias Aplicadas</b></p>
+  <p align="center"><b>Ingeniería de Software</b></p>
+  <p align="center">Periodo: 202520</p>
+  <p align="center">F1ACC0238 | Aplicaciones para Dispositivos Móviles</p>
+  <p align="center">NRC: 14649</p>
+  <p align="center">Docente: David Gerardo Quevedo Velasco</p>
+  </br>
+  <p align="center">---------------------------------</p>
+  </br>
+  <p align="center"><b>"Informe de Trabajo Final"</b></p>  
   <p align="center">Startup: LogistiCore</p>
   <p align="center">Producto: TrackLab</p>
-</div>
-
----
-
-## Team members:
-
-| **Nombre**                       | **Código** |
-| ---------------------------------|------------|
-| Vargas Javier Jose Enrique       | U20221F693 |
-| Trillo Hernandez, Anghel Melanie | u201912401 |
-| De La Cruz Moreno Roy Hernan     | u202218634 |
-| Baldeón Vivar, Santiago Armando  | U202319881 |
-
-<div>
-  <p align="center"><b>Ciclo 2025 - 02</b></p>
+  </br>
+  <p align="center">Integrantes:</p>
+  <p align="center">U202319881 - Baldeón Vivar, Santiago Armando</p>
+  <p align="center">U202218634 - De La Cruz Moreno Roy Hernan</p>
+  <p align="center">U201912401 - Trillo Hernandez, Anghel Melanie</p>
+  <p align="center">U20221F693 - Vargas Javier Jose Enrique</p>
+  </br>
+  <p align="center">Noviembre 2025</p>
 </div>
 
 ---
