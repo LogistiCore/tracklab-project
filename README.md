@@ -4,7 +4,7 @@
   <p align="center"><b>Universidad Peruana de Ciencias Aplicadas</b></p>
   <p align="center"><b>Ingeniería de Software</b></p>
   <p align="center">Periodo: 202520</p>
-  <p align="center">F1ACC0238 | Aplicaciones para Dispositivos Móviles</p>
+  <p align="center">1ACC0238 | Aplicaciones para Dispositivos Móviles</p>
   <p align="center">NRC: 14649</p>
   <p align="center">Docente: David Gerardo Quevedo Velasco</p>
   </br>
