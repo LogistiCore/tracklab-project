@@ -2313,37 +2313,6 @@ A continuación se muestra una captura de pantalla de las historias de usuario q
 | Sprint 1 | US03 | Acceder a la app desde landing page | T08 | Programar redirección a login | Programar funcionalidad de enlace a login de TrackLab. | 2 | Baldeón Vivar, Santiago Armando | To Do | 2 |
 | Sprint 1 | US03 | Acceder a la app desde landing page | T09 | Validar acceso en mobile y desktop | Probar acceso correcto desde todos los dispositivos. | 1 | Vargas Javier Jose Enrique | To Do | 2 |
 
-### 4.2.1.2 Sprint Backlog 2
-
-**Duración:** 28/10/2025 – 18/11/2025  
-**Objetivo:** Desplegar un MVP con trazabilidad logística, integrando landing page, API RESTful y app Flutter.
-
-
-## User Stories & Engineering Tasks
-
-| ID | User Story | Task | Description | Estimation (hrs) | Assigned To | Status | Story Points |
-|----|------------|------|-------------|-----------------|------------|--------|--------------|
-| US01 | Registrar envíos | T01: Crear endpoint POST /shipments | Desarrollar API para registrar envíos en BD | 3 | Vargas / Baldeón | Done | 3 |
-| US01 | Registrar envíos | T02: Conectar formulario Flutter con API | Implementar formulario de envío y conectar con backend | 3 | Vargas / Baldeón | Done | 2 |
-| US01 | Registrar envíos | T03: Validar campos del formulario | Asegurar que todos los campos obligatorios estén validados | 2 | Vargas / Baldeón | Done | 1 |
-| US01 | Registrar envíos | T04: Pruebas unitarias y Postman | Testear endpoint y formulario con casos reales | 2 | Vargas / Baldeón | Done | 2 |
-| US02 | Ver envíos activos |  T05: Crear endpoint GET /shipments | Obtener listado de envíos activos con filtros | 3 | De La Cruz | In Progress | 3 |
-| US02 | Ver envíos activos |  T06: Crear componente Flutter ListView | Mostrar envíos en app con ListView | 3 | De La Cruz | In Progress | 2 |
-| US02 | Ver envíos activos |  T07: Integrar ListView con API | Conectar listado de envíos con backend | 2 | De La Cruz | In Progress | 2 |
-| US02 | Ver envíos activos |  T08: Test de rendimiento | Asegurar rapidez en carga de envíos | 2 | De La Cruz | To Do | 1 |
-| US03 | Confirmar recepción con QR |  T09: Implementar escáner QR Flutter | Crear funcionalidad para leer QR de envíos | 3 | Trillo / Baldeón | In Progress | 3 |
-| US03 | Confirmar recepción con QR |  T10: Endpoint PUT /shipments/{id}/status | Actualizar estado de envío a “entregado” | 2 | Trillo / Baldeón | In Progress | 2 |
-| US03 | Confirmar recepción con QR | T11: UI de confirmación | Mostrar mensaje de confirmación al escanear QR | 2 | Trillo / Baldeón |  In Progress | 1 |
-| US04 | Dashboard métricas | T12: Diseñar vista React/Next.js | Crear dashboard responsive con métricas principales | 3 | Vargas | Done | 3 |
-| US04 | Dashboard métricas | T13: Integrar API /analytics | Conectar dashboard con backend para métricas en tiempo real | 2 | Vargas |  Done | 2 |
-| US04 | Dashboard métricas |T14: Publicar en Vercel | Deploy final del dashboard web | 1 | Vargas |Done | 1 |
-| US05 | Acceder a documentación API | T15: Implementar Swagger | Crear documentación API completa con Swagger | 2 | De La Cruz | Done | 2 |
-| US05 | Acceder a documentación API |  T16: Desplegar en Render/Railway | Hacer deployment de la documentación | 1 | De La Cruz | Done | 1 |
-| US05 | Acceder a documentación API |  T17: Test de endpoints | Probar todos los endpoints con Postman | 2 | De La Cruz | Done | 1 |
-| US06 | Mostrar videos de avance |T18: About the Product | Subir video explicativo sobre el producto | 2 | Todo el equipo | Done | 1 |
-| US06 | Mostrar videos de avance |  T19: Validation (Firebase App Dist.) | Subir video de validación del app deployment | 2 | Todo el equipo | Done | 1 |
-| US06 | Mostrar videos de avance |  T20: About the Team | Subir video sobre el equipo de desarrollo | 1 | Todo el equipo | Done | 1 |
-
 ### 4.2.1.3. Development Evidence for Sprint Review
 
 En esta sección se presentan los avances en la implementación de la solución, específicamente en el desarrollo de la Landing Page correspondiente al alcance del Sprint actual. Se detallan los commits realizados en el repositorio, evidenciando las funcionalidades implementadas, los ajustes de estilo y las mejoras en la interfaz de usuario. A continuación, se muestra una tabla que resume los commits relevantes asociados a este componente.
