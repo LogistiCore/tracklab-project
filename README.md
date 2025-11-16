@@ -2347,6 +2347,28 @@ A continuación se muestra una captura de pantalla de las historias de usuario q
 | US06 | Mostrar videos de avance |  T19: Validation (Firebase App Dist.) | Subir video de validación del app deployment | 2 | Todo el equipo | Done | 1 |
 | US06 | Mostrar videos de avance |  T20: About the Team | Subir video sobre el equipo de desarrollo | 1 | Todo el equipo | Done | 1 |
 
+### Sprint Backlog TF
+
+| ID | User Story | Task | Description | Estimation (hrs) | Assigned To | Status | Story Points |
+|----|------------|------|-------------|------------------|-------------|--------|--------------|
+| US01 | Registrar envíos | T21: Revisar endpoint POST /shipments final | Verificar funcionamiento con datos reales y corregir errores | 2 | Vargas / Baldeón | To Do | 1 |
+| US01 | Registrar envíos | T22: Optimizar validación de campos | Mejorar mensajes de error y validaciones avanzadas | 1 | Vargas / Baldeón | To Do | 1 |
+| US01 | Registrar envíos | T23: Test final del flujo completo | Probar registro desde app hacia BD en escenarios reales | 2 | Vargas / Baldeón | To Do | 2 |
+| US02 | Ver envíos activos | T24: Optimizar ListView | Mejorar rendimiento, paginación y scroll en tiempo real | 3 | De La Cruz | To Do | 2 |
+| US02 | Ver envíos activos | T25: Integración completa con API | Validar sincronización del listado con últimos cambios | 2 | De La Cruz | To Do | 2 |
+| US02 | Ver envíos activos | T26: Probar filtros finales | Validar filtros de estado, destino y fecha | 1 | De La Cruz | To Do | 1 |
+| US03 | Confirmar recepción con QR | T27: Validar escáner QR final | Probar lectura correcta y actualización de estado | 2 | Trillo / Baldeón | To Do | 2 |
+| US03 | Confirmar recepción con QR | T28: Mejorar UI de confirmación | Ajustar feedback visual tras escaneo exitoso | 1 | Trillo / Baldeón | To Do | 1 |
+| US03 | Confirmar recepción con QR | T29: Pruebas de integración | Probar QR → API → BD en ambiente de demo | 2 | Trillo / Baldeón | To Do | 2 |
+| US04 | Dashboard métricas | T30: Ajustar métricas en tiempo real | Sincronizar datos reales con la API /analytics | 2 | Vargas | To Do | 2 |
+| US04 | Dashboard métricas | T31: Validar diseño mobile | Revisar responsive y accesibilidad | 1 | Vargas | To Do | 1 |
+| US05 | Documentación API | T32: Actualizar Swagger final | Alinear documentación final del MVP completo | 2 | De La Cruz | To Do | 2 |
+| US05 | Documentación API | T33: Pruebas finales con Postman | Validar todas las rutas de API antes de entrega | 2 | De La Cruz | To Do | 1 |
+| US06 | Videos Finales | T34: Grabar “About the Product” | Explicar solución, problema y cómo funciona el MVP | 2 | Todo el equipo | To Do | 1 |
+| US06 | Videos Finales | T35: Grabar “Validation” | Mostrar pruebas reales del flujo completo del sistema | 2 | Todo el equipo | To Do | 2 |
+| US06 | Videos Finales | T36: Grabar “About the Team” | Presentación del equipo y roles de desarrollo | 1 | Todo el equipo | To Do | 1 |
+| US06 | Entrega Final | T37: Preparar documento final del Proyecto | Unir capturas, backlog, arquitectura, evidencia y demo | 3 | Todo el equipo | To Do | 3 |
+
 ### 4.2.1.3. Development Evidence for Sprint Review
 
 En esta sección se presentan los avances en la implementación de la solución, específicamente en el desarrollo de la Landing Page correspondiente al alcance del Sprint actual. Se detallan los commits realizados en el repositorio, evidenciando las funcionalidades implementadas, los ajustes de estilo y las mejoras en la interfaz de usuario. A continuación, se muestra una tabla que resume los commits relevantes asociados a este componente.
