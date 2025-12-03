@@ -20,7 +20,7 @@
   <p align="center">U201912401 - Trillo Hernandez, Anghel Melanie</p>
   <p align="center">U20221F693 - Vargas Javier Jose Enrique</p>
   </br>
-  <p align="center">Noviembre 2025</p>
+  <p align="center">Diciembre 2025</p>
 </div>
 
 ---
