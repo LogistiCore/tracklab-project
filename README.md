@@ -39,14 +39,12 @@
 
 URL del repositorio para el reporte del proyecto: https://github.com/LogistiCore/tracklab-project 
 
-**TB1**
-
-Para el desarrollo del informe pertinente a la TB1, se dividió la implementación de secciones de la siguiente forma entre los integrantes del grupo:
+Para el desarrollo del informe pertinente, se dividió la implementación de secciones de la siguiente forma entre los integrantes del grupo:
 
 | **Integrantes**                  | **Tareas asignadas** |
 | ---------------------------------|----------------------|
 | Vargas Javier Jose Enrique       | Bounded Contexts, Diccionario de clases, Organizacion de las capas del sistema |
-| Trillo Hernandez, Anghel Melanie |  |
+| Trillo Hernandez, Anghel Melanie | Solution profile, Lean UX process (Lean UX Problem Statements, Lean UX Assumptions, Lean UX Hypothesis Statements, Lean UX Canvas, Segmentos objetivos, Estrategias y tácticas frente a competidores. |
 | De La Cruz Moreno Roy Hernan     |  |
 | Baldeón Vivar, Santiago Armando  | Canvas, Diseño de entrevistas, style guidelines, wireframes, mockup, class dictionary, Source Code Style Guide & Conventions, Sprint Backlog 1, edición del video |
 
@@ -86,9 +84,14 @@ Asimismo, se explican las ramas que tenemos hasta el momento:
         <strong>Baldeón Vivar, Santiago Armando</strong><br><br>
         <strong>TB1</strong><br>
         Me encargué del Canvas, el diseño de entrevistas, los lineamientos de estilo, wireframes, mockup, diccionario de clases, guía de estilo para el código fuente, el Sprint Backlog 1 y la edición del video. Estas tareas me ayudaron a colaborar desde distintas áreas, facilitando la documentación del avance del equipo y asegurando la calidad visual y técnica de nuestras entregas.<br><br>
+        <strong>Trillo Hernandez, Anghel Melanie</strong><br><br>
+        <strong>TF</strong><br>
+        En el desarrollo del proyecto asumí un rol activo de liderazgo compartido, contribuyendo a la elaboración del Solution Profile y participando en cada etapa del Lean UX process. Aporté en la definición de los Problem Statements, en la validación de los Assumptions y en la formulación de Hypothesis que orientaron nuestras decisiones. También colaboré en la construcción del Lean UX Canvas, proponiendo ideas para la propuesta de valor y la estructura del producto. Además, participé en el análisis de segmentos objetivos y en la creación de estrategias y tácticas frente a competidores. Gracias a esta participación, pude ejercer liderazgo desde la colaboración, influyendo positivamente en la toma de decisiones y en el avance del desarrollo de la aplicación.
+<br>
         <strong>Vargas Javier, Jose Enrique</strong><br><br>
         <strong>TB1</strong><br>
-        Contribuí parcialmente en la sección de Domain-Driven Software Architecture, participando en el bounded contexts, diccionario de clases y la organización de las capas del sistema. <br><br>
+        Contribuí parcialmente en la sección de Domain-Driven Software Architecture, participando en el bounded contexts, diccionario de clases y la organización de las capas del sistema. 
+<br>
       </td>
       <td>
         Al haber concluido con la primera entrega, logramos coordinar tiempos y responsabilidades como equipo para apoyarnos entre todos y cumplir con todos los requisitos. Establecimos una coordinación óptima que nos permitió profundizar conocimientos y practicar nuevas habilidades con apoyo mutuo.<br><br>
@@ -103,9 +106,12 @@ Asimismo, se explican las ramas que tenemos hasta el momento:
         <strong>Vargas Javier, Jose Enrique</strong><br><br>
         <strong>TB1</strong><br>
         Durante el TB1 participé parcialmente en el desarrollo del Capítulo IV, realizando ajustes en las secciones elaboradas para mejorar la claridad y consistencia del informe. Además, me mantuve en comunicación con mis compañeros para alinear los cambios y asegurar que la documentación reflejara adecuadamente el trabajo del equipo.<br><br>
+        <strong>Trillo Hernandez, Anghel Melanie</strong><br><br>
+        <strong>TF</strong><br>
+        De manera individual, me aseguré de fomentar un entorno colaborativo e inclusivo al considerar las ideas de todos los miembros y facilitar el consenso en cada fase del Lean UX process. Contribuí a establecer metas claras relacionadas con la definición del Canvas, los segmentos objetivo, la estrategia competitiva y las mejoras continuas. Organicé mis tareas de forma estructurada, coordinándome con el equipo para avanzar en paralelo y lograr los objetivos propuestos dentro del plazo. Además, participé activamente en la implementación de mejoras durante el desarrollo de la aplicación, integrando aprendizajes y retroalimentación para asegurar un resultado alineado con las necesidades del usuario.
       </td>
       <td>
-        Al término de la TB1, podemos concluir que conseguimos formar un entorno de colaboración, a través del cual podíamos realizar consultas entre compañeros mientras nos asegurábamos de cumplir con nuestros aportes a tiempo y de llegar a alcanzar nuestros objetivos de aprendizaje iniciales. Por otro lado, consideramos que la planificación, aunque siempre puede mejorarse, nos ayudó a tener suficiente tiempo como para volver a revisar ciertos detalles y mejorar la calidad de la entrega.<br><br>
+        Al término del proyecto, podemos concluir que conseguimos formar un entorno de colaboración, a través del cual podíamos realizar consultas entre compañeros mientras nos asegurábamos de cumplir con nuestros aportes a tiempo y de llegar a alcanzar nuestros objetivos de aprendizaje iniciales. Por otro lado, consideramos que la planificación, aunque siempre puede mejorarse, nos ayudó a tener suficiente tiempo como para volver a revisar ciertos detalles y mejorar la calidad de la entrega.<br><br>
       </td>
     </tr>
   </tbody>
