@@ -69,26 +69,6 @@ Asimismo, se explican las ramas que tenemos hasta el momento:
 - develop: Representada por la rama blanca. Se trata de la rama principal para el proceso del desarrollo del proyecto.
 - readme: Representada por la rama morada. Se trata de la rama en la que se han estado realizando las modificaciones al informe.
 
-__Report repository__
-
-<div>
-  <p><img src="assets/md-images/network.png" alt="Network Graph TB1" width="700px" /></p>
-</div>
-
-Los siguientes gráficos muestran analíticos en cuanto a los commits que cada integrante del grupo ha estado realizando en el repositorio.
-
-__TB1__
-
-<div>
-  <p><img src="assets/md-images/commits-readme.png" alt="Network Graph TB1" width="700px" /></p>
-</div>
-
-<div>
-  <p><img src="assets/md-images/graficos-readme.png" alt="Network Graph TB1" width="700px" /></p>
-</div>
-
----
-
 ## Students Outcomes
 
 <table>
