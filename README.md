@@ -1,4 +1,4 @@
-
+<img width="1143" height="449" alt="image" src="https://github.com/user-attachments/assets/08e9ea3a-325e-4de2-a950-222111679bcd" />
 <div>
   <p align="center"><img src="assets/md-images/upc-logo.png" alt="Logo UPC" width="150px" /></p>
   <p align="center"><b>Universidad Peruana de Ciencias Aplicadas</b></p>
@@ -20,7 +20,7 @@
   <p align="center">U201912401 - Trillo Hernandez, Anghel Melanie</p>
   <p align="center">U20221F693 - Vargas Javier Jose Enrique</p>
   </br>
-  <p align="center">Diciembre 2025</p>
+  <p align="center">Noviembre 2025</p>
 </div>
 
 ---
@@ -39,12 +39,14 @@
 
 URL del repositorio para el reporte del proyecto: https://github.com/LogistiCore/tracklab-project 
 
-Para el desarrollo del informe pertinente, se dividió la implementación de secciones de la siguiente forma entre los integrantes del grupo:
+**TB1**
+
+Para el desarrollo del informe pertinente a la TB1, se dividió la implementación de secciones de la siguiente forma entre los integrantes del grupo:
 
 | **Integrantes**                  | **Tareas asignadas** |
 | ---------------------------------|----------------------|
 | Vargas Javier Jose Enrique       | Bounded Contexts, Diccionario de clases, Organizacion de las capas del sistema |
-| Trillo Hernandez, Anghel Melanie | Solution profile, Lean UX process (Lean UX Problem Statements, Lean UX Assumptions, Lean UX Hypothesis Statements, Lean UX Canvas, Segmentos objetivos, Estrategias y tácticas frente a competidores. |
+| Trillo Hernandez, Anghel Melanie |  |
 | De La Cruz Moreno Roy Hernan     |  |
 | Baldeón Vivar, Santiago Armando  | Canvas, Diseño de entrevistas, style guidelines, wireframes, mockup, class dictionary, Source Code Style Guide & Conventions, Sprint Backlog 1, edición del video |
 
@@ -84,14 +86,9 @@ Asimismo, se explican las ramas que tenemos hasta el momento:
         <strong>Baldeón Vivar, Santiago Armando</strong><br><br>
         <strong>TB1</strong><br>
         Me encargué del Canvas, el diseño de entrevistas, los lineamientos de estilo, wireframes, mockup, diccionario de clases, guía de estilo para el código fuente, el Sprint Backlog 1 y la edición del video. Estas tareas me ayudaron a colaborar desde distintas áreas, facilitando la documentación del avance del equipo y asegurando la calidad visual y técnica de nuestras entregas.<br><br>
-        <strong>Trillo Hernandez, Anghel Melanie</strong><br><br>
-        <strong>TF</strong><br>
-        En el desarrollo del proyecto asumí un rol activo de liderazgo compartido, contribuyendo a la elaboración del Solution Profile y participando en cada etapa del Lean UX process. Aporté en la definición de los Problem Statements, en la validación de los Assumptions y en la formulación de Hypothesis que orientaron nuestras decisiones. También colaboré en la construcción del Lean UX Canvas, proponiendo ideas para la propuesta de valor y la estructura del producto. Además, participé en el análisis de segmentos objetivos y en la creación de estrategias y tácticas frente a competidores. Gracias a esta participación, pude ejercer liderazgo desde la colaboración, influyendo positivamente en la toma de decisiones y en el avance del desarrollo de la aplicación.
-<br><br>
         <strong>Vargas Javier, Jose Enrique</strong><br><br>
         <strong>TB1</strong><br>
-        Contribuí parcialmente en la sección de Domain-Driven Software Architecture, participando en el bounded contexts, diccionario de clases y la organización de las capas del sistema. 
-<br>
+        Contribuí parcialmente en la sección de Domain-Driven Software Architecture, participando en el bounded contexts, diccionario de clases y la organización de las capas del sistema. <br><br>
       </td>
       <td>
         Al haber concluido con la primera entrega, logramos coordinar tiempos y responsabilidades como equipo para apoyarnos entre todos y cumplir con todos los requisitos. Establecimos una coordinación óptima que nos permitió profundizar conocimientos y practicar nuevas habilidades con apoyo mutuo.<br><br>
@@ -106,12 +103,9 @@ Asimismo, se explican las ramas que tenemos hasta el momento:
         <strong>Vargas Javier, Jose Enrique</strong><br><br>
         <strong>TB1</strong><br>
         Durante el TB1 participé parcialmente en el desarrollo del Capítulo IV, realizando ajustes en las secciones elaboradas para mejorar la claridad y consistencia del informe. Además, me mantuve en comunicación con mis compañeros para alinear los cambios y asegurar que la documentación reflejara adecuadamente el trabajo del equipo.<br><br>
-        <strong>Trillo Hernandez, Anghel Melanie</strong><br><br>
-        <strong>TF</strong><br>
-        De manera individual, me aseguré de fomentar un entorno colaborativo e inclusivo al considerar las ideas de todos los miembros y facilitar el consenso en cada fase del Lean UX process. Contribuí a establecer metas claras relacionadas con la definición del Canvas, los segmentos objetivo, la estrategia competitiva y las mejoras continuas. Organicé mis tareas de forma estructurada, coordinándome con el equipo para avanzar en paralelo y lograr los objetivos propuestos dentro del plazo. Además, participé activamente en la implementación de mejoras durante el desarrollo de la aplicación, integrando aprendizajes y retroalimentación para asegurar un resultado alineado con las necesidades del usuario.
       </td>
       <td>
-        Al término del proyecto, podemos concluir que conseguimos formar un entorno de colaboración, a través del cual podíamos realizar consultas entre compañeros mientras nos asegurábamos de cumplir con nuestros aportes a tiempo y de llegar a alcanzar nuestros objetivos de aprendizaje iniciales. Por otro lado, consideramos que la planificación, aunque siempre puede mejorarse, nos ayudó a tener suficiente tiempo como para volver a revisar ciertos detalles y mejorar la calidad de la entrega.<br><br>
+        Al término de la TB1, podemos concluir que conseguimos formar un entorno de colaboración, a través del cual podíamos realizar consultas entre compañeros mientras nos asegurábamos de cumplir con nuestros aportes a tiempo y de llegar a alcanzar nuestros objetivos de aprendizaje iniciales. Por otro lado, consideramos que la planificación, aunque siempre puede mejorarse, nos ayudó a tener suficiente tiempo como para volver a revisar ciertos detalles y mejorar la calidad de la entrega.<br><br>
       </td>
     </tr>
   </tbody>
@@ -2376,40 +2370,6 @@ A continuación, se detalla la participación específica de cada integrante del
 | Trillo Hernandez, Anghel Melanie	      | Implementación de secciones "¿Cómo funciona TrackLab?" y de presentación |
 | Baldeón Vivar, Santiago Armando | Implementación de secciones "Contacto", "Preguntas frecuentes" y footer |
 | Vargas Javier, Jose Enrique	      | Implementación de header y de secciones "Beneficios principales" y "¿Para quién es TrackLab"? |
-# Conclusiones
-
-### Enfoque centrado en el usuario
-Las historias de usuario retratan de manera clara y realista las necesidades de nuestros segmentos. Consideramos tanto a quienes organizan y envían pedidos, como a quienes los reciben, logrando un enfoque integral.
-
-### Diseño orientado a la experiencia del usuario
-Nuestra landing page y aplicación web fueron diseñadas buscando máxima utilidad.  
-- **Landing page**: incluye información suficiente para que los usuarios comprendan la función y beneficios del producto sin generar dudas.  
-- **Aplicación**: incorpora secciones y funcionalidades específicas para cubrir las necesidades detectadas en los segmentos objetivo.
-
-### Impacto estratégico
-El uso del *impact map* nos permitió identificar las funcionalidades con mayor impacto en las necesidades de los usuarios. Esto guió la priorización, asignación de recursos y gestión del tiempo.
-
-### Priorización en el product backlog
-Al estructurar el backlog, logramos asignar un valor a cada tarea en función de su impacto en el cliente. Esto mejoró nuestra organización interna y la toma de decisiones sobre qué tareas abordar primero.
-
-### Diseño visual agradable y organizado
-En los wireframes y mockups se usaron patrones de diseño que muestran la información de forma clara y ordenada, evitando la sobrecarga visual. Esto facilita la navegación y acceso a secciones de interés.
-
-### Funcionalidades precisas
-Las funcionalidades implementadas en el backend permiten al usuario acceder sin dificultad a la información que necesita mediante las *queries* propuestas. La aplicación responde con rapidez y claridad.
-
-### Registro acorde con el negocio
-Se aplicaron correctamente las reglas de negocio de Tracklab:  
-- IDs no nulos.  
-- Evitar registros con datos incoherentes o incompletos.  
-
-Esto eleva el valor del producto y reduce errores de gestión en las empresas usuarias.
-
-### Aplicación de DDD
-Se aplicaron con éxito los conceptos de *Domain Driven Design*. Esto permitió:  
-- Identificar detalles importantes del negocio.  
-- Fraccionar el dominio en *bounded contexts*.  
-- Trabajar colaborativamente y de manera progresiva hasta alcanzar un resultado óptimo.
 
 ### 4.2.2. Sprint 2
 
@@ -2457,9 +2417,86 @@ Se aplicaron con éxito los conceptos de *Domain Driven Design*. Esto permitió:
 | US06 | Mostrar videos de avance |  T19: Validation (Firebase App Dist.) | Subir video de validación del app deployment | 2 | Todo el equipo | Done | 1 |
 | US06 | Mostrar videos de avance |  T20: About the Team | Subir video sobre el equipo de desarrollo | 1 | Todo el equipo | Done | 1 |
 
+### 4.2.2.3. Development Evidence for Sprint Review
+
+En esta sección se presentan los avances en la implementación de la solución, específicamente en el desarrollo de la Landing Page correspondiente al alcance del Sprint actual. Se detallan los commits realizados en el repositorio, evidenciando las funcionalidades implementadas, los ajustes de estilo y las mejoras en la interfaz de usuario. A continuación, se muestra una tabla que resume los commits relevantes asociados a este componente.
+
+| Repository                        | Branch                         | Commit ID | Commit Message                                          | Commit Message Body                                                       | Committed on (Date) |
+|:----------------------------------|:-------------------------------|:---------:|:--------------------------------------------------------|:---------------------------------------------------------------------------|:-------------------:|
+| UPC/tracklab-project      | feature/hero-how-sections      | 19d049e   | feat: Minor adjustments on hero and how-it-works sections | Se realizaron ajustes menores en contenido y estilos de las secciones Hero y How it Works. | 2025-10-03 |
+| UPC/tracklab-project      | feature/hero-how-sections      | cd2425a   | chore: merge conflict resolved                          | Se resolvieron conflictos de fusión.                                       | 2025-10-03 |
+| UPC/tracklab-project      | feature/header-benefits-sections | c1a1169   | feat: add landing-header.vue, about-us.vue and main-benefits.vue | Se agregaron componentes de encabezado, sobre nosotros y beneficios principales. | 2025-10-03 |
+| UPC/tracklab-project      | feature/header-benefits-sections | 8abd8f2   | feat: add tracklab-logo.png to assets                    | Se añadió el logo de TrackLab a la carpeta de assets.                      | 2025-10-03 |
+| UPC/tracklab-project      | feature/hero-section           | a6e546b   | feat: Creación de hero-section                          | Se creó el componente principal Hero.                                      | 2025-10-03 |
+| UPC/tracklab-project      | feature/problem-solution       | bcfe101   | feat: Add problem-solution.vue                          | Se agregó el componente de Problema-Solución.                              | 2025-10-03 |
+| UPC/tracklab-project      | feature/choose-plan            | d6e85a0   | feat: Add choose-plan.vue                               | Se desarrolló la sección para elegir planes.                               | 2025-10-03 |
+| UPC/tracklab-project      | feature/share-components       | e85e3d3   | feat: Add plan-card.vue                                 | Se agregó el componente de tarjeta de plan (Plan Card).                    | 2025-10-03 |
+| UPC/tracklab-project      | feature/folders-structure      | 1c9b6c7   | feat: Add share and sections file                       | Se creó la estructura de carpetas y archivos base.                         | 2025-10-03 |
+| UPC/tracklab-project      | feature/assets                 | a7ccc11   | feat: Add truck.png to assets                           | Se añadió la imagen de camión a assets.                                    | 2025-10-03 |
+| UPC/tracklab-project      | ci/config                      | 9709808   | ci: stop tracking .vscode folder                        | Se detuvo el seguimiento de la carpeta .vscode.                            | 2025-10-03 |
+| UPC/tracklab-project      | main                           | 56f1d03   | ci: add Azure Static Web Apps workflow file             | Archivo de configuración para despliegue automático en Azure Static Web Apps. | 2025-10-03 |
+| UPC/tracklab-project      | main                           | e5b231b   | ci: add Azure Static Web Apps workflow file             | Archivo de despliegue inicial agregado.                                    | 2025-10-03 |
+| UPC/tracklab-project      | develop                        | 675a44e   | chore: Project setup                                    | Configuración inicial del proyecto TrackLab.                               | 2025-10-03 |
+
+### 4.2.2.4. Execution Evidence for Sprint Review
+
+En el primer sprint, logramos desarrollar parcialmente la implementación del despliegue del landing page. Donde se muestra las diferentes divisiones que el usuario podrá visualizar como lo sería la información sobre el startup y nuestro producto. A continuación mostramos algunas evidencias:
+
+- Pantallas codeadas.
+
+<div>
+  <p align="center"><img src="assets/md-images/landing_page-about_us.png" alt="landing_page_about_us.png" width="700px" /></p>
+</div>
+
+### 4.2.2.5. Services Documentation Evidence for Sprint Review
+
+Durante este Sprint aún no se desarrollaron servicios backend. Sin embargo, se definió la **estructura preliminar de la API**, incluyendo:
+
+- Definición de rutas base  
+- Modelo inicial de Shipment  
+- Esquema inicial de autenticación  
+- Estándares de respuesta y formato JSON  
+
+No se cuenta todavía con endpoints operativos ni con documentación OpenAPI, dado que el objetivo principal del sprint fue completar el MVP de la aplicación móvil.
+
+### 4.2.1.6. Software Deployment Evidence for Sprint Review
+
+A continuación, se muestra nuestra landing page desplegada:
+
+<div>
+  <p align="center"><img src="assets/md-images/langing-completa-web.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+### 4.2.2.7. Team Collaboration Insights during Sprint
+
+Durante el desarrollo del Sprint, cada miembro del equipo participó activamente en la implementación de la **Landing Page**, dividiéndose por secciones según el diseño y el contenido definido previamente.
+
+A continuación, se detalla la participación específica de cada integrante del equipo:
+
+| **Nombre**                       | **Actividades** |
+| ---------------------------------|-----------------|
+| De La Cruz Moreno, Roy Hernan    | Desarrollo de vistas: Lista de envíos y vista de detalles inicial |
+| Trillo Hernandez, Anghel Melanie | Implementación del flujo de registro y vista de presentación inicial de la app |
+| Baldeón Vivar, Santiago Armando  | Desarrollo de pantallas de login y creación de envíos |
+| Vargas Javier, Jose Enrique      | Implementación del dashboard, navegación principal y estructura del MVP |
+
 ### 4.2.3. Sprint 3
 
-### Sprint Backlog 3
+### 4.2.3.1. Sprint Planning 3
+
+| Sprint # | Sprint 3 |
+|----------|---------|
+| Date | 2025 - 05 - 10 | 
+| Time | 11:40 PM |
+| Location | Reunión virtual a través de discord | 
+| Prepared by | Baldeón Vivar, Santiago Armando | 
+| Attendees (to planning meeting) | Vargas Javier, Jose Enrique; Trillo Hernandez, Anghel Melanie; Baldeón Vivar, Santiago Armando y De La Cruz Moreno, Roy Hernan 
+| Sprint n – 1 Review Summary | La primera versión funcional de la app fue completada. Se desarrollaron los flujos de login, dashboard, registro de pedidos y tracking básico. |
+| Sprint 3 Goal | Our focus is on coding our backend services. We believe this enables real data interaction for the app. This will be confirmed when the app can create, update and retrieve shipments through the API successfully. |
+| Sprint 3 Velocity | 30 story points | 
+| Sum of story points | 30 story points |
+
+### 4.2.3.2. Sprint Backlog 3
 
 | ID | User Story | Task | Description | Estimation (hrs) | Assigned To | Status | Story Points |
 |----|------------|------|-------------|------------------|-------------|--------|--------------|
@@ -2481,7 +2518,199 @@ Se aplicaron con éxito los conceptos de *Domain Driven Design*. Esto permitió:
 | US06 | Videos Finales | T36: Grabar “About the Team” | Presentación del equipo y roles de desarrollo | 1 | Todo el equipo | To Do | 1 |
 | US06 | Entrega Final | T37: Preparar documento final del Proyecto | Unir capturas, backlog, arquitectura, evidencia y demo | 3 | Todo el equipo | To Do | 3 |
 
+### 4.2.2.3. Development Evidence for Sprint Review
+
+En esta sección se presentan los avances en la implementación de la solución, específicamente en el desarrollo de la Landing Page correspondiente al alcance del Sprint actual. Se detallan los commits realizados en el repositorio, evidenciando las funcionalidades implementadas, los ajustes de estilo y las mejoras en la interfaz de usuario. A continuación, se muestra una tabla que resume los commits relevantes asociados a este componente.
+
+| Repository                        | Branch                         | Commit ID | Commit Message                                          | Commit Message Body                                                       | Committed on (Date) |
+|:----------------------------------|:-------------------------------|:---------:|:--------------------------------------------------------|:---------------------------------------------------------------------------|:-------------------:|
+| UPC/tracklab-project      | feature/hero-how-sections      | 19d049e   | feat: Minor adjustments on hero and how-it-works sections | Se realizaron ajustes menores en contenido y estilos de las secciones Hero y How it Works. | 2025-10-03 |
+| UPC/tracklab-project      | feature/hero-how-sections      | cd2425a   | chore: merge conflict resolved                          | Se resolvieron conflictos de fusión.                                       | 2025-10-03 |
+| UPC/tracklab-project      | feature/header-benefits-sections | c1a1169   | feat: add landing-header.vue, about-us.vue and main-benefits.vue | Se agregaron componentes de encabezado, sobre nosotros y beneficios principales. | 2025-10-03 |
+| UPC/tracklab-project      | feature/header-benefits-sections | 8abd8f2   | feat: add tracklab-logo.png to assets                    | Se añadió el logo de TrackLab a la carpeta de assets.                      | 2025-10-03 |
+| UPC/tracklab-project      | feature/hero-section           | a6e546b   | feat: Creación de hero-section                          | Se creó el componente principal Hero.                                      | 2025-10-03 |
+| UPC/tracklab-project      | feature/problem-solution       | bcfe101   | feat: Add problem-solution.vue                          | Se agregó el componente de Problema-Solución.                              | 2025-10-03 |
+| UPC/tracklab-project      | feature/choose-plan            | d6e85a0   | feat: Add choose-plan.vue                               | Se desarrolló la sección para elegir planes.                               | 2025-10-03 |
+| UPC/tracklab-project      | feature/share-components       | e85e3d3   | feat: Add plan-card.vue                                 | Se agregó el componente de tarjeta de plan (Plan Card).                    | 2025-10-03 |
+| UPC/tracklab-project      | feature/folders-structure      | 1c9b6c7   | feat: Add share and sections file                       | Se creó la estructura de carpetas y archivos base.                         | 2025-10-03 |
+| UPC/tracklab-project      | feature/assets                 | a7ccc11   | feat: Add truck.png to assets                           | Se añadió la imagen de camión a assets.                                    | 2025-10-03 |
+| UPC/tracklab-project      | ci/config                      | 9709808   | ci: stop tracking .vscode folder                        | Se detuvo el seguimiento de la carpeta .vscode.                            | 2025-10-03 |
+| UPC/tracklab-project      | main                           | 56f1d03   | ci: add Azure Static Web Apps workflow file             | Archivo de configuración para despliegue automático en Azure Static Web Apps. | 2025-10-03 |
+| UPC/tracklab-project      | main                           | e5b231b   | ci: add Azure Static Web Apps workflow file             | Archivo de despliegue inicial agregado.                                    | 2025-10-03 |
+| UPC/tracklab-project      | develop                        | 675a44e   | chore: Project setup                                    | Configuración inicial del proyecto TrackLab.                               | 2025-10-03 |
+
+### 4.2.2.4. Execution Evidence for Sprint Review
+
+En el tercer sprint, desarrollamos e integramos el backend del sistema. Se implementaron los principales endpoints que permiten registrar, consultar y actualizar información del usuario y de los envíos. A continuación mostramos algunas evidencias:
+
+- Backend y endpoints.
+
+<div>
+  <p align="center"><img src="assets/md-images/landing_page-about_us.png" alt="landing_page_about_us.png" width="700px" /></p>
+</div>
+
+### 4.2.2.5. Services Documentation Evidence for Sprint Review
+
+Durante este Sprint se generó la documentación base de los servicios implementados:
+
+Se creó el archivo Swagger/OpenAPI 3.0
+
+Se documentaron los endpoints:
+
+POST /auth/login
+
+POST /shipments
+
+GET /shipments
+
+PUT /shipments/{id}/status
+
+Se establecieron códigos de respuesta estandarizados (200, 400, 401, 404, 500)
+
+### 4.2.3.6. Software Deployment Evidence for Sprint Review
+
+A continuación, se muestra nuestro bakcend desplegado:
+
+<div>
+  <p align="center"><img src="assets/md-images/langing-completa-web.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+### 4.2.3.7. Team Collaboration Insights during Sprint
+
+Durante el desarrollo del Sprint, cada miembro del equipo participó activamente en la implementación de la **Landing Page**, dividiéndose por secciones según el diseño y el contenido definido previamente.
+
+A continuación, se detalla la participación específica de cada integrante del equipo:
+
+| **Nombre**                       | **Actividades** |
+| ---------------------------------|-----------------|
+| De La Cruz Moreno, Roy Hernan    | Desarrollo de endpoints GET/POST de Shipments y pruebas Postman |
+| Trillo Hernandez, Anghel Melanie | Integración del lector QR con la API y pruebas del flujo QR |
+| Baldeón Vivar, Santiago Armando  | Desarrollo del módulo de autenticación y controlador de usuarios |
+| Vargas Javier, Jose Enrique      | Configuración de base de datos, modelos y despliegue inicial del backend |
+
+
 ### 4.2.4. Sprint 4
+
+### 4.2.4.1. Sprint Planning 4
+
+| Sprint # | Sprint 4 |
+|----------|---------|
+| Date | 2025 - 05 - 24 | 
+| Time | 11:55 PM |
+| Location | Reunión virtual a través de discord | 
+| Prepared by | Baldeón Vivar, Santiago Armando | 
+| Attendees (to planning meeting) | Vargas Javier, Jose Enrique; Trillo Hernandez, Anghel Melanie; Baldeón Vivar, Santiago Armando y De La Cruz Moreno, Roy Hernan 
+| Sprint n – 1 Review Summary | El backend fue desarrollado y conectado con la app móvil. Los servicios principales están funcionando y se validó comunicación app ↔ API. |
+| Sprint 4 Goal | Our focus is on finalizing the product. We believe this completes our full TrackLab system. This will be confirmed when we execute an end-to-end shipment flow without errors, including frontend, backend, QA and deployment. |
+| Sprint 4 Velocity | 25 story points | 
+| Sum of story points | 25 story points |
+
+### 4.2.4.2. Sprint Backlog 4
+
+| ID | User Story | Task | Description | Estimation (hrs) | Assigned To | Status | Story Points |
+|----|------------|------|-------------|------------------|-------------|--------|--------------|
+| US07 | Integración final App + Backend | T38: Validar flujo end-to-end completo | Probar creación, tracking y entrega de un envío real conectando toda la arquitectura | 3 | Baldeón / Vargas | To Do | 3 |
+| US07 | Integración final App + Backend | T39: Corrección de errores críticos | Resolver bugs encontrados durante pruebas integradas | 2 | Baldeón / Vargas | To Do | 2 |
+| US07 | Integración final App + Backend | T40: Optimizar tiempos de respuesta | Ajustar servicios, controladores y queries para mejorar latencia | 2 | Vargas | To Do | 2 |
+| US08 | UI/UX Polishing | T41: Ajustes finales de diseño | Refactorizar componentes visuales, íconos y espaciados en la app | 2 | Trillo | To Do | 1 |
+| US08 | UI/UX Polishing | T42: Mejorar animaciones y navegación | Agregar transiciones suaves entre pantallas y feedback visual | 1 | Trillo | To Do | 1 |
+| US08 | UI/UX Polishing | T43: Validar accesibilidad | Revisar contrastes, tamaños de fuente y navegación simple | 1 | Trillo | To Do | 1 |
+| US09 | QA Final | T44: Crear Testing Suite final | Preparar casos de prueba, matrices y escenarios completos | 3 | De La Cruz | To Do | 2 |
+| US09 | QA Final | T45: Ejecutar pruebas funcionales | Testear funciones críticas: login, QR, tracking, dashboard | 3 | De La Cruz / Baldeón | To Do | 3 |
+| US09 | QA Final | T46: Registrar y corregir incidencias | Documentar errores encontrados y solucionarlos | 2 | Todo el equipo | To Do | 2 |
+| US10 | Deployment | T47: Deploy final del backend | Subir la API al entorno productivo y validar rutas | 2 | Vargas | To Do | 2 |
+| US10 | Deployment | T48: Generar APK final | Compilar la app en modo release y firmarla | 1 | Baldeón | To Do | 1 |
+| US10 | Deployment | T49: Pruebas post-deploy | Validar funcionamiento después de subir cambios | 1 | Todo el equipo | To Do | 1 |
+| US11 | Documentación final | T50: Documentar arquitectura final | Agregar diagramas, endpoints, flujos y decisiones técnicas | 3 | De La Cruz | To Do | 2 |
+| US11 | Documentación final | T51: Actualizar manual técnico | Describir instalación, despliegue y estructura del sistema | 2 | De La Cruz | To Do | 1 |
+| US11 | Documentación final | T52: Preparar manual de usuario | Explicar uso del app: registros, QR, tracking y dashboard | 2 | Trillo | To Do | 1 |
+| US12 | Videos finales | T53: Grabar demo final del MVP | Capturar flujo completo funcionando en ambiente final | 2 | Todo el equipo | To Do | 2 |
+| US12 | Videos finales | T54: Editar video de presentación | Unir clips, agregar texto, voz y estructura final | 3 | Baldeón | To Do | 2 |
+| US12 | Videos finales | T55: Preparar pitch final | Organizar explicación del problema, solución y arquitectura | 1 | Todo el equipo | To Do | 1 |
+
+### 4.2.2.4. Execution Evidence for Sprint Review
+
+En el tercer sprint, desarrollamos e integramos el backend del sistema. Se implementaron los principales endpoints que permiten registrar, consultar y actualizar información del usuario y de los envíos. A continuación mostramos algunas evidencias:
+
+- Backend y endpoints.
+
+<div>
+  <p align="center"><img src="assets/md-images/landing_page-about_us.png" alt="landing_page_about_us.png" width="700px" /></p>
+</div>
+
+### 4.2.2.5. Services Documentation Evidence for Sprint Review
+
+Durante este Sprint se generó la documentación base de los servicios implementados:
+
+Se creó el archivo Swagger/OpenAPI 3.0
+
+Se documentaron los endpoints:
+
+POST /auth/login
+
+POST /shipments
+
+GET /shipments
+
+PUT /shipments/{id}/status
+
+Se establecieron códigos de respuesta estandarizados (200, 400, 401, 404, 500)
+
+### 4.2.1.6. Software Deployment Evidence for Sprint Review
+
+A continuación, se muestra nuestra landing page desplegada:
+
+<div>
+  <p align="center"><img src="assets/md-images/langing-completa-web.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+### 4.2.2.7. Team Collaboration Insights during Sprint
+
+Durante el desarrollo del Sprint, cada miembro del equipo participó activamente en la implementación de la **Landing Page**, dividiéndose por secciones según el diseño y el contenido definido previamente.
+
+A continuación, se detalla la participación específica de cada integrante del equipo:
+
+| **Nombre**                       | **Actividades** |
+| ---------------------------------|-----------------|
+| De La Cruz Moreno, Roy Hernan    | Desarrollo de vistas: Lista de envíos y vista de detalles inicial |
+| Trillo Hernandez, Anghel Melanie | Implementación del flujo de registro y vista de presentación inicial de la app |
+| Baldeón Vivar, Santiago Armando  | Desarrollo de pantallas de login y creación de envíos |
+| Vargas Javier, Jose Enrique      | Implementación del dashboard, navegación principal y estructura del MVP |
+
+# Conclusiones
+
+### Enfoque centrado en el usuario
+Las historias de usuario retratan de manera clara y realista las necesidades de nuestros segmentos. Consideramos tanto a quienes organizan y envían pedidos, como a quienes los reciben, logrando un enfoque integral.
+
+### Diseño orientado a la experiencia del usuario
+Nuestra landing page y aplicación web fueron diseñadas buscando máxima utilidad.  
+- **Landing page**: incluye información suficiente para que los usuarios comprendan la función y beneficios del producto sin generar dudas.  
+- **Aplicación**: incorpora secciones y funcionalidades específicas para cubrir las necesidades detectadas en los segmentos objetivo.
+
+### Impacto estratégico
+El uso del *impact map* nos permitió identificar las funcionalidades con mayor impacto en las necesidades de los usuarios. Esto guió la priorización, asignación de recursos y gestión del tiempo.
+
+### Priorización en el product backlog
+Al estructurar el backlog, logramos asignar un valor a cada tarea en función de su impacto en el cliente. Esto mejoró nuestra organización interna y la toma de decisiones sobre qué tareas abordar primero.
+
+### Diseño visual agradable y organizado
+En los wireframes y mockups se usaron patrones de diseño que muestran la información de forma clara y ordenada, evitando la sobrecarga visual. Esto facilita la navegación y acceso a secciones de interés.
+
+### Funcionalidades precisas
+Las funcionalidades implementadas en el backend permiten al usuario acceder sin dificultad a la información que necesita mediante las *queries* propuestas. La aplicación responde con rapidez y claridad.
+
+### Registro acorde con el negocio
+Se aplicaron correctamente las reglas de negocio de Tracklab:  
+- IDs no nulos.  
+- Evitar registros con datos incoherentes o incompletos.  
+
+Esto eleva el valor del producto y reduce errores de gestión en las empresas usuarias.
+
+### Aplicación de DDD
+Se aplicaron con éxito los conceptos de *Domain Driven Design*. Esto permitió:  
+- Identificar detalles importantes del negocio.  
+- Fraccionar el dominio en *bounded contexts*.  
+- Trabajar colaborativamente y de manera progresiva hasta alcanzar un resultado óptimo.
 
 # 4.3. Validation Interviews
 
@@ -2812,8 +3041,6 @@ Al haber finalizado esta entrega del presente trabajo, nos gustaría ofrecer alg
 Esan. (s.f.). Los problemas más comunes en la distribución física de productos. https://www.esan.edu.pe/conexion-esan/los-problemas-mas-comunes-en-la-distribucion-fisica-de-productos
 
 Superintendencia Nacional de Aduanas y de Administración Tributaria (SUNAT). (2023). Estudio de tiempos de despacho - Perú 2023: Informe. https://cdn.www.gob.pe/uploads/document/file/5402455/4763608-estudio-de-tiempos-de-despacho-peru-2023-informe.pdf
-
-
 
 # 7. Anexos 
 - Validation: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221f693_upc_edu_pe/IQCDTqgqJMOOT4rV6p2rKQDdASjwpX15lWF7ohoZk6_0EGw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2n4Qmp](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221f693_upc_edu_pe/IQCDTqgqJMOOT4rV6p2rKQDdASjwpX15lWF7ohoZk6_0EGw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2n4Qmp)
