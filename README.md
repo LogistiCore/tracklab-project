@@ -87,7 +87,7 @@ Asimismo, se explican las ramas que tenemos hasta el momento:
         <strong>Trillo Hernandez, Anghel Melanie</strong><br><br>
         <strong>TF</strong><br>
         En el desarrollo del proyecto asumí un rol activo de liderazgo compartido, contribuyendo a la elaboración del Solution Profile y participando en cada etapa del Lean UX process. Aporté en la definición de los Problem Statements, en la validación de los Assumptions y en la formulación de Hypothesis que orientaron nuestras decisiones. También colaboré en la construcción del Lean UX Canvas, proponiendo ideas para la propuesta de valor y la estructura del producto. Además, participé en el análisis de segmentos objetivos y en la creación de estrategias y tácticas frente a competidores. Gracias a esta participación, pude ejercer liderazgo desde la colaboración, influyendo positivamente en la toma de decisiones y en el avance del desarrollo de la aplicación.
-<br>
+<br><br>
         <strong>Vargas Javier, Jose Enrique</strong><br><br>
         <strong>TB1</strong><br>
         Contribuí parcialmente en la sección de Domain-Driven Software Architecture, participando en el bounded contexts, diccionario de clases y la organización de las capas del sistema. 
