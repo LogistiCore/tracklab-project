@@ -2294,60 +2294,6 @@ A continuación se muestra una captura de pantalla de las historias de usuario q
 | Sprint 1 | US03 | Acceder a la app desde landing page | T08 | Programar redirección a login | Programar funcionalidad de enlace a login de TrackLab. | 2 | Baldeón Vivar, Santiago Armando | To Do | 2 |
 | Sprint 1 | US03 | Acceder a la app desde landing page | T09 | Validar acceso en mobile y desktop | Probar acceso correcto desde todos los dispositivos. | 1 | Vargas Javier Jose Enrique | To Do | 2 |
 
-#### 4.2.1.2. Sprint 2
-
-### Sprint Backlog 2
-
-**Duración:** 28/10/2025 – 18/11/2025  
-**Objetivo:** Desplegar un MVP con trazabilidad logística, integrando landing page, API RESTful y app Flutter.
-
-
-## User Stories & Engineering Tasks
-
-| ID | User Story | Task | Description | Estimation (hrs) | Assigned To | Status | Story Points |
-|----|------------|------|-------------|-----------------|------------|--------|--------------|
-| US01 | Registrar envíos | T01: Crear endpoint POST /shipments | Desarrollar API para registrar envíos en BD | 3 | Vargas / Baldeón | Done | 3 |
-| US01 | Registrar envíos | T02: Conectar formulario Flutter con API | Implementar formulario de envío y conectar con backend | 3 | Vargas / Baldeón | Done | 2 |
-| US01 | Registrar envíos | T03: Validar campos del formulario | Asegurar que todos los campos obligatorios estén validados | 2 | Vargas / Baldeón | Done | 1 |
-| US01 | Registrar envíos | T04: Pruebas unitarias y Postman | Testear endpoint y formulario con casos reales | 2 | Vargas / Baldeón | Done | 2 |
-| US02 | Ver envíos activos |  T05: Crear endpoint GET /shipments | Obtener listado de envíos activos con filtros | 3 | De La Cruz | In Progress | 3 |
-| US02 | Ver envíos activos |  T06: Crear componente Flutter ListView | Mostrar envíos en app con ListView | 3 | De La Cruz | In Progress | 2 |
-| US02 | Ver envíos activos |  T07: Integrar ListView con API | Conectar listado de envíos con backend | 2 | De La Cruz | In Progress | 2 |
-| US02 | Ver envíos activos |  T08: Test de rendimiento | Asegurar rapidez en carga de envíos | 2 | De La Cruz | To Do | 1 |
-| US03 | Confirmar recepción con QR |  T09: Implementar escáner QR Flutter | Crear funcionalidad para leer QR de envíos | 3 | Trillo / Baldeón | In Progress | 3 |
-| US03 | Confirmar recepción con QR |  T10: Endpoint PUT /shipments/{id}/status | Actualizar estado de envío a “entregado” | 2 | Trillo / Baldeón | In Progress | 2 |
-| US03 | Confirmar recepción con QR | T11: UI de confirmación | Mostrar mensaje de confirmación al escanear QR | 2 | Trillo / Baldeón |  In Progress | 1 |
-| US04 | Dashboard métricas | T12: Diseñar vista React/Next.js | Crear dashboard responsive con métricas principales | 3 | Vargas | Done | 3 |
-| US04 | Dashboard métricas | T13: Integrar API /analytics | Conectar dashboard con backend para métricas en tiempo real | 2 | Vargas |  Done | 2 |
-| US04 | Dashboard métricas |T14: Publicar en Vercel | Deploy final del dashboard web | 1 | Vargas |Done | 1 |
-| US05 | Acceder a documentación API | T15: Implementar Swagger | Crear documentación API completa con Swagger | 2 | De La Cruz | Done | 2 |
-| US05 | Acceder a documentación API |  T16: Desplegar en Render/Railway | Hacer deployment de la documentación | 1 | De La Cruz | Done | 1 |
-| US05 | Acceder a documentación API |  T17: Test de endpoints | Probar todos los endpoints con Postman | 2 | De La Cruz | Done | 1 |
-| US06 | Mostrar videos de avance |T18: About the Product | Subir video explicativo sobre el producto | 2 | Todo el equipo | Done | 1 |
-| US06 | Mostrar videos de avance |  T19: Validation (Firebase App Dist.) | Subir video de validación del app deployment | 2 | Todo el equipo | Done | 1 |
-| US06 | Mostrar videos de avance |  T20: About the Team | Subir video sobre el equipo de desarrollo | 1 | Todo el equipo | Done | 1 |
-
-### Sprint Backlog 3
-
-| ID | User Story | Task | Description | Estimation (hrs) | Assigned To | Status | Story Points |
-|----|------------|------|-------------|------------------|-------------|--------|--------------|
-| US01 | Registrar envíos | T21: Revisar endpoint POST /shipments final | Verificar funcionamiento con datos reales y corregir errores | 2 | Vargas / Baldeón | To Do | 1 |
-| US01 | Registrar envíos | T22: Optimizar validación de campos | Mejorar mensajes de error y validaciones avanzadas | 1 | Vargas / Baldeón | To Do | 1 |
-| US01 | Registrar envíos | T23: Test final del flujo completo | Probar registro desde app hacia BD en escenarios reales | 2 | Vargas / Baldeón | To Do | 2 |
-| US02 | Ver envíos activos | T24: Optimizar ListView | Mejorar rendimiento, paginación y scroll en tiempo real | 3 | De La Cruz | To Do | 2 |
-| US02 | Ver envíos activos | T25: Integración completa con API | Validar sincronización del listado con últimos cambios | 2 | De La Cruz | To Do | 2 |
-| US02 | Ver envíos activos | T26: Probar filtros finales | Validar filtros de estado, destino y fecha | 1 | De La Cruz | To Do | 1 |
-| US03 | Confirmar recepción con QR | T27: Validar escáner QR final | Probar lectura correcta y actualización de estado | 2 | Trillo / Baldeón | To Do | 2 |
-| US03 | Confirmar recepción con QR | T28: Mejorar UI de confirmación | Ajustar feedback visual tras escaneo exitoso | 1 | Trillo / Baldeón | To Do | 1 |
-| US03 | Confirmar recepción con QR | T29: Pruebas de integración | Probar QR → API → BD en ambiente de demo | 2 | Trillo / Baldeón | To Do | 2 |
-| US04 | Dashboard métricas | T30: Ajustar métricas en tiempo real | Sincronizar datos reales con la API /analytics | 2 | Vargas | To Do | 2 |
-| US04 | Dashboard métricas | T31: Validar diseño mobile | Revisar responsive y accesibilidad | 1 | Vargas | To Do | 1 |
-| US05 | Documentación API | T32: Actualizar Swagger final | Alinear documentación final del MVP completo | 2 | De La Cruz | To Do | 2 |
-| US05 | Documentación API | T33: Pruebas finales con Postman | Validar todas las rutas de API antes de entrega | 2 | De La Cruz | To Do | 1 |
-| US06 | Videos Finales | T34: Grabar “About the Product” | Explicar solución, problema y cómo funciona el MVP | 2 | Todo el equipo | To Do | 1 |
-| US06 | Videos Finales | T35: Grabar “Validation” | Mostrar pruebas reales del flujo completo del sistema | 2 | Todo el equipo | To Do | 2 |
-| US06 | Videos Finales | T36: Grabar “About the Team” | Presentación del equipo y roles de desarrollo | 1 | Todo el equipo | To Do | 1 |
-| US06 | Entrega Final | T37: Preparar documento final del Proyecto | Unir capturas, backlog, arquitectura, evidencia y demo | 3 | Todo el equipo | To Do | 3 |
 
 ### 4.2.1.3. Development Evidence for Sprint Review
 
@@ -2458,6 +2404,78 @@ Se aplicaron con éxito los conceptos de *Domain Driven Design*. Esto permitió:
 - Identificar detalles importantes del negocio.  
 - Fraccionar el dominio en *bounded contexts*.  
 - Trabajar colaborativamente y de manera progresiva hasta alcanzar un resultado óptimo.
+
+### 4.2.2. Sprint 2
+
+### 4.2.2.1. Sprint Planning 2
+
+| Sprint # | Sprint 2 |
+|----------|---------|
+| Date | 2025 - 04 - 26 | 
+| Time | 11:30 PM |
+| Location | Reunión virtual a través de discord | 
+| Prepared by | Baldeón Vivar, Santiago Armando | 
+| Attendees (to planning meeting) | Vargas Javier, Jose Enrique; Trillo Hernandez, Anghel Melanie; Baldeón Vivar, Santiago Armando y De La Cruz Moreno, Roy Hernan 
+| Sprint n – 1 Review Summary | Se completó el desarrollo de la landing page y se validó que un usuario pueda navegar sin problemas. |
+| Sprint 2 Goal | Our focus is on delivering our first working version of the mobile application (MVP). We believe this delivers value by allowing early validation of the main flows. This will be confirmed when all members can install the APK and navigate through all core screens without issues. |
+| Sprint 2 Velocity | 25 story points | 
+| Sum of story points | 25 story points |
+
+### 4.2.2.2. Sprint Backlog 2
+
+**Duración:** 28/10/2025 – 18/11/2025  
+**Objetivo:** Desplegar un MVP con trazabilidad logística, integrando landing page, API RESTful y app Flutter.
+
+## User Stories & Engineering Tasks
+
+| ID | User Story | Task | Description | Estimation (hrs) | Assigned To | Status | Story Points |
+|----|------------|------|-------------|-----------------|------------|--------|--------------|
+| US01 | Registrar envíos | T01: Crear endpoint POST /shipments | Desarrollar API para registrar envíos en BD | 3 | Vargas / Baldeón | Done | 3 |
+| US01 | Registrar envíos | T02: Conectar formulario Flutter con API | Implementar formulario de envío y conectar con backend | 3 | Vargas / Baldeón | Done | 2 |
+| US01 | Registrar envíos | T03: Validar campos del formulario | Asegurar que todos los campos obligatorios estén validados | 2 | Vargas / Baldeón | Done | 1 |
+| US01 | Registrar envíos | T04: Pruebas unitarias y Postman | Testear endpoint y formulario con casos reales | 2 | Vargas / Baldeón | Done | 2 |
+| US02 | Ver envíos activos |  T05: Crear endpoint GET /shipments | Obtener listado de envíos activos con filtros | 3 | De La Cruz | In Progress | 3 |
+| US02 | Ver envíos activos |  T06: Crear componente Flutter ListView | Mostrar envíos en app con ListView | 3 | De La Cruz | In Progress | 2 |
+| US02 | Ver envíos activos |  T07: Integrar ListView con API | Conectar listado de envíos con backend | 2 | De La Cruz | In Progress | 2 |
+| US02 | Ver envíos activos |  T08: Test de rendimiento | Asegurar rapidez en carga de envíos | 2 | De La Cruz | To Do | 1 |
+| US03 | Confirmar recepción con QR |  T09: Implementar escáner QR Flutter | Crear funcionalidad para leer QR de envíos | 3 | Trillo / Baldeón | In Progress | 3 |
+| US03 | Confirmar recepción con QR |  T10: Endpoint PUT /shipments/{id}/status | Actualizar estado de envío a “entregado” | 2 | Trillo / Baldeón | In Progress | 2 |
+| US03 | Confirmar recepción con QR | T11: UI de confirmación | Mostrar mensaje de confirmación al escanear QR | 2 | Trillo / Baldeón |  In Progress | 1 |
+| US04 | Dashboard métricas | T12: Diseñar vista React/Next.js | Crear dashboard responsive con métricas principales | 3 | Vargas | Done | 3 |
+| US04 | Dashboard métricas | T13: Integrar API /analytics | Conectar dashboard con backend para métricas en tiempo real | 2 | Vargas |  Done | 2 |
+| US04 | Dashboard métricas |T14: Publicar en Vercel | Deploy final del dashboard web | 1 | Vargas |Done | 1 |
+| US05 | Acceder a documentación API | T15: Implementar Swagger | Crear documentación API completa con Swagger | 2 | De La Cruz | Done | 2 |
+| US05 | Acceder a documentación API |  T16: Desplegar en Render/Railway | Hacer deployment de la documentación | 1 | De La Cruz | Done | 1 |
+| US05 | Acceder a documentación API |  T17: Test de endpoints | Probar todos los endpoints con Postman | 2 | De La Cruz | Done | 1 |
+| US06 | Mostrar videos de avance |T18: About the Product | Subir video explicativo sobre el producto | 2 | Todo el equipo | Done | 1 |
+| US06 | Mostrar videos de avance |  T19: Validation (Firebase App Dist.) | Subir video de validación del app deployment | 2 | Todo el equipo | Done | 1 |
+| US06 | Mostrar videos de avance |  T20: About the Team | Subir video sobre el equipo de desarrollo | 1 | Todo el equipo | Done | 1 |
+
+### 4.2.3. Sprint 3
+
+### Sprint Backlog 3
+
+| ID | User Story | Task | Description | Estimation (hrs) | Assigned To | Status | Story Points |
+|----|------------|------|-------------|------------------|-------------|--------|--------------|
+| US01 | Registrar envíos | T21: Revisar endpoint POST /shipments final | Verificar funcionamiento con datos reales y corregir errores | 2 | Vargas / Baldeón | To Do | 1 |
+| US01 | Registrar envíos | T22: Optimizar validación de campos | Mejorar mensajes de error y validaciones avanzadas | 1 | Vargas / Baldeón | To Do | 1 |
+| US01 | Registrar envíos | T23: Test final del flujo completo | Probar registro desde app hacia BD en escenarios reales | 2 | Vargas / Baldeón | To Do | 2 |
+| US02 | Ver envíos activos | T24: Optimizar ListView | Mejorar rendimiento, paginación y scroll en tiempo real | 3 | De La Cruz | To Do | 2 |
+| US02 | Ver envíos activos | T25: Integración completa con API | Validar sincronización del listado con últimos cambios | 2 | De La Cruz | To Do | 2 |
+| US02 | Ver envíos activos | T26: Probar filtros finales | Validar filtros de estado, destino y fecha | 1 | De La Cruz | To Do | 1 |
+| US03 | Confirmar recepción con QR | T27: Validar escáner QR final | Probar lectura correcta y actualización de estado | 2 | Trillo / Baldeón | To Do | 2 |
+| US03 | Confirmar recepción con QR | T28: Mejorar UI de confirmación | Ajustar feedback visual tras escaneo exitoso | 1 | Trillo / Baldeón | To Do | 1 |
+| US03 | Confirmar recepción con QR | T29: Pruebas de integración | Probar QR → API → BD en ambiente de demo | 2 | Trillo / Baldeón | To Do | 2 |
+| US04 | Dashboard métricas | T30: Ajustar métricas en tiempo real | Sincronizar datos reales con la API /analytics | 2 | Vargas | To Do | 2 |
+| US04 | Dashboard métricas | T31: Validar diseño mobile | Revisar responsive y accesibilidad | 1 | Vargas | To Do | 1 |
+| US05 | Documentación API | T32: Actualizar Swagger final | Alinear documentación final del MVP completo | 2 | De La Cruz | To Do | 2 |
+| US05 | Documentación API | T33: Pruebas finales con Postman | Validar todas las rutas de API antes de entrega | 2 | De La Cruz | To Do | 1 |
+| US06 | Videos Finales | T34: Grabar “About the Product” | Explicar solución, problema y cómo funciona el MVP | 2 | Todo el equipo | To Do | 1 |
+| US06 | Videos Finales | T35: Grabar “Validation” | Mostrar pruebas reales del flujo completo del sistema | 2 | Todo el equipo | To Do | 2 |
+| US06 | Videos Finales | T36: Grabar “About the Team” | Presentación del equipo y roles de desarrollo | 1 | Todo el equipo | To Do | 1 |
+| US06 | Entrega Final | T37: Preparar documento final del Proyecto | Unir capturas, backlog, arquitectura, evidencia y demo | 3 | Todo el equipo | To Do | 3 |
+
+### 4.2.4. Sprint 4
 
 # 4.3. Validation Interviews
 
